@@ -140,7 +140,9 @@ document.getElementById("table").innerHTML=table;
     <script src="All.js?t=axbAll1666Allbxa">//load All by default</script>
 
 <script>
+$.ajaxSetup({async:false});
 if (location.hash.substr(1) == "US") {$.getScript("US.js?t=axbUS7221USbxa")}
+$.ajaxSetup({async:true});
 
   google.load("visualization", "1", {packages:["corechart"]});
   google.setOnLoadCallback(drawChart);
