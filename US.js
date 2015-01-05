@@ -1,4 +1,7 @@
     // data
+// begin Top US
+TopPlusMinus = [1,2,3]
+// end Top US
 graphData = [
 ['Date', // begin section languages
 'Java', 'PHP', 'Python', 'C#', 'Javascript', 'C++', 'C', 'Objective-C', 'Visual Basic', 'Ruby', 'Swift', 'R', 'Perl', 'Matlab', 'lua'

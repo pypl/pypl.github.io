@@ -10,11 +10,12 @@
     <link rel="icon" href="../../favicon.ico">
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+    
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -123,6 +124,8 @@ document.getElementById("table").innerHTML=table;
 		</tr>
 		</table>
 		<script>refreshTop()</script>
+ <select id=selectLang class="selectpicker" multiple title='Choose languages...' data-selected-text-format="count>3">
+  </select>
         <div id="PYPL" style="width: 100%; height: 900px;"></div>
 	</div>
 
@@ -130,19 +133,30 @@ document.getElementById("table").innerHTML=table;
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
     
     <!-- Google -->
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script src="All.js?t=axbAll1666Allbxa">//load All by default</script>
+    <script src="All.js?t=axbAll3510Allbxa">//load All by default</script>
 
 <script>
 $.ajaxSetup({async:false});
 if (location.hash.substr(1) == "US") {$.getScript("US.js?t=axbUS7221USbxa")}
 $.ajaxSetup({async:true});
+
+for (var lang in graphData[0]) {
+    if (0<lang) {
+        var opt = document.createElement('option');
+        opt.value = lang;
+        opt.innerHTML = graphData[0][lang];
+        document.getElementById('selectLang').appendChild(opt);//$('selectLang') not working here
+    }
+}; 
+$('selectLang').selectpicker('render');
 
   google.load("visualization", "1", {packages:["corechart"]});
   google.setOnLoadCallback(drawChart);
@@ -165,10 +179,24 @@ $.ajaxSetup({async:true});
 
     options.title = 'PYPL';
     var data1 = google.visualization.arrayToDataTable(graphData);
-    var chart = new google.visualization.LineChart(document.getElementById('PYPL'));
-    chart.draw(data1, options);
-
+    var view = new google.visualization.DataView(data1);
+    var sel = $(".selectpicker").val();
+    if (!sel){
+        sel = TopPlusMinus 
     }
+   var keys = [];
+   keys.push(0);
+   for(var key in sel){
+      keys.push(eval(sel[key]));
+   }
+   view.setColumns(keys)
+    var chart = new google.visualization.LineChart(document.getElementById('PYPL'));
+    chart.draw(view, options);
+    }
+$( ".selectpicker" ).change( function () {
+    drawChart()
+});
+
 </script>
 
     
