@@ -182,7 +182,6 @@ for (var lang in graphData[0]) {
 $('selectLang').selectpicker('render');
 
   google.load("visualization", "1", {packages:["corechart"]});
-  google.setOnLoadCallback(drawChart);
   function drawChart() {
   
     var options = {
@@ -236,11 +235,11 @@ $('selectLang').selectpicker('render');
     var chart = new google.visualization.LineChart(document.getElementById('PYPL'));
     chart.draw(view, options);
     }
+  google.setOnLoadCallback(drawChart);
 $( ".selectpicker" ).change( function () {
     drawChart()
 });
 window.onresize = drawChart;
-drawchart();
 </script>
 
     
