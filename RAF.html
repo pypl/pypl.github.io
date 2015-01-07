@@ -39,6 +39,8 @@
         vertical-align: middle;
         float: none;
     }
+    .top-buffer50 { margin-top:50px; }
+    .blue {background-color: #eee;}
     </style>
     
 <script>
@@ -106,9 +108,10 @@ document.getElementById("table").innerHTML=table;
   
   <body>
 	<div class="container-fluid">
-      <div class="row">
+      <div class="row blue">
         <div class="col-md-8  col-md-offset-2">
             <h1>PYPL PopularitY of Programming Language</h1>
+             <!--<p class=text-center><a href="#">Worldwide</a> <a href="#US">US</a></p>-->
          </div>
          <!--
          <div class="visible-xs">xs</div>
@@ -116,9 +119,8 @@ document.getElementById("table").innerHTML=table;
          <div class="visible-md">md</div>
          <div class="visible-lg">lg</div>
          -->
-         <p class=text-center><a href="#">Worldwide</a> <a href="#US">US</a></p>
       </div>
-	  <div class="row">
+	  <div class="row blue">
 	    <div class="col-xs-12 col-sm-6 col-md-5  col-lg-offset-1 vcenter">
     		<p><script>document.write(((location.hash.substr(1) =="") ? "Worldwide" : location.hash.substr(1))+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<table id=table class=table>
@@ -136,8 +138,7 @@ document.getElementById("table").innerHTML=table;
           </span>
         </div>
 	  </div>
-	  <p></p><p></p>
-      <div class="row">
+      <div class="row top-buffer50">
         <p class="lead text-center">Java is the most popular language, Python grew the most since 2004 (6%) and PHP lost the most (6%)</p>
         <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height:800px;"></div>
       </div>
