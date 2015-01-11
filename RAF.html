@@ -25,6 +25,16 @@
     <![endif]-->
     
     <style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
+    .page {
+        height: 100%;
+    }
+    
     .center {
         text-align: center;
     }
@@ -107,9 +117,9 @@ document.getElementById("table").innerHTML=table;
   
   
   <body>
-	<div class="container-fluid">
-      <div class="row blue jumbotron">
-            <h1 >PYPL PopularitY of Programming Language</h1>
+	<div class="container-fluid page">
+      <div class="row blue">
+            <h1 class="text-center">PYPL PopularitY of Programming Language</h1>
              <!--<p class=text-center><a href="#">Worldwide</a> <a href="#US">US</a></p>-->
          <!--
          <div class="visible-xs">xs</div>
@@ -126,7 +136,7 @@ document.getElementById("table").innerHTML=table;
             <p class="hidden-xs">If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help you decide which language to study, or which one to use in a new software project.  </p>
           </span>
         </div>
-	    <div class="col-xs-12 col-sm-6 col-md-5  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
+	    <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
     		<p><script>document.write(((location.hash.substr(1) =="") ? "Worldwide" : location.hash.substr(1))+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<table id=table class=table>
     		</tr>
@@ -134,12 +144,10 @@ document.getElementById("table").innerHTML=table;
     		<script>refreshTop()</script>
     	</div>
 	  </div>
-      <div class="row top-buffer50">
+      <div class="row top-buffer50 page">
         <p class="lead text-center">Java is the most popular language, Python grew the most since 2004 (6%) and PHP lost the most (6%)</p>
-        <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height:800px;"></div>
-      </div>
-      <div class="row text-center">
-        <div class="col-xs-12 col-sm-8  col-sm-offset-2" >
+        <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 80%"></div>
+        <div class="col-xs-12 col-sm-8  col-sm-offset-2 text-center" >
         <span class="text-center">
           <select id=selectLang class="selectpicker text-center" multiple title='Choose your favorite languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3">
           </select>
