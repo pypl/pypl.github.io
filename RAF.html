@@ -108,35 +108,31 @@ document.getElementById("table").innerHTML=table;
   
   <body>
 	<div class="container-fluid">
-      <div class="row blue">
-        <div class="col-md-8  col-md-offset-2">
-            <h1>PYPL PopularitY of Programming Language</h1>
+      <div class="row blue jumbotron">
+            <h1 >PYPL PopularitY of Programming Language</h1>
              <!--<p class=text-center><a href="#">Worldwide</a> <a href="#US">US</a></p>-->
-         </div>
          <!--
          <div class="visible-xs">xs</div>
          <div class="visible-sm">sm</div>
          <div class="visible-md">md</div>
          <div class="visible-lg">lg</div>
          -->
-      </div>
-	  <div class="row blue">
-	    <div class="col-xs-12 col-sm-6 col-md-5  col-lg-offset-1 vcenter">
+        <div class="col-sm-5 col-md-5 col-lg-4 col-lg-offset-1 vcenter">
+          <span>
+            <p class=lead>Swift, the new language introduced by Apple, grabbed 3% of popularity this year, according to the PYPL index.  </p>
+
+            <p class="hidden-xs">The PYPL PopularitY of Programming Language Index  is created by analyzing how often language tutorials are searched on Google : the more a language tutorial is searched, the more popular the language is assumed to be. It is a leading indicator.  The raw data comes from Google Trends.</p>  
+
+            <p class="hidden-xs">If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help you decide which language to study, or which one to use in a new software project.  </p>
+          </span>
+        </div>
+	    <div class="col-xs-12 col-sm-6 col-md-5  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
     		<p><script>document.write(((location.hash.substr(1) =="") ? "Worldwide" : location.hash.substr(1))+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<table id=table class=table>
     		</tr>
     		</table>
     		<script>refreshTop()</script>
     	</div>
-        <div class="hidden-xs col-sm-5 col-md-5 vcenter">
-          <span>
-            <p class=lead>Swift, the new language introduced by Apple, grabbed 3% of popularity this year, according to the PYPL index.  </p>
-
-            <p>The PYPL PopularitY of Programming Language Index  is created by analyzing how often language tutorials are searched on Google : the more a language tutorial is searched, the more popular the language is assumed to be. It is a leading indicator.  The raw data comes from Google Trends.</p>  
-
-            <p>If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help you decide which language to study, or which one to use in a new software project.  </p>
-          </span>
-        </div>
 	  </div>
       <div class="row top-buffer50">
         <p class="lead text-center">Java is the most popular language, Python grew the most since 2004 (6%) and PHP lost the most (6%)</p>
@@ -145,7 +141,7 @@ document.getElementById("table").innerHTML=table;
       <div class="row text-center">
         <div class="col-xs-12 col-sm-8  col-sm-offset-2" >
         <span class="text-center">
-          <select id=selectLang class="selectpicker text-center" multiple title='Choose your favorite languages...' data-width="auto" data-selected-text-format="count>3">
+          <select id=selectLang class="selectpicker text-center" multiple title='Choose your favorite languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3">
           </select>
         </span>
         </div>
@@ -243,7 +239,7 @@ window.onresize = drawChart;
 </script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54a6febc2c2b7cc0" async="async"></script>
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54a6febc2c2b7cc0" async="async"></script>-->
     
   </body>
 </html>
