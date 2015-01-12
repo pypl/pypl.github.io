@@ -25,6 +25,11 @@
     <![endif]-->
     
     <style>
+    @font-face {
+        font-family: 'Glyphicons Halflings'; 
+        src: url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot');
+        src: url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+    }
     html, body {
         margin: 0;
         padding: 0;
@@ -51,6 +56,30 @@
     }
     .top-buffer50 { margin-top:50px; }
     .blue {background-color: #eee;}
+   .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
     </style>
     
 <script>
@@ -153,12 +182,114 @@ document.getElementById("table").innerHTML=table;
   </div>
   <div class="row top-buffer50 page">
     <p id=topBottom class="lead text-center">Loading...</p>
-    <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 70%"></div>
+    <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 80%"></div>
     <div class="col-xs-12 col-sm-8  col-sm-offset-2 text-center" >
-        <span class="text-center">
+        <p><span class="text-center">
           <select id=selectLang class="selectpicker text-center" multiple title='Choose your favorite languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3">
           </select>
-        </span>
+        </span></p>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 ">
+        <h1>Kudos</h1>
+        <p class=lead>The PYPL index has been cited in the following trade journals : </p>
+        <div>
+        <ul><li><a href="http://www.developer-tech.com/news/2013/jan/03/pypl-crowns-c-2012s-language-year/" style="background-color:transparent;font-size:1em;line-height:1.8">Developer Tech</a><span style="background-color:transparent;font-size:1em;line-height:1.8">, </span></li>
+        <li><a href="http://devopsangle.com/2013/11/22/apple-ios-7-extends-objective-c-lead-in-november-pypl-programming-language-popularity-index/" style="background-color:transparent;font-size:1em;line-height:1.8">DevOps</a><span style="background-color:transparent;font-size:1em;line-height:1.8">, </span></li>
+        <li><a href="http://www.infoworld.com/search/google?cx=014839440456418836424%3Ahugs45or03k&amp;cof=FORID%3A9&amp;query=PYPL&amp;sa.x=0&amp;sa.y=0&amp;sa=Search&amp;gl=US&amp;safe=off&amp;form_build_id=form-60e23788d6cba5269db323a490f3c803&amp;form_id=infoworld_searchbox_header_form" style="background-color:transparent;font-size:1em;line-height:1.8">InfoWorld</a><span style="background-color:transparent;font-size:1em;line-height:1.8"> (several articles), </span></li>
+        <li><a href="http://www.eweek.com/developer/c-named-top-programming-language-of-2012/" style="background-color:transparent;font-size:1em;line-height:1.8">eWeek</a></li>
+        <li><a href="http://news.techworld.com/applications/3418399/microsoft-c-named-programming-language-of-2012/">Techworld</a></li></ul>
+        </div>
+    </div>
+  </div>
+  <div class="row top-buffer50 page">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 vcenter">
+        <h1>FAQ</h1>
+        <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Why is PYPL so different from TIOBE ?</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    The  <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">TIOBE Index</a> is a lagging indicator.  It counts the number of web pages with the language name.  <mark>Objective-c programming</mark> has over 20 million pages on the web,<sup><a href="https://www.google.be/#hl=fr&amp;tbo=d&amp;output=search&amp;sclient=psy-ab&amp;q=%22objective-c+programming%22&amp;oq=%22objective-c+programming%22&amp;gs_l=hp.3..0l2j0i30l2.3028.3028.0.3908.1.1.0.0.0.0.131.131.0j1.1.0...0.0...1c.1.L2X9Y0uJ0Uk&amp;pbx=1&amp;bav=on.2,or.r_gc.r_pw.r_qf.&amp;bvm=bv.1354675689,d.d2k&amp;fp=c6fa6e161d5c7c9b&amp;bpcl=39650382&amp;biw=1814&amp;bih=1010">[s]</a></sup>  while <mark>C programming</mark> has only 11 million.<sup><a href="https://www.google.be/#hl=fr&amp;tbo=d&amp;sclient=psy-ab&amp;q=%22c+programming%22&amp;oq=%22c+programming%22&amp;gs_l=hp.3..0l4.105171.105171.1.106210.1.1.0.0.0.0.217.217.2-1.1.0...0.0...1c.1.i0F5z0y2deM&amp;pbx=1&amp;bav=on.2,or.r_gc.r_pw.r_qf.&amp;bvm=bv.1354675689,d.d2k&amp;fp=c6fa6e161d5c7c9b&amp;bpcl=39650382&amp;biw=1814&amp;bih=1010">[s]</a> </sup>This explains why Objective-C has a high TIOBE ranking.  But who is reading those Objective-C web pages ? Hardly anyone, according to Google Trends data.  <mark>Objective C programming</mark> is searched 30 times less than <mark>C programming</mark>.<sup><a href="http://www.google.be/trends/explore#q=C%20programming%2C%20objective%20c%20programming&amp;date=today%2012-m&amp;cmpt=q">[s]</a></sup>  In fact, the use of <mark>programming</mark> by the TIOBE index is misleading (see next question). 
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Why do you use <mark>tutorial</mark> as Google Trends keyword ?</a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>The following principles were used:</p>
+                    <ul>
+                    <ul><li>just the language name, e.g. <mark>Python</mark>, would lead to inconsistent results, because Python has many other meanings;</li>
+                    <li>the same phrase should be used for all languages, for consistency.</li>
+                    <li><mark>programming</mark> would not do : <mark>C programming</mark> is used much more than <mark>PHP programming</mark>, because PHP does not need the qualifier</li>
+                    <li><mark>tutorial</mark> is a word used frequently by developers learning any new language : it makes a good leading indicator. What is a <mark>python tutorial</mark>, if not a tutorial on the programming language ?</li>
+                    <li><mark>ios tutorial</mark> is used instead of the (<a href="http://www.google.com/trends/explore?hl=en-US#q=ios%20tutorial%2C%20objective%20c%20tutorial&amp;cmpt=q">less popular</a>) <mark>objective-c tutorial</mark> to better reflect what iPhone developers search.  This is confirmed by an analysis of language tag followers on <a href="http://stackoverflow.com/tags">StackOverflow</a>, or of the visits of the Wikipedia language pages <a href="http://stats.grok.se/en/latest90/objective-c"><sup>[s]</sup></a> : they give a 4-5% popularity to Objective-C, which is highly consistent with our estimate.  It may flatter objective-c's market share because it includes queries of iOS end users.</li></ul>
+                    </ul>
+                    <p><mark>Tutorial</mark> is English-centric however.  The index could be computed with other tongues if needed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">My favorite language is not in the index ! Why ?</a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p> The index is currently limited to 15 languages.  You can still analyze the popularity of your favorite language and compare it to others, using <a href="http://www.google.com/trends/explore">Google Trends</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">How do you compute the share of web searches ?</a>
+                </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>We export the data from Google Trends in CSV format,<sup><a href="http://support.google.com/trends/bin/answer.py?hl=en&amp;answer=87289">[s]</a></sup> and import it in Excel for analysis.  We store the ratio of "interest" of successive pair-wise comparisons, from java-PHP to Ruby-Perl, for each week (using a running average over 4 weeks to reduce noise).    The multiplication of successive ratios yields the interest in each language, relative to Java.  Normalizing the total to 100% for each period yields the share of interest, or popularity.  Linear regression over the last 12 months, after removing temporary peak, gives the yearly trends.</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Why is Java so flat in PYPL's diagram, while it is going down in Google Trends over 5 years ?</a>
+                </h4>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>That's because Google Trends diagrams show how the <b>total number</b> of Java tutorial  searches varies over time.  That has been going significantly down for most programming languages (and most keywords, by the way).  Instead, PYPL's diagram shows the <b>share </b>of <mark>Java tutorial</mark> searches in all language tutorial searches.  That share has been fairly stable for Java since 2004.</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Can I copy material from this page ?</a>
+                </h4>
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a>, under the following conditions :</p>
+                    <ul><li>you attribute the work to "PYPL PopularitY of Programming Language index" with a link to this page.</li>
+                        <li>on the web, you publish your own copy of the diagram (not an image whose source is on our website).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
   </div>
 </div>
