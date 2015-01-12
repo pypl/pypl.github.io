@@ -54,6 +54,17 @@
     </style>
     
 <script>
+if (!String.format) {
+  String.format = function(format) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    return format.replace(/{(\d+)}/g, function(match, number) { 
+      return typeof args[number] != 'undefined'
+        ? args[number] 
+        : match
+      ;
+    });
+  };
+}
 var month = new Array();
 month[0] = "Jan";
 month[1] = "Feb";
@@ -70,18 +81,18 @@ month[11] = "Dec";
 
 function refreshTop() {        
 table = "<!-- begin section All-->\
-<td class=center>1</td><td class=center></td><td>Java</td><td class=right>24.8 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
-<tr><td class=center>2</td><td class=center></td><td>PHP</td><td class=right>11.8 %</td><td class=\"right optCol\">-1.0 %</td></tr>\
-<tr><td class=center>3</td><td class=center></td><td>Python</td><td class=right>10.5 %</td><td class=\"right optCol\">+0.8 %</td></tr>\
-<tr><td class=center>4</td><td class=center></td><td>C#</td><td class=right>9.0 %</td><td class=\"right optCol\">-0.0 %</td></tr>\
-<tr><td class=center>5</td><td class=center></td><td>C++</td><td class=right>8.2 %</td><td class=\"right optCol\">-0.8 %</td></tr>\
-<tr><td class=center>6</td><td class=center></td><td>C</td><td class=right>7.8 %</td><td class=\"right optCol\">-0.0 %</td></tr>\
-<tr><td class=center>7</td><td class=center></td><td>Javascript</td><td class=right>7.1 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
-<tr><td class=center>8</td><td class=center></td><td>Objective-C</td><td class=right>6.2 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
-<tr><td class=center>9</td><td class=center></td><td>Matlab</td><td class=right>2.9 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
-<tr><td class=center>10</td><td class=center><image src=Up.png><image src=Up.png></td><td>R</td><td class=right>2.6 %</td><td class=\"right optCol\">+0.5 %</td></tr>\
-<tr><td class=center>11</td><td class=center></td><td>Ruby</td><td class=right>2.5 %</td><td class=\"right optCol\">-0.0 %</td></tr>\
-<tr><td class=center>12</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Swift</td><td class=right>2.5 %</td><td class=\"right optCol\">+2.6 %</td></tr>\
+<td class=center>1</td><td class=center></td><td>Java</td><td class=right>24.7 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>PHP</td><td class=right>11.7 %</td><td class=\"right optCol\">-1.2 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>Python</td><td class=right>10.6 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
+<tr><td class=center>4</td><td class=center></td><td>C#</td><td class=right>8.9 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
+<tr><td class=center>5</td><td class=center></td><td>C++</td><td class=right>8.2 %</td><td class=\"right optCol\">-0.5 %</td></tr>\
+<tr><td class=center>6</td><td class=center></td><td>C</td><td class=right>7.8 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>7</td><td class=center></td><td>Javascript</td><td class=right>7.2 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
+<tr><td class=center>8</td><td class=center></td><td>Objective-C</td><td class=right>6.1 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>9</td><td class=center></td><td>Matlab</td><td class=right>3.0 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>10</td><td class=center><image src=Up.png><image src=Up.png></td><td>R</td><td class=right>2.7 %</td><td class=\"right optCol\">+0.6 %</td></tr>\
+<tr><td class=center>11</td><td class=center></td><td>Ruby</td><td class=right>2.5 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Swift</td><td class=right>2.5 %</td><td class=\"right optCol\">+2.9 %</td></tr>\
 <tr><td class=center>13</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Visual Basic</td><td class=right>2.3 %</td><td class=\"right optCol\">-0.7 %</td></tr>\
 <tr><td class=center>14</td><td class=center><image src=Down.png></td><td>Perl</td><td class=right>1.3 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
 <tr><td class=center>15</td><td class=center><image src=Down.png></td><td>lua</td><td class=right>0.5 %</td><td class=\"right optCol\">-0.1 %</td>\
@@ -89,21 +100,21 @@ table = "<!-- begin section All-->\
 ";
 if (location.hash.substr(1) == "US") {
 table = "<!-- begin section US-->\
-<td class=center>1</td><td class=center></td><td>Java</td><td class=right>22.5 %</td><td class=\"right optCol\">-1.0 %</td></tr>\
-<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>16.4 %</td><td class=\"right optCol\">+1.3 %</td></tr>\
-<tr><td class=center>3</td><td class=center></td><td>C++</td><td class=right>8.6 %</td><td class=\"right optCol\">-0.7 %</td></tr>\
-<tr><td class=center>4</td><td class=center><image src=Up.png><image src=Up.png></td><td>Javascript</td><td class=right>7.9 %</td><td class=\"right optCol\">+0.6 %</td></tr>\
-<tr><td class=center>5</td><td class=center><image src=Down.png></td><td>Objective-C</td><td class=right>7.7 %</td><td class=\"right optCol\">-0.7 %</td></tr>\
-<tr><td class=center>6</td><td class=center><image src=Down.png></td><td>C#</td><td class=right>7.5 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
-<tr><td class=center>7</td><td class=center><image src=Up.png></td><td>C</td><td class=right>6.3 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
-<tr><td class=center>8</td><td class=center><image src=Down.png></td><td>PHP</td><td class=right>5.6 %</td><td class=\"right optCol\">-1.7 %</td></tr>\
-<tr><td class=center>9</td><td class=center><image src=Up.png></td><td>R</td><td class=right>3.9 %</td><td class=\"right optCol\">+0.6 %</td></tr>\
-<tr><td class=center>10</td><td class=center><image src=Down.png></td><td>Ruby</td><td class=right>3.9 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
-<tr><td class=center>11</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Swift</td><td class=right>3.7 %</td><td class=\"right optCol\">+4.3 %</td></tr>\
+<td class=center>1</td><td class=center></td><td>Java</td><td class=right>22.6 %</td><td class=\"right optCol\">-1.0 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>16.7 %</td><td class=\"right optCol\">+1.4 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>C++</td><td class=right>8.8 %</td><td class=\"right optCol\">-0.5 %</td></tr>\
+<tr><td class=center>4</td><td class=center><image src=Up.png><image src=Up.png></td><td>Javascript</td><td class=right>7.8 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>5</td><td class=center></td><td>C#</td><td class=right>7.5 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Down.png><image src=Down.png></td><td>Objective-C</td><td class=right>7.5 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>7</td><td class=center><image src=Up.png></td><td>C</td><td class=right>6.5 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
+<tr><td class=center>8</td><td class=center><image src=Down.png></td><td>PHP</td><td class=right>5.4 %</td><td class=\"right optCol\">-1.9 %</td></tr>\
+<tr><td class=center>9</td><td class=center><image src=Up.png></td><td>R</td><td class=right>4.0 %</td><td class=\"right optCol\">+0.6 %</td></tr>\
+<tr><td class=center>10</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Swift</td><td class=right>3.8 %</td><td class=\"right optCol\">+4.8 %</td></tr>\
+<tr><td class=center>11</td><td class=center><image src=Down.png><image src=Down.png></td><td>Ruby</td><td class=right>3.8 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
 <tr><td class=center>12</td><td class=center><image src=Down.png></td><td>Matlab</td><td class=right>2.5 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
-<tr><td class=center>13</td><td class=center><image src=Down.png></td><td>Perl</td><td class=right>1.8 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
-<tr><td class=center>14</td><td class=center><image src=Down.png></td><td>Visual Basic</td><td class=right>1.6 %</td><td class=\"right optCol\">-0.5 %</td></tr>\
-<tr><td class=center>15</td><td class=center><image src=Down.png></td><td>lua</td><td class=right>0.1 %</td><td class=\"right optCol\">-0.8 %</td>\
+<tr><td class=center>13</td><td class=center><image src=Down.png></td><td>Perl</td><td class=right>1.6 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
+<tr><td class=center>14</td><td class=center><image src=Down.png></td><td>Visual Basic</td><td class=right>1.5 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
+<tr><td class=center>15</td><td class=center><image src=Down.png></td><td>lua</td><td class=right>0.0 %</td><td class=\"right optCol\">-1.0 %</td>\
 <!-- end section US-->\
 ";
 }
@@ -116,64 +127,63 @@ document.getElementById("table").innerHTML=table;
   </head>
   
   
-  <body>
-	<div class="container-fluid page">
-      <div class="row blue">
-            <h1 class="text-center">PYPL PopularitY of Programming Language</h1>
-             <!--<p class=text-center><a href="#">Worldwide</a> <a href="#US">US</a></p>-->
-         <!--
-         <div class="visible-xs">xs</div>
-         <div class="visible-sm">sm</div>
-         <div class="visible-md">md</div>
-         <div class="visible-lg">lg</div>
-         -->
+<body>
+<div class="container-fluid page">
+  <div class="row blue">
+        <h1 class="text-center">PYPL PopularitY of Programming Language</h1>
+
+         <!--<p class=text-center><a href="#">Worldwide</a> <a href="#US">US</a></p>-->
+
+         <!-- <div class="visible-xs">xs</div><div class="visible-sm">sm</div><div class="visible-md">md</div><div class="visible-lg">lg</div>-->
+
         <div class="col-sm-5 col-md-5 col-lg-4 col-lg-offset-1 vcenter">
           <span>
             <p class=lead>Swift, the new language introduced by Apple, grabbed 3% of popularity this year, according to the PYPL index.  </p>
-
             <p class="hidden-xs">The PYPL PopularitY of Programming Language Index  is created by analyzing how often language tutorials are searched on Google : the more a language tutorial is searched, the more popular the language is assumed to be. It is a leading indicator.  The raw data comes from Google Trends.</p>  
-
             <p class="hidden-xs">If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help you decide which language to study, or which one to use in a new software project.  </p>
           </span>
         </div>
-	    <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
+        <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
     		<p><script>document.write(((location.hash.substr(1) =="") ? "Worldwide" : location.hash.substr(1))+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<table id=table class=table>
     		</tr>
     		</table>
     		<script>refreshTop()</script>
     	</div>
-	  </div>
-      <div class="row top-buffer50 page">
-        <p class="lead text-center">Java is the most popular language, Python grew the most since 2004 (6%) and PHP lost the most (6%)</p>
-        <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 80%"></div>
-        <div class="col-xs-12 col-sm-8  col-sm-offset-2 text-center" >
+  </div>
+  <div class="row top-buffer50 page">
+    <p id=topBottom class="lead text-center">Loading...</p>
+    <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 70%"></div>
+    <div class="col-xs-12 col-sm-8  col-sm-offset-2 text-center" >
         <span class="text-center">
           <select id=selectLang class="selectpicker text-center" multiple title='Choose your favorite languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3">
           </select>
         </span>
-        </div>
-      </div>
-	</div>
+    </div>
+  </div>
+</div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    
-    <script type="text/javascript" src="js/bootstrap-select.js"></script>
-    
-    <!-- Google -->
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script src="All.js?t=axbAll3510Allbxa">//load All by default</script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script type="text/javascript" src="js/bootstrap-select.js"></script>
+
+<!-- Google -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="All.js?t=axbAll8514Allbxa">//load All by default</script>
 
 <script>
 $.ajaxSetup({async:false});
-if (location.hash.substr(1) == "US") {$.getScript("US.js?t=axbUS7221USbxa")}
+if (location.hash.substr(1) == "US") {$.getScript("US.js?t=axbUS7346USbxa")}
 $.ajaxSetup({async:true});
+
+document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most since 2004 ({4}%) and {1} lost the most ({2}%)', 
+    graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100*TopPlusMinus[2]).toFixed(1), graphData[0][TopPlusMinus[3]], (100*TopPlusMinus[4]).toFixed(1));
 
 for (var lang in graphData[0]) {
     if (0<lang) {
@@ -185,8 +195,8 @@ for (var lang in graphData[0]) {
 }; 
 $('selectLang').selectpicker('render');
 
-  google.load("visualization", "1", {packages:["corechart"]});
-  function drawChart() {
+google.load("visualization", "1", {packages:["corechart"]});
+function drawChart() {
   
     var options = {
      chartArea: {width: '100%', height: '80%'},
@@ -228,7 +238,9 @@ $('selectLang').selectpicker('render');
     var view = new google.visualization.DataView(data1);
     var sel = $(".selectpicker").val();
     if (!sel){
-        sel = TopPlusMinus 
+        sel = TopPlusMinus
+        sel.splice(4,1) // remove % growth, decline
+        sel.splice(2,1)
     }
    var keys = [];
    keys.push(0);
@@ -238,8 +250,9 @@ $('selectLang').selectpicker('render');
    view.setColumns(keys)
     var chart = new google.visualization.LineChart(document.getElementById('PYPL'));
     chart.draw(view, options);
-    }
-  google.setOnLoadCallback(drawChart);
+} // end drawChart()
+
+google.setOnLoadCallback(drawChart);
 $( ".selectpicker" ).change( function () {
     drawChart()
 });
