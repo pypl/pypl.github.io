@@ -27,8 +27,8 @@
     <style>
     @font-face {
         font-family: 'Glyphicons Halflings'; 
-        src: url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot');
-        src: url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('//www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+        src: url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot');
+        src: url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
     }
     html, body {
         margin: 0;
@@ -320,17 +320,17 @@ document.getElementById("cloud").src=cloud;
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 
 <script type="text/javascript" src="js/bootstrap-select.js"></script>
 
 <!-- Google -->
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script src="All.js?t=axbAll8514Allbxa">//load All by default</script>
+<script src="All.js?t=axbAll815Allbxa">//load All by default</script>
 
 <script>
 $.ajaxSetup({async:false});
-if (location.hash.substr(1) == "US") {$.getScript("US.js?t=axbUS7346USbxa")}
+if (location.hash.substr(1) == "US") {$.getScript("US.js?t=axbUS1333USbxa")}
 $.ajaxSetup({async:true});
 
 document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most since 2004 ({4}%) and {1} lost the most ({2}%)', 
@@ -351,11 +351,12 @@ function drawChart() {
   
     var options = {
      chartArea: {height: '80%'},
-      vAxis: {title: 'Share (%)', 
+      vAxis: { 
         logScale: true,
-        viewWindow:{ // range from 0.5% to 35 %
-            max:35.0, 
-            min:0.5
+        format:'##%',
+        viewWindow:{ // range from 0.5% to 60 %
+            max:0.6, 
+            min:0.005
           }
         },
         curveType: 'function'
@@ -384,8 +385,24 @@ function drawChart() {
         options.legend = { position: 'bottom' };
         };
 
-    options.title = 'PYPL';
+    options.title = 'PYPL PopularitY of Programming Language';
     var data1 = google.visualization.arrayToDataTable(graphData);
+    var formatter = new google.visualization.NumberFormat({pattern:'##.#%'});
+  formatter.format(data1, 1);
+  formatter.format(data1, 2);
+  formatter.format(data1, 3);
+  formatter.format(data1, 4);
+  formatter.format(data1, 5);
+  formatter.format(data1, 6);
+  formatter.format(data1, 7);
+  formatter.format(data1, 8);
+  formatter.format(data1, 9);
+  formatter.format(data1, 10);
+  formatter.format(data1, 11);
+  formatter.format(data1, 12);
+  formatter.format(data1, 13);
+  formatter.format(data1, 14);
+  formatter.format(data1, 15);
     var view = new google.visualization.DataView(data1);
     var sel = $(".selectpicker").val();
     if (!sel){
@@ -411,7 +428,7 @@ window.onresize = drawChart;
 </script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54a6febc2c2b7cc0" async="async"></script>
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54a6febc2c2b7cc0" async="async"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
