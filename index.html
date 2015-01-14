@@ -25,11 +25,6 @@
     <![endif]-->
     
     <style>
-    @font-face {
-        font-family: 'Glyphicons Halflings'; 
-        src: url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot');
-        src: url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://www.bootstrapcdn.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
-    }
     html, body {
         margin: 0;
         padding: 0;
@@ -198,7 +193,7 @@ document.getElementById("cloud").src=cloud;
         <div>
         <ul><li><a href="http://www.developer-tech.com/news/2013/jan/03/pypl-crowns-c-2012s-language-year/">Developer Tech</a>,</li>
         <li><a href="http://devopsangle.com/2013/11/22/apple-ios-7-extends-objective-c-lead-in-november-pypl-programming-language-popularity-index/">DevOps</a>,</li>
-        <li><a href="http://www.infoworld.com/search/google?cx=014839440456418836424%3Ahugs45or03k&amp;cof=FORID%3A9&amp;query=PYPL&amp;sa.x=0&amp;sa.y=0&amp;sa=Search&amp;gl=US&amp;safe=off&amp;form_build_id=form-60e23788d6cba5269db323a490f3c803&amp;form_id=infoworld_searchbox_header_form" >InfoWorld</a> (several articles), </li>
+        <li><a href="http://www.infoworld.com/search?query=PYPL&contentType=article%2Cresource" >InfoWorld</a> (several articles), </li>
         <li><a href="http://www.eweek.com/developer/c-named-top-programming-language-of-2012/" >eWeek</a></li>
         <li><a href="http://news.techworld.com/applications/3418399/microsoft-c-named-programming-language-of-2012/">Techworld</a></li></ul>
         </div>
@@ -425,6 +420,7 @@ $( ".selectpicker" ).change( function () {
     drawChart()
 });
 window.onresize = drawChart;
+window.orientationchange = drawChart;
 </script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
