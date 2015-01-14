@@ -167,8 +167,6 @@ document.getElementById("cloud").src=cloud;
         <div class="col-sm-5 col-md-5 col-lg-4 col-lg-offset-1 vcenter">
           <span>
             <p class=lead>Swift, the new language introduced by Apple, had the highest increase of popularity in 2014 (2.9 % worldwide) : it is thus the Programming Language of the Year 2014.  </p>
-            <p class="hidden-xs">The PYPL PopularitY of Programming Language Index  is created by analyzing how often language tutorials are searched on Google : the more a language tutorial is searched, the more popular the language is assumed to be. It is a leading indicator.  The raw data comes from Google Trends.</p>  
-            <p class="hidden-xs">If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help you decide which language to study, or which one to use in a new software project.  </p>
             <p class=text-center><img id=cloud src=all.png></img></p>
           </span>
         </div>
@@ -208,10 +206,23 @@ document.getElementById("cloud").src=cloud;
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Why is PYPL so different from TIOBE ?</a>
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseZero">What is the PYPL index ?</a>
                 </h4>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
+            <div id="collapseZero" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <p>The PYPL PopularitY of Programming Language Index  is created by analyzing how often language tutorials are searched on Google : the more a language tutorial is searched, the more popular the language is assumed to be. It is a leading indicator.  The raw data comes from Google Trends.</p>  
+                    <p>If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help you decide which language to study, or which one to use in a new software project.  </p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Why is PYPL so different from TIOBE ?</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse">
                 <div class="panel-body">
                     The  <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">TIOBE Index</a> is a lagging indicator.  
                     It counts the number of web pages with the language name.  
@@ -308,6 +319,7 @@ document.getElementById("cloud").src=cloud;
     </div>
   </div>
 </div>
+<p><br><br><br><br>s</p>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
@@ -426,7 +438,7 @@ $( ".selectpicker" ).change( function () {
     drawChart()
 });
 window.onresize = drawChart;
-window.orientationchange = drawChart;
+$(window).on("orientationchange", drawChart);
 </script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
