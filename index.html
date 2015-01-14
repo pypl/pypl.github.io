@@ -374,6 +374,12 @@ function drawChart() {
      winW = window.innerWidth;
      winH = window.innerHeight;
     }       
+    var ori = window.orientation
+    if (ori==90 || ori==-90) {
+        var a = winW
+        winW = winH
+        winH = a
+    };
     
     // move legend to bottom if narrow screen
     if (winW <= 500) {
