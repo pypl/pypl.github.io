@@ -180,11 +180,11 @@ document.getElementById("cloud").src=cloud;
   <div class="row top-buffer50 page">
     <p id=topBottom class="lead text-center">Loading...</p>
     <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 80%"><img src="482.gif" class="img-responsive center-block"></img></div>
-    <div class="col-xs-12 col-sm-8  col-sm-offset-2 text-center" >
-        <p><span class="text-center">
-          <select id=selectLang class="selectpicker text-center" multiple title='Choose your favorite languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3">
-          </select>
-        </span></p>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
+        <p><span class="lead">
+          Show your favorite languages in the chart : 
+          <select id=selectLang class="selectpicker text-center" multiple title='Choose your languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3"></select>
+        </span><br><br></p>
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 ">
         <h1>Kudos</h1>
@@ -199,8 +199,6 @@ document.getElementById("cloud").src=cloud;
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <div class="addthis_native_toolbox text-center"></div>
     </div>
-  </div>
-  <div class="row top-buffer200 page">
     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 vcenter">
         <h1>FAQ</h1>
         <div class="panel-group" id="accordion">
@@ -345,6 +343,8 @@ $.ajaxSetup({async:true});
 document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most since 2004 ({4}%) and {1} lost the most ({2}%)', 
     graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100*TopPlusMinus[2]).toFixed(1), graphData[0][TopPlusMinus[3]], (100*TopPlusMinus[4]).toFixed(1));
 
+document.getElementById('PYPL').style.height=""
+
 for (var lang in graphData[0]) {
     if (0<lang) {
         var opt = document.createElement('option');
@@ -431,6 +431,7 @@ function drawChart() {
       keys.push(eval(sel[key]));
    }
    view.setColumns(keys)
+   document.getElementById('PYPL').style.height="80%"
     var chart = new google.visualization.LineChart(document.getElementById('PYPL'));
     chart.draw(view, options);
 } // end drawChart()
