@@ -330,7 +330,29 @@ document.getElementById("cloud").src=cloud;
         </div>
         </div>
     </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 text-right">
+        <script type="text/javascript" language="javascript">
+        <!--
+        { coded = "R6WZZW.J5Z8ckkWeeW@Ap56e.Jcp"
+          key = "lj3IimEGqygawVYT978ucFLZHnOXeQdM6pKxS2A5sNCBv1UDJ4htbko0WrPzfR"
+          shift=coded.length
+          link=""
+          for (i=0; i<coded.length; i++) {
+            if (key.indexOf(coded.charAt(i))==-1) {
+              ltr = coded.charAt(i)
+              link += (ltr)
+            }
+            else {     
+              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+              link += (key.charAt(ltr))
+            }
+          }
+        document.write("<a href='mailto:"+link+"'>Contact</a>")
+        }
+        //-->
+        </script><noscript>Sorry, you need Javascript on to email me.</noscript>
         <p><br><br><br><br>.</p>
+    </div>
   </div>
 </div>
 
