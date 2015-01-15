@@ -90,6 +90,20 @@ if (!String.format) {
     });
   };
 }
+function getUrlParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
+    return ""
+}
 var month = new Array();
 month[0] = "Jan";
 month[1] = "Feb";
@@ -124,7 +138,7 @@ table = "<!-- begin section All-->\
 <tr><td class=center>15</td><td class=center><image src=Down.png></td><td>lua</td><td class=right>0.5 %</td><td class=\"right optCol\">-0.1 %</td>\
 <!-- end section All-->\
 ";
-if (location.hash.substr(1) == "US") {
+if (getUrlParameter('country') == "US") {
 cloud = "US.png"
 table = "<!-- begin section US-->\
 <td class=center>1</td><td class=center></td><td>Java</td><td class=right>22.6 %</td><td class=\"right optCol\">-1.0 %</td></tr>\
@@ -172,7 +186,7 @@ document.getElementById("cloud").src=cloud;
           </span>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
-    		<p><script>document.write(((location.hash.substr(1) =="") ? "Worldwide" : location.hash.substr(1))+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
+    		<p><script>document.write(((getUrlParameter('country') =="") ? "Worldwide" : getUrlParameter('country'))+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<div id=table></div>
     		<script>refreshTop()</script>
     	</div>
@@ -337,7 +351,7 @@ document.getElementById("cloud").src=cloud;
 
 <script>
 $.ajaxSetup({async:false});
-if (location.hash.substr(1) == "US") {$.getScript("US.js?t=axbUS1333USbxa")}
+if (getUrlParameter('country') == "US") {$.getScript("US.js?t=axbUS1333USbxa")}
 $.ajaxSetup({async:true});
 
 document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most since 2004 ({4}%) and {1} lost the most ({2}%)', 
