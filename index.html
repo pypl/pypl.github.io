@@ -355,7 +355,7 @@ if (getUrlParameter('country') == "US") {$.getScript("US.js?t=axbUS1333USbxa")}
 $.ajaxSetup({async:true});
 
 document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most since 2004 ({4}%) and {1} lost the most ({2}%)', 
-    graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100*TopPlusMinus[2]).toFixed(1), graphData[0][TopPlusMinus[3]], (100*TopPlusMinus[4]).toFixed(1));
+    graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100*PlusMinus[0]).toFixed(1), graphData[0][TopPlusMinus[2]], (100*PlusMinus[1]).toFixed(1));
 
 document.getElementById('PYPL').style.height=""
 
@@ -436,8 +436,6 @@ function drawChart() {
     var sel = $(".selectpicker").val();
     if (!sel){
         sel = TopPlusMinus
-        sel.splice(4,1) // remove % growth, decline
-        sel.splice(2,1)
     }
    var keys = [];
    keys.push(0);
