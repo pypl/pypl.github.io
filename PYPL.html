@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+0<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>PYPL index</title>
@@ -496,7 +496,8 @@ for (var c in country) {
 $( document ).ready(function() {
     $('#selectCountry').selectpicker('render');
     $('#selectCountry').on('change', function() {
-window.open( window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val())    });
+        window.location = window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val())
+        });
 })
 
 $.ajaxSetup({async:false});
@@ -586,7 +587,7 @@ function drawChart() {
   formatter.format(data1, 14);
   formatter.format(data1, 15);
     var view = new google.visualization.DataView(data1);
-    var sel = $(".selectpicker").val();
+    var sel = $("#selectLang").val();
     if (!sel){
         sel = TopPlusMinus
     }
