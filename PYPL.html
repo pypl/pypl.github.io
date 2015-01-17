@@ -232,6 +232,16 @@ table = "<!-- begin section FR-->\
 table = "<table class=table><tr><th class=center>Rank<br></th><th class=center>Change</th><th>Language</th><th class=center>Share</th><th class=\"optCol center\">Trend</th></tr><tr>" + table + "</tr><tr><td colspan=5 align=right>&copy; Pierre Carbonnelle, 2015</td></tr></table>"
 document.getElementById("table").innerHTML=table;
 document.getElementById("cloud").src=cloud;
+
+for (var c in country) {
+    if (country.hasOwnProperty(c)) {
+        var opt = document.createElement('option');
+        opt.value = c;
+        opt.selected = (getUrlParameter('country')==c)
+        opt.innerHTML = country[c];
+        document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
+    }
+}; 
 } // refreshTop
 </script>
 
@@ -255,7 +265,9 @@ document.getElementById("cloud").src=cloud;
           </span>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
-    		<p><script>document.write(country[getUrlParameter('country')]+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
+    		<p>
+    		<select id=selectCountry class="selectpicker"></select>, 
+    		<script>document.write(month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<div id=table></div>
     		<script>refreshTop()</script>
     	</div>
@@ -285,7 +297,7 @@ document.getElementById("cloud").src=cloud;
     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
         <p><br><br><span class="lead">
           This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite languages : 
-          <select id=selectLang class="selectpicker text-center" multiple title='Choose your languages...' data-width="auto" data-selected-text-format="count>3"></select>
+          <select id=selectLang class="selectpicker" multiple title='Choose your languages...' data-width="auto" data-selected-text-format="count>3"></select>
         </span><br><br></p>
     </div>
    </div>
@@ -481,6 +493,12 @@ document.getElementById("cloud").src=cloud;
 <script src="All.js?t=axbAll8510Allbxa">//load All by default</script>
 
 <script>
+$( document ).ready(function() {
+    $('#selectCountry').selectpicker('render');
+    $('#selectCountry').on('change', function() {
+window.open( window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val())    });
+})
+
 $.ajaxSetup({async:false});
 if (getUrlParameter('country') == "US") {$.getScript("US.js?t=axbUS251USbxa")}
 if (getUrlParameter('country') == "DE") {$.getScript("DE.js?t=axbDE5123DEbxa")}
@@ -502,7 +520,7 @@ for (var lang in graphData[0]) {
         document.getElementById('selectLang').appendChild(opt);//$('selectLang') not working here
     }
 }; 
-$('selectLang').selectpicker('render');
+$('#selectLang').selectpicker('render');
 
 google.load("visualization", "1", {packages:["corechart"]});
 function drawChart() {
@@ -584,7 +602,7 @@ function drawChart() {
 } // end drawChart()
 
 google.setOnLoadCallback(drawChart);
-$( ".selectpicker" ).change( function () {
+$( "#selectLang" ).change( function () {
     drawChart()
 });
 window.onresize = drawChart;
