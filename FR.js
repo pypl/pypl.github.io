@@ -1,7 +1,7 @@
     // data
 // begin Top FR
-TopPlusMinus = [1,2,3]
-PlusMinus = [-0.302583333333,0.2181]
+TopPlusMinus = [1,1,3]
+PlusMinus = [-0.231183333333,0.194483333333]
 // end Top FR
 graphData = [
 ['Date', // begin section languages

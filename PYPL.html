@@ -478,18 +478,18 @@ document.getElementById("cloud").src=cloud;
 
 <!-- Google -->
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script src="All.js?t=axbAll7529Allbxa">//load All by default</script>
+<script src="All.js?t=axbAll6705Allbxa">//load All by default</script>
 
 <script>
 $.ajaxSetup({async:false});
-if (getUrlParameter('country') == "US") {$.getScript("US.js?t=axbUS5122USbxa")}
-if (getUrlParameter('country') == "DE") {$.getScript("DE.js?t=axbDE6011DEbxa")}
-if (getUrlParameter('country') == "IN") {$.getScript("IN.js?t=axbIN5056INbxa")}
-if (getUrlParameter('country') == "GB") {$.getScript("GB.js?t=axbGB4717GBbxa")}
-if (getUrlParameter('country') == "FR") {$.getScript("FR.js?t=axbFR5957FRbxa")}
+if (getUrlParameter('country') == "US") {$.getScript("US.js?t=axbUS6968USbxa")}
+if (getUrlParameter('country') == "DE") {$.getScript("DE.js?t=axbDE3846DEbxa")}
+if (getUrlParameter('country') == "IN") {$.getScript("IN.js?t=axbIN4282INbxa")}
+if (getUrlParameter('country') == "GB") {$.getScript("GB.js?t=axbGB4370GBbxa")}
+if (getUrlParameter('country') == "FR") {$.getScript("FR.js?t=axbFR481FRbxa")}
 $.ajaxSetup({async:true});
 
-document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most since 2004 ({4}%) and {1} lost the most ({2}%)', 
+document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 
     graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100*PlusMinus[0]).toFixed(1), graphData[0][TopPlusMinus[2]], (100*PlusMinus[1]).toFixed(1));
 
 document.getElementById('PYPL').style.height=""
