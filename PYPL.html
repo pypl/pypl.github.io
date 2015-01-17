@@ -496,7 +496,7 @@ for (var c in country) {
 $( document ).ready(function() {
     $('#selectCountry').selectpicker('render');
     $('#selectCountry').on('change', function() {
-        window.location = window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val())
+        window.location = window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val()
         });
 })
 
