@@ -118,6 +118,12 @@ month[9] = "Oct";
 month[10] = "Nov";
 month[11] = "Dec";    
 
+var country = new Array();
+country[""]="Worldwide";
+country["US"]="US"
+country["IN"]="India"
+country["DE"]="Germany" 
+
 function refreshTop() {        
 cloud = "All.png"
 table = "<!-- begin section All-->\
@@ -221,7 +227,7 @@ document.getElementById("cloud").src=cloud;
           </span>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
-    		<p><script>document.write(((getUrlParameter('country') =="") ? "Worldwide" : getUrlParameter('country'))+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
+    		<p><script>document.write(country[getUrlParameter('country')]+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<div id=table></div>
     		<script>refreshTop()</script>
     	</div>
@@ -425,6 +431,7 @@ document.getElementById("cloud").src=cloud;
         }
         //-->
         </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+        &copy; Pierre Carbonnelle, 2015 
         <p><br><br><br><br>.</p>
     </div>
   </div>
