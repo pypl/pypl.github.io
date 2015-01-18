@@ -14,8 +14,6 @@
     <meta id="meta-tag-description" property="og:description" content="TIOBE PYPL popularity of programming language" />
     <meta name="Keywords" content="TIOBE,PYPL,PYPL index,popularity of programming languages" />
 
-    <link rel="icon" href="../../favicon.ico">
-
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
@@ -258,7 +256,7 @@ document.getElementById("cloud").src=cloud;
           <span>
             <p class=lead>Swift, the new language introduced by Apple, had the highest increase of popularity in 2014 (2.9 % worldwide) : it is thus the Programming Language of the Year 2014.  </p>
             <p><br></p>
-            <p class=text-center><img id=cloud src=All.png></img></p>
+            <p class=text-center><img id=cloud></img></p>
           </span>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
@@ -491,10 +489,10 @@ document.getElementById("cloud").src=cloud;
 
 <!-- Google -->
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script src="All.js?t=axbAll8510Allbxa">//load All by default</script>
 
 <script>
 $.ajaxSetup({async:false});
+if (getUrlParameter('country') == "") {$.getScript("All.js?t=axbUS251USbxa")}
 if (getUrlParameter('country') == "US") {$.getScript("US.js?t=axbUS251USbxa")}
 if (getUrlParameter('country') == "DE") {$.getScript("DE.js?t=axbDE5123DEbxa")}
 if (getUrlParameter('country') == "IN") {$.getScript("IN.js?t=axbIN8342INbxa")}
