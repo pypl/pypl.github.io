@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>PYPL index</title>
+    <title>PYPL PopularitY of Programming Language index</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+
     <meta name="author" content="">
+    <meta itemprop="name" content="PYPL index PopularitY of Programming Language" />
+    <meta property="og:title" content="PYPL PopularitY of Programming Language index" />
+    <meta name="description" content="TIOBE PYPL index popularity of programming language" />
+    <meta itemprop="description" content="TIOBE PYPL index popularity of programming language" />
+    <meta id="meta-tag-description" property="og:description" content="TIOBE PYPL popularity of programming language" />
+    <meta name="Keywords" content="TIOBE,PYPL,PYPL index,popularity of programming languages" />
+
     <link rel="icon" href="../../favicon.ico">
 
     <!-- Bootstrap core CSS -->
@@ -232,20 +239,6 @@ table = "<!-- begin section FR-->\
 table = "<table class=table><tr><th class=center>Rank<br></th><th class=center>Change</th><th>Language</th><th class=center>Share</th><th class=\"optCol center\">Trend</th></tr><tr>" + table + "</tr><tr><td colspan=5 align=right>&copy; Pierre Carbonnelle, 2015</td></tr></table>"
 document.getElementById("table").innerHTML=table;
 document.getElementById("cloud").src=cloud;
-
-for (var c in country) {
-    if (country.hasOwnProperty(c)) {
-        var opt = document.createElement('option');
-        opt.value = c;
-        opt.selected = (getUrlParameter('country')==c)
-        opt.innerHTML = country[c];
-        document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
-    }
-}; 
-document.getElementById('selectCountry').onchange = function() {
-    window.location = window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val()
-    };
-
 } // refreshTop
 </script>
 
@@ -270,8 +263,7 @@ document.getElementById('selectCountry').onchange = function() {
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
     		<p>
-    		<select id=selectCountry class="selectpicker"></select>, 
-    		<script>document.write(month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
+            <script>document.write(((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<div id=table></div>
     		<script>refreshTop()</script>
     	</div>
@@ -302,8 +294,9 @@ document.getElementById('selectCountry').onchange = function() {
     <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 80%"><img src="482.gif" class="img-responsive center-block"></img></div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
         <p><br><br><span class="lead">
-          This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite languages : 
-          <select id=selectLang class="selectpicker" multiple title='Choose your languages...' data-width="auto" data-selected-text-format="count>3"></select>
+          This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite languages 
+          <select id=selectLang class="selectpicker" multiple title='Choose languages...' data-width="auto" data-selected-text-format="count>3"></select>
+          in a country <select id=selectCountry class="selectpicker" data-width="auto"></select>
         </span><br><br></p>
     </div>
    </div>
@@ -523,6 +516,19 @@ for (var lang in graphData[0]) {
     }
 }; 
 $('#selectLang').selectpicker('render');
+
+for (var c in country) {
+    if (country.hasOwnProperty(c)) {
+        var opt = document.createElement('option');
+        opt.value = c;
+        //opt.selected = (getUrlParameter('country')==c)
+        opt.innerHTML = country[c];
+        document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
+    }
+}; 
+document.getElementById('selectCountry').onchange = function() {
+    window.location = window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val()
+    };
 
 google.load("visualization", "1", {packages:["corechart"]});
 function drawChart() {
