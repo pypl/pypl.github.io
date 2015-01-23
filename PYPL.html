@@ -9,10 +9,10 @@
     <meta name="author" content="">
     <meta itemprop="name" content="PYPL index PopularitY of Programming Language" />
     <meta property="og:title" content="PYPL PopularitY of Programming Language index" />
-    <meta name="description" content="TIOBE PYPL index popularity of programming language" />
-    <meta itemprop="description" content="TIOBE PYPL index popularity of programming language" />
-    <meta id="meta-tag-description" property="og:description" content="TIOBE PYPL popularity of programming language" />
-    <meta name="Keywords" content="TIOBE,PYPL,PYPL index,popularity of programming languages" />
+    <meta name="description" content="PYPL index popularity of programming language" />
+    <meta itemprop="description" content="PYPL index popularity of programming language" />
+    <meta id="meta-tag-description" property="og:description" content="PYPL popularity of programming language" />
+    <meta name="Keywords" content="TIOBE,PYPL,PYPL index,programming language,ranking" />
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -236,7 +236,7 @@ table = "<!-- begin section FR-->\
 
 table = "<table class=table><tr><th class=center>Rank<br></th><th class=center>Change</th><th>Language</th><th class=center>Share</th><th class=\"optCol center\">Trend</th></tr><tr>" + table + "</tr><tr><td colspan=5 align=right>&copy; Pierre Carbonnelle, 2015</td></tr></table>"
 document.getElementById("table").innerHTML=table;
-document.getElementById("cloud").src=cloud;
+document.getElementById("cloud").src="PYPL\"+cloud;
 } // refreshTop
 </script>
 
@@ -492,12 +492,12 @@ document.getElementById("cloud").src=cloud;
 
 <script>
 $.ajaxSetup({async:false});
-if (getUrlParameter('country') == "") {$.getScript("All.js?t=axbUS251USbxa")}
-if (getUrlParameter('country') == "US") {$.getScript("US.js?t=axbUS251USbxa")}
-if (getUrlParameter('country') == "DE") {$.getScript("DE.js?t=axbDE5123DEbxa")}
-if (getUrlParameter('country') == "IN") {$.getScript("IN.js?t=axbIN8342INbxa")}
-if (getUrlParameter('country') == "GB") {$.getScript("GB.js?t=axbGB1860GBbxa")}
-if (getUrlParameter('country') == "FR") {$.getScript("FR.js?t=axbFR4729FRbxa")}
+if (getUrlParameter('country') == "") {$.getScript("PYPL\All.js?t=axbUS251USbxa")}
+if (getUrlParameter('country') == "US") {$.getScript("PYPL\US.js?t=axbUS251USbxa")}
+if (getUrlParameter('country') == "DE") {$.getScript("PYPL\DE.js?t=axbDE5123DEbxa")}
+if (getUrlParameter('country') == "IN") {$.getScript("PYPL\IN.js?t=axbIN8342INbxa")}
+if (getUrlParameter('country') == "GB") {$.getScript("PYPL\GB.js?t=axbGB1860GBbxa")}
+if (getUrlParameter('country') == "FR") {$.getScript("PYPL\FR.js?t=axbFR4729FRbxa")}
 $.ajaxSetup({async:true});
 
 document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 
