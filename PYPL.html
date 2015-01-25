@@ -261,7 +261,7 @@ document.getElementById("cloud").src="PYPL/"+cloud;
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
     		<p>
-            <script>document.write(((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])+', '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
+            <script>document.write('<b>'+((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])+'</b>, '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
     		<div id=table></div>
     		<script>refreshTop()</script>
     	</div>
