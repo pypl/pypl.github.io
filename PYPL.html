@@ -592,7 +592,11 @@ function drawChart() {
     var view = new google.visualization.DataView(data1);
     var sel = $("#selectLang").val();
     if (!sel){
-        sel = TopPlusMinus
+        sel = []
+        for (var key in TopPlusMinus){
+            if ($.inArray(TopPlusMinus[key], sel)==-1) // not in array already
+                sel.push(TopPlusMinus[key])
+        }
     }
    var keys = [];
    keys.push(0);
