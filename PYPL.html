@@ -293,10 +293,10 @@ document.getElementById("cloud").src="PYPL/"+cloud;
     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
         <p><br><br><span class="lead">
           This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite languages 
-          <select id=selectLang class="selectpicker" multiple title='Choose languages...' data-width="auto" data-selected-text-format="count>3"></select>
-          in a country <select id=selectCountry class="selectpicker" data-width="auto"></select>
+          <select id=selectLang class="selectpicker" multiple title='Choose languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3"></select>
+          in a country <select id=selectCountry class="selectpicker" data-style="btn-success" data-width="auto"></select>
         </span><br><br></p>
-        <p>Please check our <a href=IDE.html>index of top IDE tools</a> (Integrated Development Environment).</p>
+        <p>Please check our <a href=IDE.html data-style="btn-success">index of top IDE tools</a> (Integrated Development Environment).</p>
     </div>
    </div>
  <div class = "row text-center" style="background: #ffffff; /* Old browsers */
@@ -498,7 +498,7 @@ if (getUrlParameter('country') == "GB") {$.getScript("PYPL/GB.js?t=axbGB1860GBbx
 if (getUrlParameter('country') == "FR") {$.getScript("PYPL/FR.js?t=axbFR4729FRbxa")}
 $.ajaxSetup({async:true});
 
-document.getElementById('topBottom').innerHTML = String.format('{0} is the most popular language, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 
+document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular language, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 
     graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100*PlusMinus[0]).toFixed(1), graphData[0][TopPlusMinus[2]], (100*PlusMinus[1]).toFixed(1));
 
 document.getElementById('PYPL').style.height=""
