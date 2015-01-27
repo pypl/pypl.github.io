@@ -554,7 +554,7 @@ function drawChart() {
 
     options.title = 'TOPIDE Top IDE index';
     var data1 = google.visualization.arrayToDataTable(graphData);
-    var formatter = new google.visualization.NumberFormat({pattern:'##.#%'});
+    var formatter = new google.visualization.NumberFormat({pattern:'##.##%'});
   formatter.format(data1, 1);
   formatter.format(data1, 2);
   formatter.format(data1, 3);

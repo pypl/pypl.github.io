@@ -518,7 +518,7 @@ function drawChart() {
         format:'##%',
         viewWindow:{ // range from 0.1% to 60 %
             max:0.6, 
-            min:0.001
+            min:0.0006
           }
         },
         curveType: 'function'
@@ -555,7 +555,7 @@ function drawChart() {
 
     options.title = 'TOPDB Top Database index';
     var data1 = google.visualization.arrayToDataTable(graphData);
-    var formatter = new google.visualization.NumberFormat({pattern:'##.#%'});
+    var formatter = new google.visualization.NumberFormat({pattern:'##.##%'});
   formatter.format(data1, 1);
   formatter.format(data1, 2);
   formatter.format(data1, 3);
