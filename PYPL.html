@@ -124,31 +124,31 @@ month[10] = "Nov";
 month[11] = "Dec";    
 
 var country = new Array();
-country[""]="Worldwide";
 country["US"]="US"
 country["IN"]="India"
 country["DE"]="Germany" 
 country["GB"]="United Kingdom" 
 country["FR"]="France" 
+country[""]="Worldwide";
 
 function refreshTop() {        
 cloud = "All.png"
 table = "<!-- begin section All-->\
 <td class=center>1</td><td class=center></td><td>Java</td><td class=right>24.4 %</td><td class=\"right optCol\">+0.4 %</td></tr>\
-<tr><td class=center>2</td><td class=center><image src=Up.png></td><td>Python</td><td class=right>11.6 %</td><td class=\"right optCol\">+1.1 %</td></tr>\
+<tr><td class=center>2</td><td class=center><image src=Up.png></td><td>Python</td><td class=right>11.8 %</td><td class=\"right optCol\">+1.1 %</td></tr>\
 <tr><td class=center>3</td><td class=center><image src=Down.png></td><td>PHP</td><td class=right>10.7 %</td><td class=\"right optCol\">-0.7 %</td></tr>\
 <tr><td class=center>4</td><td class=center></td><td>C#</td><td class=right>8.9 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
 <tr><td class=center>5</td><td class=center></td><td>C++</td><td class=right>7.6 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
-<tr><td class=center>6</td><td class=center></td><td>C</td><td class=right>7.5 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
-<tr><td class=center>7</td><td class=center></td><td>Javascript</td><td class=right>7.2 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
-<tr><td class=center>8</td><td class=center></td><td>Objective-C</td><td class=right>5.2 %</td><td class=\"right optCol\">-1.1 %</td></tr>\
-<tr><td class=center>9</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Swift</td><td class=right>2.9 %</td><td class=\"right optCol\">+0.4 %</td></tr>\
-<tr><td class=center>10</td><td class=center></td><td>R</td><td class=right>2.8 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
-<tr><td class=center>11</td><td class=center><image src=Down.png><image src=Down.png></td><td>Matlab</td><td class=right>2.8 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
-<tr><td class=center>12</td><td class=center><image src=Down.png></td><td>Ruby</td><td class=right>2.4 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
-<tr><td class=center>13</td><td class=center><image src=Down.png></td><td>Visual Basic</td><td class=right>1.9 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
-<tr><td class=center>14</td><td class=center></td><td>VBA</td><td class=right>1.6 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
-<tr><td class=center>15</td><td class=center></td><td>Perl</td><td class=right>1.2 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>6</td><td class=center></td><td>C</td><td class=right>7.6 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>7</td><td class=center></td><td>Javascript</td><td class=right>7.3 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>8</td><td class=center></td><td>Objective-C</td><td class=right>5.1 %</td><td class=\"right optCol\">-1.1 %</td></tr>\
+<tr><td class=center>9</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Swift</td><td class=right>2.9 %</td><td class=\"right optCol\">+0.4 %</td></tr>\
+<tr><td class=center>10</td><td class=center></td><td>R</td><td class=right>2.9 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>11</td><td class=center><image src=Down.png><image src=Down.png></td><td>Matlab</td><td class=right>2.7 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Down.png></td><td>Ruby</td><td class=right>2.3 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>13</td><td class=center></td><td>Visual Basic</td><td class=right>1.8 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
+<tr><td class=center>14</td><td class=center></td><td>VBA</td><td class=right>1.5 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>15</td><td class=center></td><td>Perl</td><td class=right>1.1 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
 <tr><td class=center>16</td><td class=center></td><td>Scala</td><td class=right>0.9 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
 <tr><td class=center>17</td><td class=center></td><td>lua</td><td class=right>0.5 %</td><td class=\"right optCol\">+0.0 %</td>\
 <!-- end section All-->\
@@ -156,72 +156,81 @@ table = "<!-- begin section All-->\
 if (getUrlParameter('country') == "US") {
 cloud = "US.png"
 table = "<!-- begin section US-->\
-<td class=center>1</td><td class=center></td><td>Java</td><td class=right>23.3 %</td><td class=\"right optCol\">+2.1 %</td></tr>\
-<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>17.5 %</td><td class=\"right optCol\">+2.0 %</td></tr>\
-<tr><td class=center>3</td><td class=center><image src=Up.png><image src=Up.png></td><td>C#</td><td class=right>8.5 %</td><td class=\"right optCol\">+1.9 %</td></tr>\
-<tr><td class=center>4</td><td class=center></td><td>Javascript</td><td class=right>8.2 %</td><td class=\"right optCol\">+1.1 %</td></tr>\
-<tr><td class=center>5</td><td class=center><image src=Down.png><image src=Down.png></td><td>C++</td><td class=right>7.9 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
-<tr><td class=center>6</td><td class=center></td><td>Objective-C</td><td class=right>6.3 %</td><td class=\"right optCol\">-1.4 %</td></tr>\
-<tr><td class=center>7</td><td class=center></td><td>C</td><td class=right>5.9 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
-<tr><td class=center>8</td><td class=center></td><td>PHP</td><td class=right>5.1 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
-<tr><td class=center>9</td><td class=center><image src=Up.png></td><td>R</td><td class=right>4.9 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
-<tr><td class=center>10</td><td class=center><image src=Up.png></td><td>Swift</td><td class=right>4.8 %</td><td class=\"right optCol\">+0.8 %</td></tr>\
-<tr><td class=center>11</td><td class=center><image src=Down.png><image src=Down.png></td><td>Ruby</td><td class=right>4.1 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
-<tr><td class=center>12</td><td class=center><image src=Up.png></td><td>Perl</td><td class=right>1.8 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
-<tr><td class=center>13</td><td class=center><image src=Up.png><image src=Up.png></td><td>Visual Basic</td><td class=right>1.7 %</td><td class=\"right optCol\">+0.0 %</td>\
+<td class=center>1</td><td class=center></td><td>Java</td><td class=right>22.6 %</td><td class=\"right optCol\">+0.5 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>17.6 %</td><td class=\"right optCol\">+1.5 %</td></tr>\
+<tr><td class=center>3</td><td class=center><image src=Up.png></td><td>Javascript</td><td class=right>8.2 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
+<tr><td class=center>4</td><td class=center><image src=Up.png><image src=Up.png></td><td>C#</td><td class=right>8.0 %</td><td class=\"right optCol\">+1.0 %</td></tr>\
+<tr><td class=center>5</td><td class=center><image src=Down.png><image src=Down.png></td><td>C++</td><td class=right>7.9 %</td><td class=\"right optCol\">-0.7 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Down.png></td><td>Objective-C</td><td class=right>6.0 %</td><td class=\"right optCol\">-1.5 %</td></tr>\
+<tr><td class=center>7</td><td class=center></td><td>C</td><td class=right>6.0 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
+<tr><td class=center>8</td><td class=center></td><td>PHP</td><td class=right>5.0 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
+<tr><td class=center>9</td><td class=center></td><td>R</td><td class=right>3.9 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>10</td><td class=center><image src=Up.png></td><td>Swift</td><td class=right>3.7 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>11</td><td class=center><image src=Down.png></td><td>Ruby</td><td class=right>3.1 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
+<tr><td class=center>12</td><td class=center></td><td>Matlab</td><td class=right>2.2 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
+<tr><td class=center>13</td><td class=center><image src=Up.png><image src=Up.png></td><td>VBA</td><td class=right>1.5 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>14</td><td class=center><image src=Up.png><image src=Up.png></td><td>Scala</td><td class=right>1.5 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>15</td><td class=center><image src=Down.png><image src=Down.png></td><td>Perl</td><td class=right>1.4 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>16</td><td class=center><image src=Down.png><image src=Down.png></td><td>Visual Basic</td><td class=right>1.3 %</td><td class=\"right optCol\">-0.2 %</td>\
 <!-- end section US-->\
 ";
 }
 if (getUrlParameter('country') == "DE") {
 cloud = "DE.png"
 table = "<!-- begin section DE-->\
-<td class=center>1</td><td class=center></td><td>Java</td><td class=right>34.5 %</td><td class=\"right optCol\">+9.6 %</td></tr>\
-<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>19.9 %</td><td class=\"right optCol\">+6.3 %</td></tr>\
-<tr><td class=center>3</td><td class=center></td><td>C++</td><td class=right>15.5 %</td><td class=\"right optCol\">+2.8 %</td></tr>\
-<tr><td class=center>4</td><td class=center><image src=Up.png></td><td>C#</td><td class=right>15.4 %</td><td class=\"right optCol\">+5.3 %</td></tr>\
-<tr><td class=center>5</td><td class=center><image src=Down.png></td><td>PHP</td><td class=right>14.7 %</td><td class=\"right optCol\">+3.7 %</td>\
+<td class=center>1</td><td class=center></td><td>Java</td><td class=right>27.0 %</td><td class=\"right optCol\">+0.8 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>16.2 %</td><td class=\"right optCol\">+2.4 %</td></tr>\
+<tr><td class=center>3</td><td class=center><image src=Up.png><image src=Up.png></td><td>C#</td><td class=right>11.9 %</td><td class=\"right optCol\">+1.2 %</td></tr>\
+<tr><td class=center>4</td><td class=center><image src=Down.png></td><td>C++</td><td class=right>11.7 %</td><td class=\"right optCol\">-1.5 %</td></tr>\
+<tr><td class=center>5</td><td class=center><image src=Down.png></td><td>PHP</td><td class=right>11.1 %</td><td class=\"right optCol\">-0.8 %</td></tr>\
+<tr><td class=center>6</td><td class=center></td><td>Javascript</td><td class=right>8.8 %</td><td class=\"right optCol\">+2.2 %</td></tr>\
+<tr><td class=center>7</td><td class=center></td><td>C</td><td class=right>7.9 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
+<tr><td class=center>8</td><td class=center></td><td>Objective-C</td><td class=right>5.4 %</td><td class=\"right optCol\">-0.6 %</td>\
 <!-- end section DE-->\
 ";
 }
 if (getUrlParameter('country') == "IN") {
 cloud = "IN.png"
 table = "<!-- begin section IN-->\
-<td class=center>1</td><td class=center></td><td>Java</td><td class=right>31.6 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
-<tr><td class=center>2</td><td class=center></td><td>PHP</td><td class=right>12.0 %</td><td class=\"right optCol\">-1.2 %</td></tr>\
-<tr><td class=center>3</td><td class=center></td><td>C</td><td class=right>9.9 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
-<tr><td class=center>4</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Python</td><td class=right>8.9 %</td><td class=\"right optCol\">+2.2 %</td></tr>\
-<tr><td class=center>5</td><td class=center><image src=Down.png></td><td>C#</td><td class=right>7.9 %</td><td class=\"right optCol\">-0.9 %</td></tr>\
-<tr><td class=center>6</td><td class=center><image src=Down.png></td><td>Javascript</td><td class=right>7.6 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
-<tr><td class=center>7</td><td class=center><image src=Down.png></td><td>C++</td><td class=right>6.1 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
-<tr><td class=center>8</td><td class=center></td><td>Objective-C</td><td class=right>4.1 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
-<tr><td class=center>9</td><td class=center></td><td>Matlab</td><td class=right>2.3 %</td><td class=\"right optCol\">-0.8 %</td></tr>\
+<td class=center>1</td><td class=center></td><td>Java</td><td class=right>31.4 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>PHP</td><td class=right>11.9 %</td><td class=\"right optCol\">-1.4 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>C</td><td class=right>9.8 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>4</td><td class=center><image src=Up.png><image src=Up.png></td><td>Python</td><td class=right>8.8 %</td><td class=\"right optCol\">+2.0 %</td></tr>\
+<tr><td class=center>5</td><td class=center><image src=Down.png></td><td>C#</td><td class=right>7.9 %</td><td class=\"right optCol\">-1.0 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Down.png></td><td>Javascript</td><td class=right>7.7 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
+<tr><td class=center>7</td><td class=center></td><td>C++</td><td class=right>5.9 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>8</td><td class=center></td><td>Objective-C</td><td class=right>4.2 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>9</td><td class=center></td><td>Matlab</td><td class=right>2.4 %</td><td class=\"right optCol\">-0.8 %</td></tr>\
 <tr><td class=center>10</td><td class=center></td><td>Perl</td><td class=right>1.7 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
-<tr><td class=center>11</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>R</td><td class=right>1.7 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
-<tr><td class=center>12</td><td class=center><image src=Down.png></td><td>Ruby</td><td class=right>1.4 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
-<tr><td class=center>13</td><td class=center><image src=Down.png></td><td>VBA</td><td class=right>1.4 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
-<tr><td class=center>14</td><td class=center><image src=Up.png></td><td>Swift</td><td class=right>1.3 %</td><td class=\"right optCol\">+0.4 %</td></tr>\
-<tr><td class=center>15</td><td class=center><image src=Down.png><image src=Down.png></td><td>Visual Basic</td><td class=right>1.2 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
-<tr><td class=center>16</td><td class=center><image src=Up.png></td><td>Scala</td><td class=right>0.8 %</td><td class=\"right optCol\">+1.0 %</td>\
+<tr><td class=center>11</td><td class=center><image src=Up.png><image src=Up.png></td><td>R</td><td class=right>1.7 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Down.png></td><td>Ruby</td><td class=right>1.5 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>13</td><td class=center><image src=Up.png><image src=Up.png></td><td>Swift</td><td class=right>1.4 %</td><td class=\"right optCol\">+0.5 %</td></tr>\
+<tr><td class=center>14</td><td class=center><image src=Down.png><image src=Down.png></td><td>VBA</td><td class=right>1.4 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>15</td><td class=center><image src=Down.png></td><td>Visual Basic</td><td class=right>1.3 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>16</td><td class=center></td><td>Scala</td><td class=right>0.9 %</td><td class=\"right optCol\">+1.0 %</td>\
 <!-- end section IN-->\
 ";
 }
 if (getUrlParameter('country') == "GB") {
 cloud = "GB.png"
 table = "<!-- begin section GB-->\
-<td class=center>1</td><td class=center></td><td>Java</td><td class=right>29.5 %</td><td class=\"right optCol\">+8.9 %</td></tr>\
-<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>29.1 %</td><td class=\"right optCol\">+7.1 %</td></tr>\
-<tr><td class=center>3</td><td class=center><image src=Up.png><image src=Up.png></td><td>C++</td><td class=right>14.5 %</td><td class=\"right optCol\">+6.4 %</td></tr>\
-<tr><td class=center>4</td><td class=center></td><td>PHP</td><td class=right>14.2 %</td><td class=\"right optCol\">+4.1 %</td></tr>\
-<tr><td class=center>5</td><td class=center><image src=Up.png></td><td>Javascript</td><td class=right>12.7 %</td><td class=\"right optCol\">+5.1 %</td>\
+<td class=center>1</td><td class=center><image src=Up.png></td><td>Python</td><td class=right>21.4 %</td><td class=\"right optCol\">-1.4 %</td></tr>\
+<tr><td class=center>2</td><td class=center><image src=Down.png></td><td>Java</td><td class=right>20.7 %</td><td class=\"right optCol\">-1.3 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>C#</td><td class=right>14.0 %</td><td class=\"right optCol\">+2.0 %</td></tr>\
+<tr><td class=center>4</td><td class=center></td><td>PHP</td><td class=right>9.9 %</td><td class=\"right optCol\">-1.0 %</td></tr>\
+<tr><td class=center>5</td><td class=center><image src=Up.png></td><td>C++</td><td class=right>9.8 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Down.png></td><td>Javascript</td><td class=right>9.4 %</td><td class=\"right optCol\">+1.0 %</td></tr>\
+<tr><td class=center>7</td><td class=center><image src=Up.png></td><td>C</td><td class=right>8.3 %</td><td class=\"right optCol\">+1.2 %</td></tr>\
+<tr><td class=center>8</td><td class=center><image src=Down.png></td><td>Objective-C</td><td class=right>6.5 %</td><td class=\"right optCol\">-1.4 %</td>\
 <!-- end section GB-->\
 ";
 }
 if (getUrlParameter('country') == "FR") {
 cloud = "FR.png"
 table = "<!-- begin section FR-->\
-<td class=center>1</td><td class=center></td><td>Java</td><td class=right>38.7 %</td><td class=\"right optCol\">+8.2 %</td></tr>\
-<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>33.4 %</td><td class=\"right optCol\">+14.0 %</td></tr>\
-<tr><td class=center>3</td><td class=center></td><td>PHP</td><td class=right>27.9 %</td><td class=\"right optCol\">+10.6 %</td>\
+<td class=center>1</td><td class=center></td><td>Java</td><td class=right>45.0 %</td><td class=\"right optCol\">+13.8 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>Python</td><td class=right>37.7 %</td><td class=\"right optCol\">+19.1 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>PHP</td><td class=right>17.3 %</td><td class=\"right optCol\">-6.8 %</td>\
 <!-- end section FR-->\
 ";
 }
@@ -312,7 +321,7 @@ document.getElementById("cloud").src="PYPL/"+cloud;
         <p class="lead">
           This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite languages 
           <select id=selectLang class="selectpicker" multiple title='Choose languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3"></select>
-          in a country <select id=selectCountry class="selectpicker" data-style="btn-success" data-width="auto"></select>
+          in <select id=selectCountry class="selectpicker" data-style="btn-success" data-width="auto"></select>
         <p class="lead">Please check our <a href=IDE.html class="btn btn-success">index of top IDE tools</a> (Integrated Development Environment).</p>
         <br><br>
         </span>
@@ -509,12 +518,12 @@ document.getElementById("cloud").src="PYPL/"+cloud;
 
 <script>
 $.ajaxSetup({async:false});
-if (getUrlParameter('country') == "") {$.getScript("PYPL/All.js?t=axbAll6264Allbxa")}
-if (getUrlParameter('country') == "US") {$.getScript("PYPL/US.js?t=axbUS4162USbxa")}
-if (getUrlParameter('country') == "DE") {$.getScript("PYPL/DE.js?t=axbDE2461DEbxa")}
-if (getUrlParameter('country') == "IN") {$.getScript("PYPL/IN.js?t=axbIN5688INbxa")}
-if (getUrlParameter('country') == "GB") {$.getScript("PYPL/GB.js?t=axbGB4734GBbxa")}
-if (getUrlParameter('country') == "FR") {$.getScript("PYPL/FR.js?t=axbFR1707FRbxa")}
+if (getUrlParameter('country') == "") {$.getScript("PYPL/All.js?t=axbAll8765Allbxa")}
+if (getUrlParameter('country') == "US") {$.getScript("PYPL/US.js?t=axbUS9609USbxa")}
+if (getUrlParameter('country') == "DE") {$.getScript("PYPL/DE.js?t=axbDE3471DEbxa")}
+if (getUrlParameter('country') == "IN") {$.getScript("PYPL/IN.js?t=axbIN8453INbxa")}
+if (getUrlParameter('country') == "GB") {$.getScript("PYPL/GB.js?t=axbGB341GBbxa")}
+if (getUrlParameter('country') == "FR") {$.getScript("PYPL/FR.js?t=axbFR5920FRbxa")}
 $.ajaxSetup({async:true});
 
 document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular language, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 
@@ -536,7 +545,7 @@ for (var c in country) {
     if (country.hasOwnProperty(c)) {
         var opt = document.createElement('option');
         opt.value = c;
-        //opt.selected = (getUrlParameter('country')==c)
+        opt.selected = (getUrlParameter('country')!=c)
         opt.innerHTML = country[c];
         document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
     }
