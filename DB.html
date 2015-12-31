@@ -505,7 +505,7 @@ for (var c in country) {
     if (country.hasOwnProperty(c)) {
         var opt = document.createElement('option');
         opt.value = c;
-        //opt.selected = (getUrlParameter('country')==c)
+        opt.selected = (getUrlParameter('country')==country[c])
         opt.innerHTML = country[c];
         document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
     }
