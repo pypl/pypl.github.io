@@ -125,11 +125,11 @@ month[11] = "Dec";
 
 var country = new Array();
 country[""]="Worldwide";
+country["US"]="US"
+country["IN"]="India"
 country["DE"]="Germany"
 country["GB"]="United Kingdom" 
 country["FR"]="France" 
-country["IN"]="India"
-country["US"]="US"
 
 function refreshTop() {        
 cloud = "All.png"
@@ -321,7 +321,7 @@ document.getElementById("cloud").src="PYPL/"+cloud;
         <p class="lead">
           This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite languages 
           <select id=selectLang class="selectpicker" multiple title='Choose languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3"></select>
-          in <select id=selectCountry class="selectpicker" data-style="btn-success" data-width="auto"></select>
+          in a country <select id=selectCountry class="selectpicker" data-style="btn-success" data-width="auto"></select>
         <p class="lead">Please check our <a href=IDE.html class="btn btn-success">index of top IDE tools</a> (Integrated Development Environment).</p>
         <br><br>
         </span>
@@ -545,7 +545,7 @@ for (var c in country) {
     if (country.hasOwnProperty(c)) {
         var opt = document.createElement('option');
         opt.value = c;
-        opt.selected = (getUrlParameter('country')!=c)
+        //opt.selected = (getUrlParameter('country')!=c)
         opt.innerHTML = country[c];
         document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
     }
