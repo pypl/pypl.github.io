@@ -568,12 +568,12 @@ document.getElementById("cloud").src="DB/"+cloud;
 
 <script>
 $.ajaxSetup({async:false});
-if (getUrlParameter('country') == "") {$.getScript("DB/All.js?t=axbAll3918Allbxa")}
-if (getUrlParameter('country') == "US") {$.getScript("DB/US.js?t=axbUS8570USbxa")}
-if (getUrlParameter('country') == "DE") {$.getScript("DB/DE.js?t=axbDE5895DEbxa")}
-if (getUrlParameter('country') == "IN") {$.getScript("DB/IN.js?t=axbIN4870INbxa")}
-if (getUrlParameter('country') == "GB") {$.getScript("DB/GB.js?t=axbGB9561GBbxa")}
-if (getUrlParameter('country') == "FR") {$.getScript("DB/FR.js?t=axbFR9292FRbxa")}
+if (getUrlParameter('country') == "") {$.getScript("DB/All.js?t=axbAll2415Allbxa")}
+if (getUrlParameter('country') == "US") {$.getScript("DB/US.js?t=axbUS1372USbxa")}
+if (getUrlParameter('country') == "DE") {$.getScript("DB/DE.js?t=axbDE567DEbxa")}
+if (getUrlParameter('country') == "IN") {$.getScript("DB/IN.js?t=axbIN6235INbxa")}
+if (getUrlParameter('country') == "GB") {$.getScript("DB/GB.js?t=axbGB7182GBbxa")}
+if (getUrlParameter('country') == "FR") {$.getScript("DB/FR.js?t=axbFR3771FRbxa")}
 $.ajaxSetup({async:true});
 
 document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular database, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 

@@ -553,12 +553,12 @@ document.getElementById("cloud").src="IDE/"+cloud;
 
 <script>
 $.ajaxSetup({async:false});
-if (getUrlParameter('country') == "") {$.getScript("IDE/All.js?t=axbAll6333Allbxa")}
-if (getUrlParameter('country') == "US") {$.getScript("IDE/US.js?t=axbUS3450USbxa")}
-if (getUrlParameter('country') == "DE") {$.getScript("IDE/DE.js?t=axbDE8056DEbxa")}
-if (getUrlParameter('country') == "IN") {$.getScript("IDE/IN.js?t=axbIN9136INbxa")}
-if (getUrlParameter('country') == "GB") {$.getScript("IDE/GB.js?t=axbGB6814GBbxa")}
-if (getUrlParameter('country') == "FR") {$.getScript("IDE/FR.js?t=axbFR1269FRbxa")}
+if (getUrlParameter('country') == "") {$.getScript("IDE/All.js?t=axbAll5015Allbxa")}
+if (getUrlParameter('country') == "US") {$.getScript("IDE/US.js?t=axbUS879USbxa")}
+if (getUrlParameter('country') == "DE") {$.getScript("IDE/DE.js?t=axbDE9218DEbxa")}
+if (getUrlParameter('country') == "IN") {$.getScript("IDE/IN.js?t=axbIN8737INbxa")}
+if (getUrlParameter('country') == "GB") {$.getScript("IDE/GB.js?t=axbGB2775GBbxa")}
+if (getUrlParameter('country') == "FR") {$.getScript("IDE/FR.js?t=axbFR5793FRbxa")}
 $.ajaxSetup({async:true});
 
 document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular IDE, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 

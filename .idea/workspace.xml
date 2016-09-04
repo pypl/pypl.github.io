@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="">
+    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="reorder">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/All.png" afterPath="$PROJECT_DIR$/DB/All.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DE.png" afterPath="$PROJECT_DIR$/DB/DE.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/FR.png" afterPath="$PROJECT_DIR$/DB/FR.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/GB.png" afterPath="$PROJECT_DIR$/DB/GB.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/IN.png" afterPath="$PROJECT_DIR$/DB/IN.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/US.png" afterPath="$PROJECT_DIR$/DB/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/All.png" afterPath="$PROJECT_DIR$/IDE/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/DE.png" afterPath="$PROJECT_DIR$/IDE/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/FR.png" afterPath="$PROJECT_DIR$/IDE/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/GB.png" afterPath="$PROJECT_DIR$/IDE/GB.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/IN.png" afterPath="$PROJECT_DIR$/IDE/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/US.png" afterPath="$PROJECT_DIR$/IDE/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.png" afterPath="$PROJECT_DIR$/PYPL/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.png" afterPath="$PROJECT_DIR$/PYPL/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.png" afterPath="$PROJECT_DIR$/PYPL/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/GB.png" afterPath="$PROJECT_DIR$/PYPL/GB.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/IN.png" afterPath="$PROJECT_DIR$/PYPL/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/US.png" afterPath="$PROJECT_DIR$/PYPL/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB.html" afterPath="$PROJECT_DIR$/DB.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/All.js" afterPath="$PROJECT_DIR$/DB/All.js" />
@@ -16,6 +29,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/GB.js" afterPath="$PROJECT_DIR$/DB/GB.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/IN.js" afterPath="$PROJECT_DIR$/DB/IN.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/US.js" afterPath="$PROJECT_DIR$/DB/US.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE.html" afterPath="$PROJECT_DIR$/IDE.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/All.js" afterPath="$PROJECT_DIR$/IDE/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/DE.js" afterPath="$PROJECT_DIR$/IDE/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/FR.js" afterPath="$PROJECT_DIR$/IDE/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/GB.js" afterPath="$PROJECT_DIR$/IDE/GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/IN.js" afterPath="$PROJECT_DIR$/IDE/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/US.js" afterPath="$PROJECT_DIR$/IDE/US.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL.html" afterPath="$PROJECT_DIR$/PYPL.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.js" afterPath="$PROJECT_DIR$/PYPL/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.js" afterPath="$PROJECT_DIR$/PYPL/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.js" afterPath="$PROJECT_DIR$/PYPL/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/GB.js" afterPath="$PROJECT_DIR$/PYPL/GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/IN.js" afterPath="$PROJECT_DIR$/PYPL/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/US.js" afterPath="$PROJECT_DIR$/PYPL/US.js" />
     </list>
     <ignored path="pypl.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,24 +63,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.888889">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.30136988">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
                 <element signature="e#231#266#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="All.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IDE/All.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.9935484">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +118,7 @@
       <file leaf-file-name="DB.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.7096774">
               <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
               <folding />
             </state>
@@ -111,7 +128,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../BitBucket/pypl.py" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -536,7 +553,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473010489003</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="+ Aug">
+      <created>1473010635750</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1473010635750</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -988,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PYPL.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1019,21 +1034,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.888889">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IDE/All.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9935484">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30136988">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="e#231#266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -557,12 +557,12 @@ document.getElementById("cloud").src="PYPL/"+cloud;
 
 <script>
 $.ajaxSetup({async:false});
-if (getUrlParameter('country') == "") {$.getScript("PYPL/All.js?t=axbAll3864Allbxa")}
-if (getUrlParameter('country') == "US") {$.getScript("PYPL/US.js?t=axbUS8292USbxa")}
-if (getUrlParameter('country') == "DE") {$.getScript("PYPL/DE.js?t=axbDE9411DEbxa")}
-if (getUrlParameter('country') == "IN") {$.getScript("PYPL/IN.js?t=axbIN3865INbxa")}
-if (getUrlParameter('country') == "GB") {$.getScript("PYPL/GB.js?t=axbGB6519GBbxa")}
-if (getUrlParameter('country') == "FR") {$.getScript("PYPL/FR.js?t=axbFR6546FRbxa")}
+if (getUrlParameter('country') == "") {$.getScript("PYPL/All.js?t=axbAll7904Allbxa")}
+if (getUrlParameter('country') == "US") {$.getScript("PYPL/US.js?t=axbUS8314USbxa")}
+if (getUrlParameter('country') == "DE") {$.getScript("PYPL/DE.js?t=axbDE572DEbxa")}
+if (getUrlParameter('country') == "IN") {$.getScript("PYPL/IN.js?t=axbIN3199INbxa")}
+if (getUrlParameter('country') == "GB") {$.getScript("PYPL/GB.js?t=axbGB5249GBbxa")}
+if (getUrlParameter('country') == "FR") {$.getScript("PYPL/FR.js?t=axbFR3307FRbxa")}
 $.ajaxSetup({async:true});
 
 document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular language, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 
