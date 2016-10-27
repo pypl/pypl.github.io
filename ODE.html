@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TOP ODE index</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="">
+    <meta itemprop="name" content="TOP ODE Top Online Development Environment index" />
+    <meta property="og:title" content="TOP ODE Top Online Development Environment index" />
+    <meta name="description" content="TOP ODE Top Online Development Environment" />
+    <meta itemprop="description" content="TOP ODE Top Online Development Environment" />
+    <meta id="meta-tag-description" property="og:description" content="TOP ODE Top Online Development Environment" />
+    <meta name="Keywords" content="TOP ODE,top online IDE,IDE ranking,IDE index,IDE popularity" />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+    
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/assets/js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
+    .page {
+        height: 100%;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    .right {
+        text-align: right;
+    }
+    @media(max-width:450px) {
+        .optCol {display: none;}
+    }
+    .vcenter {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+    .top-buffer50 { margin-top:50px; }
+    .top-buffer200 { margin-top:200px; }
+    .blue {background-color: #eee;}
+   .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+    </style>
+    
+<script>
+if (!String.format) {
+  String.format = function(format) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    return format.replace(/{(\d+)}/g, function(match, number) { 
+      return typeof args[number] != 'undefined'
+        ? args[number] 
+        : match
+      ;
+    });
+  };
+}
+function getUrlParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
+    return ""
+}
+var month = new Array();
+month[0] = "Jan";
+month[1] = "Feb";
+month[2] = "Mar";
+month[3] = "Apr";
+month[4] = "May";
+month[5] = "Jun";
+month[6] = "Jul";
+month[7] = "Aug";
+month[8] = "Sept";
+month[9] = "Oct";
+month[10] = "Nov";
+month[11] = "Dec";    
+
+var country = new Array();
+country[""]="Worldwide";
+country["US"]="US"
+country["IN"]="India"
+country["DE"]="Germany" 
+country["GB"]="United Kingdom" 
+country["FR"]="France" 
+
+function refreshTop() {        
+cloud = "All.png"
+table = "<!-- begin section All-->\
+<td class=center>1</td><td class=center></td><td>Cloud9</td><td class=right>34.42 %</td><td class=\"right optCol\">-7.6 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>JSFiddle</td><td class=right>32.63 %</td><td class=\"right optCol\">+5.9 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>Koding</td><td class=right>8.96 %</td><td class=\"right optCol\">-2.3 %</td></tr>\
+<tr><td class=center>4</td><td class=center></td><td>Ideone</td><td class=right>7.01 %</td><td class=\"right optCol\">+0.7 %</td></tr>\
+<tr><td class=center>5</td><td class=center></td><td>Codio</td><td class=right>5.67 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
+<tr><td class=center>6</td><td class=center></td><td>Codeanywhere</td><td class=right>3.83 %</td><td class=\"right optCol\">+1.5 %</td></tr>\
+<tr><td class=center>7</td><td class=center></td><td>PythonAnywhere</td><td class=right>2.11 %</td><td class=\"right optCol\">+0.6 %</td></tr>\
+<tr><td class=center>8</td><td class=center></td><td>Codenvy</td><td class=right>1.51 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
+<tr><td class=center>9</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Python Fiddle</td><td class=right>0.65 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>10</td><td class=center></td><td>Codiad</td><td class=right>0.58 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>11</td><td class=center><image src=Up.png></td><td>Online PHP IDE</td><td class=right>0.57 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>IceCoder</td><td class=right>0.42 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>13</td><td class=center><image src=Up.png></td><td>ShiftEdit</td><td class=right>0.4 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>14</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Orion IDE</td><td class=right>0.39 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>15</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>SourceLair</td><td class=right>0.38 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
+<tr><td class=center>16</td><td class=center><image src=Down.png></td><td>Nitrous.io</td><td class=right>0.31 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>17</td><td class=center></td><td>CodePicnic</td><td class=right>0.17 %</td><td class=\"right optCol\">-0.1 %</td>\
+<!-- end section All-->\
+";
+if (getUrlParameter('country') == "US") {
+cloud = "US.png"
+table = "<!-- begin section US-->\
+<td class=center>1</td><td class=center><image src=Up.png></td><td>Visual Studio</td><td class=right>23.1 %</td><td class=\"right optCol\">+1.4 %</td></tr>\
+<tr><td class=center>2</td><td class=center><image src=Down.png></td><td>Eclipse</td><td class=right>21.86 %</td><td class=\"right optCol\">-6.5 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>Vim</td><td class=right>9.62 %</td><td class=\"right optCol\">+0.5 %</td></tr>\
+<tr><td class=center>4</td><td class=center></td><td>Xcode</td><td class=right>7.07 %</td><td class=\"right optCol\">-1.0 %</td></tr>\
+<tr><td class=center>5</td><td class=center><image src=Up.png><image src=Up.png></td><td>IntelliJ</td><td class=right>6.13 %</td><td class=\"right optCol\">+1.8 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Down.png></td><td>Android Studio</td><td class=right>5.71 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
+<tr><td class=center>7</td><td class=center><image src=Up.png></td><td>Komodo</td><td class=right>4.33 %</td><td class=\"right optCol\">+1.1 %</td></tr>\
+<tr><td class=center>8</td><td class=center><image src=Down.png><image src=Down.png></td><td>Sublime Text</td><td class=right>4.15 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
+<tr><td class=center>9</td><td class=center></td><td>Emacs</td><td class=right>3.35 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>10</td><td class=center><image src=Up.png><image src=Up.png></td><td>Xamarin</td><td class=right>2.99 %</td><td class=\"right optCol\">+1.8 %</td></tr>\
+<tr><td class=center>11</td><td class=center></td><td>Light Table</td><td class=right>2.44 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Down.png><image src=Down.png></td><td>NetBeans</td><td class=right>2.27 %</td><td class=\"right optCol\">-0.6 %</td></tr>\
+<tr><td class=center>13</td><td class=center></td><td>pyCharm</td><td class=right>2.15 %</td><td class=\"right optCol\">+0.6 %</td></tr>\
+<tr><td class=center>14</td><td class=center></td><td>Cloud9</td><td class=right>1.2 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>15</td><td class=center></td><td>PhpStorm</td><td class=right>0.8 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>16</td><td class=center><image src=Up.png><image src=Up.png></td><td>RubyMine</td><td class=right>0.36 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>17</td><td class=center></td><td>JDeveloper</td><td class=right>0.36 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>18</td><td class=center><image src=Up.png></td><td>Qt Creator</td><td class=right>0.28 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>19</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Aptana</td><td class=right>0.26 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>20</td><td class=center></td><td>MonoDevelop</td><td class=right>0.23 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>21</td><td class=center></td><td>geany</td><td class=right>0.21 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>22</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>SlickEdit</td><td class=right>0.17 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>23</td><td class=center></td><td>Monkey Studio</td><td class=right>0.17 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>24</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>DrJava</td><td class=right>0.16 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>25</td><td class=center></td><td>Eric Python</td><td class=right>0.16 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>26</td><td class=center><image src=Up.png><image src=Up.png></td><td>Julia Studio</td><td class=right>0.13 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>27</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>JCreator</td><td class=right>0.1 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>28</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Coda 2</td><td class=right>0.1 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>29</td><td class=center></td><td>Zend Studio</td><td class=right>0.09 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>30</td><td class=center></td><td>SharpDevelop</td><td class=right>0.07 %</td><td class=\"right optCol\">+0.0 %</td>\
+<!-- end section US-->\
+";
+}
+if (getUrlParameter('country') == "DE") {
+cloud = "DE.png"
+table = "<!-- begin section DE-->\
+<td class=center>1</td><td class=center></td><td>Eclipse</td><td class=right>26.94 %</td><td class=\"right optCol\">-4.5 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>Visual Studio</td><td class=right>24.51 %</td><td class=\"right optCol\">-0.8 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>Vim</td><td class=right>6.8 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>4</td><td class=center></td><td>Android Studio</td><td class=right>6.66 %</td><td class=\"right optCol\">+1.1 %</td></tr>\
+<tr><td class=center>5</td><td class=center><image src=Up.png></td><td>IntelliJ</td><td class=right>6.55 %</td><td class=\"right optCol\">+1.7 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Down.png></td><td>Xcode</td><td class=right>4.33 %</td><td class=\"right optCol\">-1.1 %</td></tr>\
+<tr><td class=center>7</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Xamarin</td><td class=right>4.16 %</td><td class=\"right optCol\">+3.0 %</td></tr>\
+<tr><td class=center>8</td><td class=center><image src=Down.png></td><td>NetBeans</td><td class=right>3.95 %</td><td class=\"right optCol\">-0.9 %</td></tr>\
+<tr><td class=center>9</td><td class=center><image src=Down.png></td><td>PhpStorm</td><td class=right>2.75 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>10</td><td class=center></td><td>Emacs</td><td class=right>2.55 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>11</td><td class=center><image src=Up.png></td><td>pyCharm</td><td class=right>2.37 %</td><td class=\"right optCol\">+1.1 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Sublime Text</td><td class=right>2.07 %</td><td class=\"right optCol\">-0.5 %</td></tr>\
+<tr><td class=center>13</td><td class=center></td><td>Komodo</td><td class=right>1.35 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>14</td><td class=center></td><td>Qt Creator</td><td class=right>1.22 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>15</td><td class=center><image src=Up.png><image src=Up.png></td><td>geany</td><td class=right>0.59 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>16</td><td class=center><image src=Down.png></td><td>Cloud9</td><td class=right>0.56 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
+<tr><td class=center>17</td><td class=center><image src=Down.png></td><td>Aptana</td><td class=right>0.5 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>18</td><td class=center></td><td>MonoDevelop</td><td class=right>0.41 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>19</td><td class=center></td><td>SharpDevelop</td><td class=right>0.41 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>20</td><td class=center></td><td>JDeveloper</td><td class=right>0.33 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>21</td><td class=center></td><td>RubyMine</td><td class=right>0.25 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>22</td><td class=center><image src=Up.png></td><td>Light Table</td><td class=right>0.19 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>23</td><td class=center><image src=Up.png></td><td>Coda 2</td><td class=right>0.16 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>24</td><td class=center><image src=Down.png><image src=Down.png></td><td>Zend Studio</td><td class=right>0.15 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>25</td><td class=center></td><td>JCreator</td><td class=right>0.14 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>26</td><td class=center></td><td>DrJava</td><td class=right>0.07 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>27</td><td class=center><image src=Up.png></td><td>SlickEdit</td><td class=right>0.03 %</td><td class=\"right optCol\">+0.0 %</td>\
+<!-- end section DE-->\
+";
+}
+if (getUrlParameter('country') == "IN") {
+cloud = "IN.png"
+table = "<!-- begin section IN-->\
+<td class=center>1</td><td class=center></td><td>Eclipse</td><td class=right>31.19 %</td><td class=\"right optCol\">-4.3 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>Visual Studio</td><td class=right>19.84 %</td><td class=\"right optCol\">-2.3 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>Android Studio</td><td class=right>18.15 %</td><td class=\"right optCol\">+5.5 %</td></tr>\
+<tr><td class=center>4</td><td class=center></td><td>NetBeans</td><td class=right>6.46 %</td><td class=\"right optCol\">-1.3 %</td></tr>\
+<tr><td class=center>5</td><td class=center></td><td>Xcode</td><td class=right>4.53 %</td><td class=\"right optCol\">-0.9 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Up.png><image src=Up.png></td><td>Xamarin</td><td class=right>3.84 %</td><td class=\"right optCol\">+1.6 %</td></tr>\
+<tr><td class=center>7</td><td class=center><image src=Down.png></td><td>Vim</td><td class=right>3.48 %</td><td class=\"right optCol\">-0.4 %</td></tr>\
+<tr><td class=center>8</td><td class=center><image src=Down.png></td><td>Sublime Text</td><td class=right>2.89 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>9</td><td class=center></td><td>IntelliJ</td><td class=right>2.57 %</td><td class=\"right optCol\">+0.8 %</td></tr>\
+<tr><td class=center>10</td><td class=center><image src=Up.png></td><td>JDeveloper</td><td class=right>1.32 %</td><td class=\"right optCol\">+0.7 %</td></tr>\
+<tr><td class=center>11</td><td class=center><image src=Up.png></td><td>pyCharm</td><td class=right>1.26 %</td><td class=\"right optCol\">+0.7 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Down.png><image src=Down.png></td><td>Komodo</td><td class=right>1.03 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
+<tr><td class=center>13</td><td class=center></td><td>Light Table</td><td class=right>0.62 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>14</td><td class=center></td><td>Emacs</td><td class=right>0.51 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>15</td><td class=center></td><td>PhpStorm</td><td class=right>0.43 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>16</td><td class=center></td><td>Cloud9</td><td class=right>0.39 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>17</td><td class=center></td><td>Aptana</td><td class=right>0.33 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>18</td><td class=center></td><td>geany</td><td class=right>0.24 %</td><td class=\"right optCol\">-0.1 %</td></tr>\
+<tr><td class=center>19</td><td class=center></td><td>Qt Creator</td><td class=right>0.24 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>20</td><td class=center></td><td>RubyMine</td><td class=right>0.14 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>21</td><td class=center></td><td>MonoDevelop</td><td class=right>0.12 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>22</td><td class=center><image src=Up.png></td><td>JCreator</td><td class=right>0.11 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>23</td><td class=center><image src=Down.png></td><td>Zend Studio</td><td class=right>0.1 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>24</td><td class=center><image src=Up.png></td><td>Coda 2</td><td class=right>0.08 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>25</td><td class=center><image src=Up.png></td><td>DrJava</td><td class=right>0.06 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>26</td><td class=center><image src=Down.png><image src=Down.png></td><td>SharpDevelop</td><td class=right>0.05 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>27</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>SlickEdit</td><td class=right>0.01 %</td><td class=\"right optCol\">+0.0 %</td>\
+<!-- end section IN-->\
+";
+}
+if (getUrlParameter('country') == "GB") {
+cloud = "GB.png"
+table = "<!-- begin section GB-->\
+<td class=center>1</td><td class=center></td><td>Visual Studio</td><td class=right>25.94 %</td><td class=\"right optCol\">+4.2 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>Eclipse</td><td class=right>18.18 %</td><td class=\"right optCol\">-0.8 %</td></tr>\
+<tr><td class=center>3</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Vim</td><td class=right>6.16 %</td><td class=\"right optCol\">+2.6 %</td></tr>\
+<tr><td class=center>4</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Xcode</td><td class=right>6.15 %</td><td class=\"right optCol\">+1.5 %</td></tr>\
+<tr><td class=center>5</td><td class=center><image src=Down.png></td><td>IntelliJ</td><td class=right>6.12 %</td><td class=\"right optCol\">-1.1 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Xamarin</td><td class=right>5.68 %</td><td class=\"right optCol\">+2.9 %</td></tr>\
+<tr><td class=center>7</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Komodo</td><td class=right>5.23 %</td><td class=\"right optCol\">-2.3 %</td></tr>\
+<tr><td class=center>8</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Android Studio</td><td class=right>5.08 %</td><td class=\"right optCol\">+2.8 %</td></tr>\
+<tr><td class=center>9</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Light Table</td><td class=right>4.79 %</td><td class=\"right optCol\">-1.8 %</td></tr>\
+<tr><td class=center>10</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Sublime Text</td><td class=right>3.86 %</td><td class=\"right optCol\">-2.9 %</td></tr>\
+<tr><td class=center>11</td><td class=center><image src=Down.png><image src=Down.png></td><td>NetBeans</td><td class=right>2.37 %</td><td class=\"right optCol\">-2.2 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Up.png><image src=Up.png></td><td>pyCharm</td><td class=right>2.29 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>13</td><td class=center><image src=Down.png><image src=Down.png></td><td>Emacs</td><td class=right>2.11 %</td><td class=\"right optCol\">-1.3 %</td></tr>\
+<tr><td class=center>14</td><td class=center><image src=Down.png></td><td>PhpStorm</td><td class=right>1.97 %</td><td class=\"right optCol\">-0.5 %</td></tr>\
+<tr><td class=center>15</td><td class=center></td><td>Cloud9</td><td class=right>1.08 %</td><td class=\"right optCol\">-1.1 %</td></tr>\
+<tr><td class=center>16</td><td class=center><image src=Up.png><image src=Up.png></td><td>JDeveloper</td><td class=right>0.53 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>17</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Qt Creator</td><td class=right>0.41 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>18</td><td class=center><image src=Up.png></td><td>geany</td><td class=right>0.4 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>19</td><td class=center><image src=Down.png><image src=Down.png></td><td>MonoDevelop</td><td class=right>0.39 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
+<tr><td class=center>20</td><td class=center><image src=Up.png></td><td>RubyMine</td><td class=right>0.39 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>21</td><td class=center><image src=Up.png></td><td>Coda 2</td><td class=right>0.27 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>22</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Aptana</td><td class=right>0.26 %</td><td class=\"right optCol\">-0.3 %</td></tr>\
+<tr><td class=center>23</td><td class=center></td><td>SharpDevelop</td><td class=right>0.24 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>24</td><td class=center><image src=Up.png></td><td>JCreator</td><td class=right>0.07 %</td><td class=\"right optCol\">+0.0 %</td></tr>\
+<tr><td class=center>25</td><td class=center><image src=Down.png></td><td>Zend Studio</td><td class=right>0.03 %</td><td class=\"right optCol\">-0.1 %</td>\
+<!-- end section GB-->\
+";
+}
+if (getUrlParameter('country') == "FR") {
+cloud = "FR.png"
+table = "<!-- begin section FR-->\
+<td class=center>1</td><td class=center></td><td>Eclipse</td><td class=right>27.18 %</td><td class=\"right optCol\">-22.2 %</td></tr>\
+<tr><td class=center>2</td><td class=center></td><td>Visual Studio</td><td class=right>17.43 %</td><td class=\"right optCol\">-4.2 %</td></tr>\
+<tr><td class=center>3</td><td class=center></td><td>Vim</td><td class=right>7.68 %</td><td class=\"right optCol\">-15.2 %</td></tr>\
+<tr><td class=center>4</td><td class=center></td><td>Android Studio</td><td class=right>6.86 %</td><td class=\"right optCol\">-11.0 %</td></tr>\
+<tr><td class=center>5</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Sublime Text</td><td class=right>6.68 %</td><td class=\"right optCol\">+9.2 %</td></tr>\
+<tr><td class=center>6</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Komodo</td><td class=right>5.3 %</td><td class=\"right optCol\">+7.0 %</td></tr>\
+<tr><td class=center>7</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>IntelliJ</td><td class=right>5.22 %</td><td class=\"right optCol\">+6.9 %</td></tr>\
+<tr><td class=center>8</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Xcode</td><td class=right>4.28 %</td><td class=\"right optCol\">+2.6 %</td></tr>\
+<tr><td class=center>9</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Xamarin</td><td class=right>3.68 %</td><td class=\"right optCol\">+4.9 %</td></tr>\
+<tr><td class=center>10</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>NetBeans</td><td class=right>3.53 %</td><td class=\"right optCol\">+5.1 %</td></tr>\
+<tr><td class=center>11</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png></td><td>PhpStorm</td><td class=right>2.99 %</td><td class=\"right optCol\">+4.0 %</td></tr>\
+<tr><td class=center>12</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Emacs</td><td class=right>2.64 %</td><td class=\"right optCol\">+3.6 %</td></tr>\
+<tr><td class=center>13</td><td class=center><image src=Down.png></td><td>pyCharm</td><td class=right>1.5 %</td><td class=\"right optCol\">+2.2 %</td></tr>\
+<tr><td class=center>14</td><td class=center><image src=Up.png><image src=Up.png></td><td>Qt Creator</td><td class=right>1.38 %</td><td class=\"right optCol\">+1.8 %</td></tr>\
+<tr><td class=center>15</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>Cloud9</td><td class=right>0.87 %</td><td class=\"right optCol\">+1.3 %</td></tr>\
+<tr><td class=center>16</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>geany</td><td class=right>0.66 %</td><td class=\"right optCol\">+0.9 %</td></tr>\
+<tr><td class=center>17</td><td class=center></td><td>Aptana</td><td class=right>0.39 %</td><td class=\"right optCol\">+0.5 %</td></tr>\
+<tr><td class=center>18</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>MonoDevelop</td><td class=right>0.37 %</td><td class=\"right optCol\">+0.6 %</td></tr>\
+<tr><td class=center>19</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Light Table</td><td class=right>0.35 %</td><td class=\"right optCol\">+0.5 %</td></tr>\
+<tr><td class=center>20</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>JDeveloper</td><td class=right>0.26 %</td><td class=\"right optCol\">+0.4 %</td></tr>\
+<tr><td class=center>21</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>RubyMine</td><td class=right>0.26 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>22</td><td class=center><image src=Down.png></td><td>Coda 2</td><td class=right>0.2 %</td><td class=\"right optCol\">+0.3 %</td></tr>\
+<tr><td class=center>23</td><td class=center><image src=Down.png></td><td>Zend Studio</td><td class=right>0.1 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>24</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>SharpDevelop</td><td class=right>0.09 %</td><td class=\"right optCol\">+0.2 %</td></tr>\
+<tr><td class=center>25</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png></td><td>JCreator</td><td class=right>0.06 %</td><td class=\"right optCol\">+0.1 %</td></tr>\
+<tr><td class=center>26</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>DrJava</td><td class=right>0.03 %</td><td class=\"right optCol\">+0.1 %</td>\
+<!-- end section FR-->\
+";
+}
+
+table = "<table class=table><tr><th class=center>Rank<br></th><th class=center>Change</th><th>IDE</th><th class=center>Share</th><th class=\"optCol center\">Trend</th></tr><tr>" + table + "</tr><tr><td colspan=5 align=right>&copy; Pierre Carbonnelle, 2016</td></tr></table>"
+document.getElementById("table").innerHTML=table;
+document.getElementById("cloud").src="ODE/"+cloud;
+} // refreshTop
+</script>
+
+  </head>
+  
+  
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand active" href="#">&nbsp;</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="PYPL.html">PYPL Index</a></li>
+            <li class=active><a href="IDE.html">TOP IDE index</a></li>
+            <li><a href="DB.html">TOP DB Index</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<div class="container-fluid page">
+  <div class="row blue">
+  <br><br><br><br>
+        <h1 class="text-center">TOP ODE index</h1>
+
+         <!--<p class=text-center><a href="?">Worldwide</a> <a href="?country=US">US</a></p>-->
+
+         <!-- <div class="visible-xs">xs</div><div class="visible-sm">sm</div><div class="visible-md">md</div><div class="visible-lg">lg</div>-->
+
+        <div class="col-sm-5 col-md-5 col-lg-4 col-lg-offset-1 top-buffer50">
+          <span>
+            <p class=lead>The TOP ODE Index is created by analyzing how often Online IDEs are searched on Google</p>
+            <p>The more an Online IDE is searched, the more popular the Online IDE is assumed to be. The raw data comes from Google Trends.</p>
+            <p>If you believe in collective wisdom, the TOP ODE index can help you decide which Online IDE to use for your software development project.  </p>
+            <p><br></p>
+            <p class=text-center><img id=cloud></p>
+          </span>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
+            <p>
+            <script>document.write('<b>'+((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])+'</b>, '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> compared to a year ago:</p>
+            <div id=table></div>
+            <script>refreshTop()</script>
+        </div>
+  </div>
+  <div class = "row text-center" style="background: #eee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eee 0%, #eee 50%, #ffffff 50%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(50%,#eee), color-stop(50%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* W3C */
+    ">
+    <br><br>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- border -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7195251742968320"
+         data-ad-slot="9829508099"
+         data-ad-format="auto"></ins>
+    <br><br>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  <div id=chartPage class="row">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
+        <p id=topBottom class="lead text-center">Loading...</p>
+    </div>
+    <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 400px">
+        <img src="482.gif" class="img-responsive center-block">
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
+        <p class="lead">
+          This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite IDE 
+          <select id=selectLang class="selectpicker" multiple title='Choose ODE...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3"></select>
+          in a country <select id=selectCountry class="selectpicker" data-style="btn-success" data-width="auto"></select>
+        </p>
+    </div>
+   </div>
+ <div class = "row text-center" style="background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #eee 50%, #eee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#ffffff), color-stop(50%,#eee), color-stop(100%,#eee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 50%,#eee 50%,#eee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffff 50%,#eee 50%,#eee 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 50%,#eee 50%,#eee 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#ffffff 50%,#eee 50%,#eee 100%); /* W3C */
+	">
+    <br><br>
+    <!-- border -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7195251742968320"
+         data-ad-slot="9829508099"
+         data-ad-format="auto"></ins>
+    <br><br>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  <div id=OtherPage class="row blue">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
+        <p class="lead">
+          Please have a look at our other popularity indices :
+        </p>
+        <div class="col-xs-6 col-sm-3" align="center">
+            <img src="PYPL/All.png" width="100%">
+            <a href="PYPL.html">PYPL PopularitY of Programming Languages</a>
+        </div>
+        <div class="col-xs-6 col-sm-3" align="center">
+            <img src="IDE/All.png" width="100%">
+            <a href="IDE.html">Top IDE Integrated Development Environment</a>
+        </div>
+        <div class="col-xs-6 col-sm-3" align="center">
+            <img src="DB/All.png" width="100%">
+            <a href="DB.html">Top Databases</a>
+        </div>
+    </div>
+   </div>
+  <div class = "row text-center" style="background: #eee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eee 0%, #eee 50%, #ffffff 50%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(50%,#eee), color-stop(50%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* W3C */
+    ">
+    <br><br>
+    <!-- border -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7195251742968320"
+         data-ad-slot="9829508099"
+         data-ad-format="auto"></ins>
+    <br><br>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+        <h1>Share</h1>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_native_toolbox text-center"></div>
+        <br><br>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 vcenter">
+        <h1>FAQ</h1>
+        <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseZero">What is the TOP ODE index ?</a>
+                </h4>
+            </div>
+            <div id="collapseZero" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <p>The TOP ODE Index is created by analyzing how often Online IDEs are searched on Google : the more an Online IDE is searched, the more popular the IDE is assumed to be. The raw data comes from Google Trends.</p>
+                    <p>If you believe in collective wisdom, the TOP ODE index can help you decide which Online IDE to use for your software development project.  </p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">My favorite IDE is not in the index ! Why ?</a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>Some IDE are not listed because their name has other meanings, or because there is not enough data for them on Google Trends.</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">How do you compute the popularity of IDE ?</a>
+                </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div>We export the data from Google Trends in CSV format,
+                    <sup><a href="http://support.google.com/trends/bin/answer.py?hl=en&amp;answer=87289">[s]</a></sup> 
+                    and analyze it with <a href=https://sites.google.com/site/pydatalog/home>pyDatalog</a>.  
+                    We first calculate the interest of each IDE relative to Visual Studio every month.    
+                    Normalizing the total to 100% yields the share of interest in each IDE, i.e. their popularity, which we smooth over 6 months.  
+                    Linear regression over the last 12 months gives the yearly trends.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Can I copy material from this page ?</a>
+                </h4>
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a>.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 text-right">
+        <script type="text/javascript" language="javascript">
+        <!--
+        { coded = "R6WZZW.J5Z8ckkWeeW@Ap56e.Jcp"
+          key = "lj3IimEGqygawVYT978ucFLZHnOXeQdM6pKxS2A5sNCBv1UDJ4htbko0WrPzfR"
+          shift=coded.length
+          link=""
+          for (i=0; i<coded.length; i++) {
+            if (key.indexOf(coded.charAt(i))==-1) {
+              ltr = coded.charAt(i)
+              link += (ltr)
+            }
+            else {     
+              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+              link += (key.charAt(ltr))
+            }
+          }
+        document.write("<a href='mailto:"+link+"'>Contact</a>")
+        }
+        //-->
+        </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+        &copy; Pierre Carbonnelle, 2016
+        <p><br><br><br><br>.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+
+<script type="text/javascript" src="js/bootstrap-select.js"></script>
+
+<!-- Google -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+<script>
+$.ajaxSetup({async:false});
+if (getUrlParameter('country') == "") {$.getScript("IDE/All.js?t=axbAll4584Allbxa")}
+if (getUrlParameter('country') == "US") {$.getScript("IDE/US.js?t=axbUS4268USbxa")}
+if (getUrlParameter('country') == "DE") {$.getScript("IDE/DE.js?t=axbDE6620DEbxa")}
+if (getUrlParameter('country') == "IN") {$.getScript("IDE/IN.js?t=axbIN5796INbxa")}
+if (getUrlParameter('country') == "GB") {$.getScript("IDE/GB.js?t=axbGB3775GBbxa")}
+if (getUrlParameter('country') == "FR") {$.getScript("IDE/FR.js?t=axbFR9556FRbxa")}
+$.ajaxSetup({async:true});
+
+document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular IDE, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)', 
+    graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100*PlusMinus[0]).toFixed(1), graphData[0][TopPlusMinus[2]], (100*PlusMinus[1]).toFixed(1));
+
+document.getElementById('PYPL').style.height=""
+
+for (var lang in graphData[0]) {
+    if (0<lang) {
+        var opt = document.createElement('option');
+        opt.value = lang;
+        opt.innerHTML = graphData[0][lang];
+        document.getElementById('selectLang').appendChild(opt);//$('selectLang') not working here
+    }
+}; 
+$('#selectLang').selectpicker('render');
+
+for (var c in country) {
+    if (country.hasOwnProperty(c)) {
+        var opt = document.createElement('option');
+        opt.value = c;
+        opt.selected = (getUrlParameter('country')==country[c])
+        opt.innerHTML = country[c];
+        document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
+    }
+}; 
+document.getElementById('selectCountry').onchange = function() {
+    window.location = window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val()
+    };
+
+google.load("visualization", "1", {packages:["corechart"]});
+function drawChart() {
+  
+    var options = {
+      chartArea: {height: '400px'},
+      vAxis: { 
+        logScale: true,
+        format:'##%',
+        viewWindow:{ // range from 0.5% to 60 %
+            max:0.6, 
+            min:0.005
+          }
+        },
+        curveType: 'function'
+    };
+
+    // get window size
+    // http://www.javascripter.net/faq/browserw.htm
+    var winW = 630, winH = 460;
+    if (document.body && document.body.offsetWidth) {
+     winW = document.body.offsetWidth;
+     winH = document.body.offsetHeight;
+    }
+    if (document.compatMode=='CSS1Compat' &&
+        document.documentElement &&
+        document.documentElement.offsetWidth ) {
+     winW = document.documentElement.offsetWidth;
+     winH = document.documentElement.offsetHeight;
+    }
+    if (window.innerWidth && window.innerHeight) {
+     winW = window.innerWidth;
+     winH = window.innerHeight;
+    }       
+    var ori = window.orientation
+    if (ori==90 || ori==-90) {
+        var a = winW
+        winW = winH
+        winH = a
+    };
+    
+    // move legend to bottom if narrow screen
+    if (winW <= 500) {
+        options.legend = { position: 'bottom' };
+        };
+
+    options.title = 'TOP ODE index';
+    var data1 = google.visualization.arrayToDataTable(graphData);
+    var formatter = new google.visualization.NumberFormat({pattern:'##.##%'});
+  formatter.format(data1, 1);
+  formatter.format(data1, 2);
+  formatter.format(data1, 3);
+  formatter.format(data1, 4);
+  formatter.format(data1, 5);
+  formatter.format(data1, 6);
+  formatter.format(data1, 7);
+  formatter.format(data1, 8);
+  formatter.format(data1, 9);
+  formatter.format(data1, 10);
+  formatter.format(data1, 11);
+  formatter.format(data1, 12);
+  formatter.format(data1, 13);
+  formatter.format(data1, 14);
+  formatter.format(data1, 15);
+    var view = new google.visualization.DataView(data1);
+    var sel = $("#selectLang").val();
+    if (!sel){
+        sel = []
+        for (var key in TopPlusMinus){
+            if ($.inArray(TopPlusMinus[key], sel)==-1) // not in array already
+                sel.push(TopPlusMinus[key])
+        }
+    }
+   var keys = [];
+   keys.push(0);
+   for(var key in sel){
+      keys.push(eval(sel[key]));
+   }
+   view.setColumns(keys)
+   document.getElementById('PYPL').style.height="400px";
+/*   if (winH < 300)      {document.getElementById('PYPL').style.height="50%"}
+   else if (winH < 600) {document.getElementById('PYPL').style.height="60%"}
+   else                 {document.getElementById('PYPL').style.height="70%"};
+*/
+    var chart = new google.visualization.LineChart(document.getElementById('PYPL'));
+    chart.draw(view, options);
+} // end drawChart()
+
+google.setOnLoadCallback(drawChart);
+$( "#selectLang" ).change( function () {
+    drawChart()
+});
+window.onresize = drawChart;
+$(window).on("orientationchange", drawChart);
+$( document ).ready(function() {
+    $('#selectCountry').selectpicker('render');
+    drawChart()
+})
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54a6febc2c2b7cc0" async="async"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4773985-3', 'auto');
+  ga('send', 'pageview');
+
+</script>    
+  </body>
+</html>
