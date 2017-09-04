@@ -619,7 +619,6 @@ if (getUrlParameter('country') == "FR") {$.getScript("DB/FR.js?t=axbFR4875FRbxa"
 $.ajaxSetup({async:true});
 
 upDate = graphData[graphData.length - 1][0]
-prompt(upDate.getMonth())
 document.getElementById('countryDate').innerHTML =
     '<b>'
     +(((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])
