@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="Nov 2017bis">
+    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/All.png" afterPath="$PROJECT_DIR$/DB/All.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DE.png" afterPath="$PROJECT_DIR$/DB/DE.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/FR.png" afterPath="$PROJECT_DIR$/DB/FR.png" />
@@ -79,11 +79,21 @@
       <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43916914">
-              <caret line="363" column="33" selection-start-line="363" selection-start-column="33" selection-end-line="363" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.2670623">
+              <caret line="326" column="17" selection-start-line="326" selection-start-column="17" selection-end-line="326" selection-end-column="17" />
               <folding>
                 <element signature="e#231#266#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errorhandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/IDE.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="596" column="43" selection-start-line="596" selection-start-column="43" selection-end-line="596" selection-end-column="43" />
+              <caret line="595" column="43" selection-start-line="595" selection-start-column="43" selection-end-line="595" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -200,8 +210,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -457,12 +467,6 @@
       <created>1444070557356</created>
       <option name="number" value="Default" />
       <updated>1444070557356</updated>
-    </task>
-    <task id="LOCAL-00010" summary="make it possible to reselect worldwide frm other country">
-      <created>1451562097382</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1451562097382</updated>
     </task>
     <task id="LOCAL-00011" summary="idem for DB and IDE">
       <created>1451562263810</created>
@@ -752,19 +756,25 @@
       <option name="project" value="LOCAL" />
       <updated>1510558349066</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Nov 2017bis">
+      <created>1512416802763</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1512416802764</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="-9" width="1846" height="1098" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21498907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673575" sideWeight="0.5765864" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673575" sideWeight="0.5782276" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.47811815" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673575" sideWeight="0.42341357" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673575" sideWeight="0.42177242" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -829,19 +839,17 @@
           <url>file://$PROJECT_DIR$/../../BitBucket/IPLP/test_v.py</url>
           <line>27</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py</url>
+          <line>334</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PYPL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="247" column="37" selection-start-line="247" selection-start-column="37" selection-end-line="247" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IDE.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1189,7 +1197,7 @@
     <entry file="file://$PROJECT_DIR$/IDE.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="596" column="43" selection-start-line="596" selection-start-column="43" selection-end-line="596" selection-end-column="43" />
+          <caret line="595" column="43" selection-start-line="595" selection-start-column="43" selection-end-line="595" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1233,10 +1241,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43916914">
-          <caret line="363" column="33" selection-start-line="363" selection-start-column="33" selection-end-line="363" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.2670623">
+          <caret line="326" column="17" selection-start-line="326" selection-start-column="17" selection-end-line="326" selection-end-column="17" />
           <folding>
             <element signature="e#231#266#0" expanded="true" />
           </folding>
