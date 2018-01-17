@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/All.png" afterPath="$PROJECT_DIR$/DB/All.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DE.png" afterPath="$PROJECT_DIR$/DB/DE.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/FR.png" afterPath="$PROJECT_DIR$/DB/FR.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/GB.png" afterPath="$PROJECT_DIR$/DB/GB.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/IN.png" afterPath="$PROJECT_DIR$/DB/IN.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/US.png" afterPath="$PROJECT_DIR$/DB/US.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/All.png" afterPath="$PROJECT_DIR$/IDE/All.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/DE.png" afterPath="$PROJECT_DIR$/IDE/DE.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/FR.png" afterPath="$PROJECT_DIR$/IDE/FR.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/GB.png" afterPath="$PROJECT_DIR$/IDE/GB.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/IN.png" afterPath="$PROJECT_DIR$/IDE/IN.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/US.png" afterPath="$PROJECT_DIR$/IDE/US.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/All.png" afterPath="$PROJECT_DIR$/ODE/All.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/DE.png" afterPath="$PROJECT_DIR$/ODE/DE.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/FR.png" afterPath="$PROJECT_DIR$/ODE/FR.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/GB.png" afterPath="$PROJECT_DIR$/ODE/GB.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/IN.png" afterPath="$PROJECT_DIR$/ODE/IN.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/US.png" afterPath="$PROJECT_DIR$/ODE/US.png" />
+    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="Jan 2018">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.png" afterPath="$PROJECT_DIR$/PYPL/All.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.png" afterPath="$PROJECT_DIR$/PYPL/DE.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.png" afterPath="$PROJECT_DIR$/PYPL/FR.png" />
@@ -29,26 +11,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB.html" afterPath="$PROJECT_DIR$/DB.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/All.js" afterPath="$PROJECT_DIR$/DB/All.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DE.js" afterPath="$PROJECT_DIR$/DB/DE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/FR.js" afterPath="$PROJECT_DIR$/DB/FR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/GB.js" afterPath="$PROJECT_DIR$/DB/GB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/IN.js" afterPath="$PROJECT_DIR$/DB/IN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/US.js" afterPath="$PROJECT_DIR$/DB/US.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE.html" afterPath="$PROJECT_DIR$/IDE.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/All.js" afterPath="$PROJECT_DIR$/IDE/All.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/DE.js" afterPath="$PROJECT_DIR$/IDE/DE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/FR.js" afterPath="$PROJECT_DIR$/IDE/FR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/GB.js" afterPath="$PROJECT_DIR$/IDE/GB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/IN.js" afterPath="$PROJECT_DIR$/IDE/IN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/US.js" afterPath="$PROJECT_DIR$/IDE/US.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE.html" afterPath="$PROJECT_DIR$/ODE.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/All.js" afterPath="$PROJECT_DIR$/ODE/All.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/DE.js" afterPath="$PROJECT_DIR$/ODE/DE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/FR.js" afterPath="$PROJECT_DIR$/ODE/FR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/GB.js" afterPath="$PROJECT_DIR$/ODE/GB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/IN.js" afterPath="$PROJECT_DIR$/ODE/IN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/US.js" afterPath="$PROJECT_DIR$/ODE/US.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL.html" afterPath="$PROJECT_DIR$/PYPL.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.js" afterPath="$PROJECT_DIR$/PYPL/All.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.js" afterPath="$PROJECT_DIR$/PYPL/DE.js" />
@@ -79,30 +43,8 @@
       <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2670623">
-              <caret line="326" column="17" selection-start-line="326" selection-start-column="17" selection-end-line="326" selection-end-column="17" />
-              <folding>
-                <element signature="e#231#266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errorhandler.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="All.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDE/All.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.03264095">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,8 +53,8 @@
       <file leaf-file-name="PYPL.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYPL.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="152" column="34" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
+            <state vertical-scroll-proportion="-8.67742">
+              <caret line="757" column="8" selection-start-line="757" selection-start-column="8" selection-end-line="757" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -122,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/DB.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="620" column="43" selection-start-line="620" selection-start-column="43" selection-end-line="620" selection-end-column="43" />
+              <caret line="349" column="260" selection-start-line="349" selection-start-column="260" selection-end-line="349" selection-end-column="260" />
               <folding />
             </state>
           </provider>
@@ -132,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/IDE.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="595" column="43" selection-start-line="595" selection-start-column="43" selection-end-line="595" selection-end-column="43" />
+              <caret line="324" column="255" selection-start-line="324" selection-start-column="255" selection-end-line="324" selection-end-column="255" />
               <folding />
             </state>
           </provider>
@@ -141,18 +83,8 @@
       <file leaf-file-name="ODE.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ODE.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="500" column="46" selection-start-line="500" selection-start-column="46" selection-end-line="500" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="All.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PYPL/All.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+            <state vertical-scroll-proportion="-9.67742">
+              <caret line="233" column="255" selection-start-line="233" selection-start-column="255" selection-end-line="233" selection-end-column="255" />
               <folding />
             </state>
           </provider>
@@ -171,10 +103,10 @@
       <list>
         <option value="$PROJECT_DIR$/../../BitBucket/IPLP/test_v.py" />
         <option value="$PROJECT_DIR$/../../BitBucket/IPLP/traversal.py" />
-        <option value="$PROJECT_DIR$/PYPL.html" />
         <option value="$PROJECT_DIR$/DB.html" />
         <option value="$PROJECT_DIR$/IDE.html" />
         <option value="$PROJECT_DIR$/ODE.html" />
+        <option value="$PROJECT_DIR$/PYPL.html" />
         <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" />
       </list>
     </option>
@@ -210,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -240,8 +171,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pypl.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pypl.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PYPL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,12 +413,6 @@
       <created>1444070557356</created>
       <option name="number" value="Default" />
       <updated>1444070557356</updated>
-    </task>
-    <task id="LOCAL-00011" summary="idem for DB and IDE">
-      <created>1451562263810</created>
-      <option name="number" value="00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1451562263810</updated>
     </task>
     <task id="LOCAL-00012" summary="Dec data">
       <created>1451821030927</created>
@@ -762,19 +702,26 @@
       <option name="project" value="LOCAL" />
       <updated>1512416802764</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Jan 2018">
+      <created>1514929039979</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1514929039981</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="-9" width="1846" height="1098" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21498907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673575" sideWeight="0.5782276" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.57986873" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.47811815" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673575" sideWeight="0.42177242" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673575" sideWeight="0.4201313" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -788,7 +735,6 @@
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -805,7 +751,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Chabloo2 on PYPL" />
     <MESSAGE value="revert to matrix" />
     <MESSAGE value="fix jumping ads after graph" />
     <MESSAGE value="fix jumping ads in IDE, DB" />
@@ -830,7 +775,8 @@
     <MESSAGE value="Oct 2017" />
     <MESSAGE value="Nov 2017 + new fetch" />
     <MESSAGE value="Nov 2017bis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nov 2017bis" />
+    <MESSAGE value="Jan 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jan 2018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,36 +787,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py</url>
-          <line>334</line>
+          <line>342</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IDE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-select.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="52" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-select.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="2457" selection-start-line="5" selection-start-column="2457" selection-end-line="5" selection-end-column="2457" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DB.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -882,9 +807,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,9 +850,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -972,9 +893,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,9 +922,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,9 +951,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,9 +980,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,9 +988,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,9 +996,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,9 +1004,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,9 +1012,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,9 +1020,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,9 +1028,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,9 +1036,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,30 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="620" column="43" selection-start-line="620" selection-start-column="43" selection-end-line="620" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="595" column="43" selection-start-line="595" selection-start-column="43" selection-end-line="595" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ODE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="500" column="46" selection-start-line="500" selection-start-column="46" selection-end-line="500" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/_strptime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.5895765">
@@ -1233,29 +1108,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PYPL.html">
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.3501484">
+          <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="34" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
+          <caret line="349" column="260" selection-start-line="349" selection-start-column="260" selection-end-line="349" selection-end-column="260" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+    <entry file="file://$PROJECT_DIR$/IDE.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+          <caret line="324" column="255" selection-start-line="324" selection-start-column="255" selection-end-line="324" selection-end-column="255" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ODE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.67742">
+          <caret line="233" column="255" selection-start-line="233" selection-start-column="255" selection-end-line="233" selection-end-column="255" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/shutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYPL/FR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYPL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.67742">
+          <caret line="757" column="8" selection-start-line="757" selection-start-column="8" selection-end-line="757" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYPL/GB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47774482">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2670623">
-          <caret line="326" column="17" selection-start-line="326" selection-start-column="17" selection-end-line="326" selection-end-column="17" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.03264095">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
