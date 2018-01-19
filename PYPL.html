@@ -605,6 +605,17 @@ if (getUrlParameter('country') == "FR") {$.getScript("PYPL/FR.js?t=axbFR2571FRbx
 $.ajaxSetup({async:true});
 
 upDate = graphData[graphData.length - 1][0]
+// make sure we have enough data
+count = graphData[graphData.length - 1].length;
+for (var row in graphData) {
+  if (0 < row) { // ignore first line
+    if (graphData[row].length < count) {
+        for (i = graphData[row].length; i < count;  i++) {
+          graphData[row][i]= 0.0;
+        }
+    }
+  }
+}
 document.getElementById('countryDate').innerHTML =
     '<b>'
     +(((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])
