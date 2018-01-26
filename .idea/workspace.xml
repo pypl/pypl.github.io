@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="create string for table, raw data">
+    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="full new PYPL">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.png" afterPath="$PROJECT_DIR$/PYPL/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.png" afterPath="$PROJECT_DIR$/PYPL/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.png" afterPath="$PROJECT_DIR$/PYPL/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/GB.png" afterPath="$PROJECT_DIR$/PYPL/GB.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/IN.png" afterPath="$PROJECT_DIR$/PYPL/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/US.png" afterPath="$PROJECT_DIR$/PYPL/US.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Knowledge.yaml" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Knowledge.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Untitled.ipynb" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Untitled.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL.html" afterPath="$PROJECT_DIR$/PYPL.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.js" afterPath="$PROJECT_DIR$/PYPL/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.js" afterPath="$PROJECT_DIR$/PYPL/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.js" afterPath="$PROJECT_DIR$/PYPL/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/GB.js" afterPath="$PROJECT_DIR$/PYPL/GB.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/IN.js" afterPath="$PROJECT_DIR$/PYPL/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/US.js" afterPath="$PROJECT_DIR$/PYPL/US.js" />
     </list>
     <ignored path="pypl.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2777777">
-              <caret line="268" column="4" selection-start-line="268" selection-start-column="4" selection-end-line="269" selection-end-column="121" />
+            <state vertical-scroll-proportion="0.29776248">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#231#266#0" expanded="true" />
               </folding>
@@ -45,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="100" column="18" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -53,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IN.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IN.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYPL/IN.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5273973">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -66,8 +78,8 @@
       <file leaf-file-name="PYPL.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYPL.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.548387">
-              <caret line="218" column="30" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="30" />
+            <state vertical-scroll-proportion="-8.5161295">
+              <caret line="225" column="30" selection-start-line="225" selection-start-column="30" selection-end-line="225" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -131,7 +143,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../BitBucket/pypl.py" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -150,8 +162,8 @@
         <option value="$PROJECT_DIR$/ODE.html" />
         <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/OneYear.py" />
         <option value="$PROJECT_DIR$/PYPL.html" />
-        <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" />
         <option value="$PROJECT_DIR$/PYPL/IN.js" />
+        <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" />
         <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" />
       </list>
     </option>
@@ -502,12 +514,6 @@
       <option name="number" value="Default" />
       <updated>1444070557356</updated>
     </task>
-    <task id="LOCAL-00019" summary="April data">
-      <created>1462301867564</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1462301867564</updated>
-    </task>
     <task id="LOCAL-00020" summary="May data">
       <created>1465326505225</created>
       <option name="number" value="00020" />
@@ -796,7 +802,13 @@
       <option name="project" value="LOCAL" />
       <updated>1516916235476</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="cloud">
+      <created>1516918240053</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1516918240053</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -809,7 +821,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.57986873" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.47811815" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34151548" sideWeight="0.4201313" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34471717" sideWeight="0.4201313" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -862,7 +874,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Top ODE" />
     <MESSAGE value="Top ODE, other countries" />
     <MESSAGE value="Nov updtate (-DB)" />
     <MESSAGE value="Nov updtate (DB)" />
@@ -887,7 +898,8 @@
     <MESSAGE value="mean over sort" />
     <MESSAGE value="keep only one search_group per year.  PYPL:All, FR, IN" />
     <MESSAGE value="create string for table, raw data" />
-    <option name="LAST_COMMIT_MESSAGE" value="create string for table, raw data" />
+    <MESSAGE value="cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloud" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,6 +1204,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,6 +1212,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,6 +1220,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="136" selection-start-line="15" selection-start-column="136" selection-end-line="15" selection-end-column="136" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,6 +1228,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,24 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PYPL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.548387">
-          <caret line="218" column="30" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PYPL/All.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1309,21 +1307,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
+    <entry file="file://$PROJECT_DIR$/PYPL/IN.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2777777">
-          <caret line="268" column="4" selection-start-line="268" selection-start-column="4" selection-end-line="269" selection-end-column="121" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYPL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5161295">
+          <caret line="225" column="30" selection-start-line="225" selection-start-column="30" selection-end-line="225" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="18" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
           <folding>
-            <element signature="e#231#266#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PYPL/IN.js">
+    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5273973">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="0.29776248">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#231#266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
