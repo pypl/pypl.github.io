@@ -544,11 +544,10 @@ document.getElementById("cloud").src="DB/"+cloud;
             <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
                     <div>We export the data from Google Trends in CSV format,
-                    <sup><a href="http://support.google.com/trends/bin/answer.py?hl=en&amp;answer=87289">[s]</a></sup> 
-                    and analyze it with <a href=https://sites.google.com/site/pydatalog/home>pyDatalog</a>.  
-                    We first calculate the interest of each Database relative to Visual Studio every month.    
-                    Normalizing the total to 100% yields the share of interest in each Database, i.e. their popularity, which we smooth over 6 months.  
-                    Linear regression over the last 12 months gives the yearly trends.
+                    <sup><a href="http://support.google.com/trends/bin/answer.py?hl=en&amp;answer=87289">[s]</a></sup>
+                    and analyze it with python's pandas.
+                    We first calculate the interest of each Database relative to Oracle every month.
+                    Normalizing the total to 100% yields the share of interest in each database, i.e. their popularity, which we smooth over 6 months.
                     </div>
                 </div>
             </div>
