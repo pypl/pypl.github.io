@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="Feb 2018, PYPL, IDE">
+    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="Feb 2018, ODE, DB">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/All.png" afterPath="$PROJECT_DIR$/DB/All.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DE.png" afterPath="$PROJECT_DIR$/DB/DE.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/FR.png" afterPath="$PROJECT_DIR$/DB/FR.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/GB.png" afterPath="$PROJECT_DIR$/DB/GB.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/IN.png" afterPath="$PROJECT_DIR$/DB/IN.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/US.png" afterPath="$PROJECT_DIR$/DB/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/All.png" afterPath="$PROJECT_DIR$/IDE/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/DE.png" afterPath="$PROJECT_DIR$/IDE/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/FR.png" afterPath="$PROJECT_DIR$/IDE/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/GB.png" afterPath="$PROJECT_DIR$/IDE/GB.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/IN.png" afterPath="$PROJECT_DIR$/IDE/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/US.png" afterPath="$PROJECT_DIR$/IDE/US.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/All.png" afterPath="$PROJECT_DIR$/ODE/All.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/DE.png" afterPath="$PROJECT_DIR$/ODE/DE.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/FR.png" afterPath="$PROJECT_DIR$/ODE/FR.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/GB.png" afterPath="$PROJECT_DIR$/ODE/GB.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/IN.png" afterPath="$PROJECT_DIR$/ODE/IN.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/US.png" afterPath="$PROJECT_DIR$/ODE/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.png" afterPath="$PROJECT_DIR$/PYPL/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.png" afterPath="$PROJECT_DIR$/PYPL/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.png" afterPath="$PROJECT_DIR$/PYPL/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/GB.png" afterPath="$PROJECT_DIR$/PYPL/GB.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/IN.png" afterPath="$PROJECT_DIR$/PYPL/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/US.png" afterPath="$PROJECT_DIR$/PYPL/US.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Knowledge.yaml" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Knowledge.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" />
@@ -25,6 +37,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/GB.js" afterPath="$PROJECT_DIR$/DB/GB.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/IN.js" afterPath="$PROJECT_DIR$/DB/IN.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/US.js" afterPath="$PROJECT_DIR$/DB/US.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE.html" afterPath="$PROJECT_DIR$/IDE.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/All.js" afterPath="$PROJECT_DIR$/IDE/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/DE.js" afterPath="$PROJECT_DIR$/IDE/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/FR.js" afterPath="$PROJECT_DIR$/IDE/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/GB.js" afterPath="$PROJECT_DIR$/IDE/GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/IN.js" afterPath="$PROJECT_DIR$/IDE/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/US.js" afterPath="$PROJECT_DIR$/IDE/US.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE.html" afterPath="$PROJECT_DIR$/ODE.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/All.js" afterPath="$PROJECT_DIR$/ODE/All.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/DE.js" afterPath="$PROJECT_DIR$/ODE/DE.js" />
@@ -32,6 +51,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/GB.js" afterPath="$PROJECT_DIR$/ODE/GB.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/IN.js" afterPath="$PROJECT_DIR$/ODE/IN.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/US.js" afterPath="$PROJECT_DIR$/ODE/US.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL.html" afterPath="$PROJECT_DIR$/PYPL.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.js" afterPath="$PROJECT_DIR$/PYPL/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.js" afterPath="$PROJECT_DIR$/PYPL/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.js" afterPath="$PROJECT_DIR$/PYPL/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/GB.js" afterPath="$PROJECT_DIR$/PYPL/GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/IN.js" afterPath="$PROJECT_DIR$/PYPL/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/US.js" afterPath="$PROJECT_DIR$/PYPL/US.js" />
     </list>
     <ignored path="pypl.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="235" column="6" selection-start-line="235" selection-start-column="4" selection-end-line="235" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.21978022">
+              <caret line="228" column="18" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
               <folding>
                 <element signature="e#231#266#0" expanded="true" />
               </folding>
@@ -64,41 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="All.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DB/All.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DE.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DB/DE.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FR.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DB/FR.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Frame.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="250" column="14" selection-start-line="250" selection-start-column="14" selection-end-line="250" selection-end-column="14" />
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="269" column="12" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="12" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -109,15 +105,19 @@
       <file leaf-file-name="PYPL.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYPL.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7419355">
-              <caret line="495" column="0" selection-start-line="476" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.6119404">
+              <caret line="605" column="43" selection-start-line="605" selection-start-column="43" selection-end-line="605" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="All.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PYPL/All.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +125,7 @@
       <file leaf-file-name="DB.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5161295">
+            <state vertical-scroll-proportion="0.0">
               <caret line="677" column="21" selection-start-line="677" selection-start-column="21" selection-end-line="677" selection-end-column="21" />
               <folding />
             </state>
@@ -145,8 +145,8 @@
       <file leaf-file-name="ODE.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ODE.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="156" column="16" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
+            <state vertical-scroll-proportion="-3.548387">
+              <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -162,7 +162,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../BitBucket/pypl.py" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -219,7 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,6 +244,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pypl.py" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".ipynb_checkpoints" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pypl.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="pypl.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -258,13 +272,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DB" />
+              <option name="myItemId" value="PYPL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,12 +547,6 @@
       <created>1444070557356</created>
       <option name="number" value="Default" />
       <updated>1444070557356</updated>
-    </task>
-    <task id="LOCAL-00024" summary="+ June">
-      <created>1467728215551</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1467728215551</updated>
     </task>
     <task id="LOCAL-00025" summary="+ July">
       <created>1469954643072</created>
@@ -828,7 +836,13 @@
       <option name="project" value="LOCAL" />
       <updated>1517944807805</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Feb 2018, ODE, DB">
+      <created>1518346538658</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1518346538658</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -894,7 +908,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="10 TOp" />
     <MESSAGE value="PYPL dec" />
     <MESSAGE value="DB" />
     <MESSAGE value="LANG, DB" />
@@ -919,7 +932,8 @@
     <MESSAGE value="Feb 2018, PYPL, IDE" />
     <MESSAGE value="Feb 2018, DB, All" />
     <MESSAGE value="Undo ODE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Undo ODE" />
+    <MESSAGE value="Feb 2018, ODE, DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 2018, ODE, DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1217,13 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PYPL/All.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PYPL/IN.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1235,14 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="449" column="18" selection-start-line="449" selection-start-column="18" selection-end-line="449" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ODE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="156" column="16" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1282,53 +1281,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PYPL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7419355">
-          <caret line="495" column="0" selection-start-line="476" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DB/US.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6597938">
           <caret line="175" column="25" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="250" column="14" selection-start-line="250" selection-start-column="14" selection-end-line="250" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DB.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5161295">
+        <state vertical-scroll-proportion="0.0">
           <caret line="677" column="21" selection-start-line="677" selection-start-column="21" selection-end-line="677" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="235" column="6" selection-start-line="235" selection-start-column="4" selection-end-line="235" selection-end-column="6" />
-          <folding>
-            <element signature="e#231#266#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1353,6 +1317,50 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ODE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.548387">
+          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYPL/All.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYPL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6119404">
+          <caret line="605" column="43" selection-start-line="605" selection-start-column="43" selection-end-line="605" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="269" column="12" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21978022">
+          <caret line="228" column="18" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+          <folding>
+            <element signature="e#231#266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
