@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="">
+    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="Feb 2018, repl.it. Date of update.  Cap changes.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/All.png" afterPath="$PROJECT_DIR$/DB/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DE.png" afterPath="$PROJECT_DIR$/DB/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/FR.png" afterPath="$PROJECT_DIR$/DB/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/GB.png" afterPath="$PROJECT_DIR$/DB/GB.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/IN.png" afterPath="$PROJECT_DIR$/DB/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/US.png" afterPath="$PROJECT_DIR$/DB/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/All.png" afterPath="$PROJECT_DIR$/IDE/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/DE.png" afterPath="$PROJECT_DIR$/IDE/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/FR.png" afterPath="$PROJECT_DIR$/IDE/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/GB.png" afterPath="$PROJECT_DIR$/IDE/GB.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/IN.png" afterPath="$PROJECT_DIR$/IDE/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/US.png" afterPath="$PROJECT_DIR$/IDE/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/All.png" afterPath="$PROJECT_DIR$/ODE/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/DE.png" afterPath="$PROJECT_DIR$/ODE/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/FR.png" afterPath="$PROJECT_DIR$/ODE/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/GB.png" afterPath="$PROJECT_DIR$/ODE/GB.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/IN.png" afterPath="$PROJECT_DIR$/ODE/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/US.png" afterPath="$PROJECT_DIR$/ODE/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.png" afterPath="$PROJECT_DIR$/PYPL/All.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.png" afterPath="$PROJECT_DIR$/PYPL/DE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.png" afterPath="$PROJECT_DIR$/PYPL/FR.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/GB.png" afterPath="$PROJECT_DIR$/PYPL/GB.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/IN.png" afterPath="$PROJECT_DIR$/PYPL/IN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/US.png" afterPath="$PROJECT_DIR$/PYPL/US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Knowledge.yaml" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Knowledge.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB.html" afterPath="$PROJECT_DIR$/DB.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/All.js" afterPath="$PROJECT_DIR$/DB/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DE.js" afterPath="$PROJECT_DIR$/DB/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/FR.js" afterPath="$PROJECT_DIR$/DB/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/GB.js" afterPath="$PROJECT_DIR$/DB/GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/IN.js" afterPath="$PROJECT_DIR$/DB/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/US.js" afterPath="$PROJECT_DIR$/DB/US.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE.html" afterPath="$PROJECT_DIR$/IDE.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/All.js" afterPath="$PROJECT_DIR$/IDE/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/DE.js" afterPath="$PROJECT_DIR$/IDE/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/FR.js" afterPath="$PROJECT_DIR$/IDE/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/GB.js" afterPath="$PROJECT_DIR$/IDE/GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/IN.js" afterPath="$PROJECT_DIR$/IDE/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IDE/US.js" afterPath="$PROJECT_DIR$/IDE/US.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE.html" afterPath="$PROJECT_DIR$/ODE.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/All.js" afterPath="$PROJECT_DIR$/ODE/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/DE.js" afterPath="$PROJECT_DIR$/ODE/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/FR.js" afterPath="$PROJECT_DIR$/ODE/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/GB.js" afterPath="$PROJECT_DIR$/ODE/GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/IN.js" afterPath="$PROJECT_DIR$/ODE/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ODE/US.js" afterPath="$PROJECT_DIR$/ODE/US.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL.html" afterPath="$PROJECT_DIR$/PYPL.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/All.js" afterPath="$PROJECT_DIR$/PYPL/All.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/DE.js" afterPath="$PROJECT_DIR$/PYPL/DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/FR.js" afterPath="$PROJECT_DIR$/PYPL/FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/GB.js" afterPath="$PROJECT_DIR$/PYPL/GB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/IN.js" afterPath="$PROJECT_DIR$/PYPL/IN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PYPL/US.js" afterPath="$PROJECT_DIR$/PYPL/US.js" />
     </list>
     <ignored path="pypl.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PYPL.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21978022">
-              <caret line="228" column="18" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+            <state vertical-scroll-proportion="-8.027778">
+              <caret line="203" column="17" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="17" />
               <folding>
                 <element signature="e#231#266#0" expanded="true" />
               </folding>
@@ -38,8 +93,8 @@
       <file leaf-file-name="Frame.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667">
-              <caret line="269" column="12" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -47,12 +102,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PYPL.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PYPL.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PYPL.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6119404">
+            <state vertical-scroll-proportion="-0.07985481">
               <caret line="605" column="43" selection-start-line="605" selection-start-column="43" selection-end-line="605" selection-end-column="43" />
-              <folding />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/DB.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="677" column="21" selection-start-line="677" selection-start-column="21" selection-end-line="677" selection-end-column="21" />
+              <caret line="678" column="21" selection-start-line="678" selection-start-column="21" selection-end-line="678" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -90,8 +151,8 @@
       <file leaf-file-name="ODE.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ODE.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.548387">
-              <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -107,7 +168,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../BitBucket/pypl.py" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -123,13 +184,13 @@
         <option value="$PROJECT_DIR$/ODE/US.js" />
         <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/OneYear.py" />
         <option value="$PROJECT_DIR$/PYPL/IN.js" />
-        <option value="$PROJECT_DIR$/PYPL.html" />
         <option value="$PROJECT_DIR$/IDE.html" />
         <option value="$PROJECT_DIR$/DB.html" />
         <option value="$PROJECT_DIR$/ODE/All.js" />
         <option value="$PROJECT_DIR$/ODE.html" />
-        <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" />
         <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" />
+        <option value="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" />
+        <option value="$PROJECT_DIR$/PYPL.html" />
       </list>
     </option>
   </component>
@@ -164,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,6 +283,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -492,12 +553,6 @@
       <created>1444070557356</created>
       <option name="number" value="Default" />
       <updated>1444070557356</updated>
-    </task>
-    <task id="LOCAL-00026" summary="+ Aug">
-      <created>1473010489003</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1473010489003</updated>
     </task>
     <task id="LOCAL-00027" summary="+ Aug">
       <created>1473010635750</created>
@@ -787,16 +842,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520197413781</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Feb 2018, repl.it. Date of update.  Cap changes.">
+      <created>1520197530234</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1520197530234</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="-9" width="1846" height="1098" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2182121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2182121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.57986873" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.47811815" order="7" side_tool="false" content_ui="tabs" />
@@ -806,6 +866,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3511206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -827,7 +888,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.47811815" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27534685" sideWeight="0.4201313" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34364995" sideWeight="0.4201313" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2182121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1236,7 +1297,7 @@
     <entry file="file://$PROJECT_DIR$/DB.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="677" column="21" selection-start-line="677" selection-start-column="21" selection-end-line="677" selection-end-column="21" />
+          <caret line="678" column="21" selection-start-line="678" selection-start-column="21" selection-end-line="678" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1245,7 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,7 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,14 +1320,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ODE.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.548387">
-          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1281,30 +1339,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PYPL.html">
+    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6119404">
-          <caret line="605" column="43" selection-start-line="605" selection-start-column="43" selection-end-line="605" selection-end-column="43" />
-          <folding />
+        <state vertical-scroll-proportion="-8.027778">
+          <caret line="203" column="17" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="17" />
+          <folding>
+            <element signature="e#231#266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="269" column="12" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py">
+    <entry file="file://$PROJECT_DIR$/PYPL.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21978022">
-          <caret line="228" column="18" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+        <state vertical-scroll-proportion="-0.07985481">
+          <caret line="605" column="43" selection-start-line="605" selection-start-column="43" selection-end-line="605" selection-end-column="43" />
           <folding>
-            <element signature="e#231#266#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
