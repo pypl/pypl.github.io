@@ -1,65 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="May">
-      <change beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/Knowledge.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/Knowledge.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../BitBucket/pypl.py/PYPL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB.html" beforeDir="false" afterPath="$PROJECT_DIR$/DB.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/All.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/All.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/All.png" beforeDir="false" afterPath="$PROJECT_DIR$/DB/All.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/DE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/DE.png" beforeDir="false" afterPath="$PROJECT_DIR$/DB/DE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/FR.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/FR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/FR.png" beforeDir="false" afterPath="$PROJECT_DIR$/DB/FR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/GB.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/GB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/GB.png" beforeDir="false" afterPath="$PROJECT_DIR$/DB/GB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/IN.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/IN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/IN.png" beforeDir="false" afterPath="$PROJECT_DIR$/DB/IN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/US.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/US.png" beforeDir="false" afterPath="$PROJECT_DIR$/DB/US.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE.html" beforeDir="false" afterPath="$PROJECT_DIR$/IDE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/All.js" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/All.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/All.png" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/All.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/DE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/DE.png" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/DE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/FR.js" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/FR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/FR.png" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/FR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/GB.js" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/GB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/GB.png" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/GB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/IN.js" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/IN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/IN.png" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/IN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/US.js" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDE/US.png" beforeDir="false" afterPath="$PROJECT_DIR$/IDE/US.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE.html" beforeDir="false" afterPath="$PROJECT_DIR$/ODE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/All.js" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/All.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/All.png" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/All.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/DE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/DE.png" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/DE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/FR.js" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/FR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/FR.png" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/FR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/GB.js" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/GB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/GB.png" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/GB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/IN.js" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/IN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/IN.png" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/IN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/US.js" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODE/US.png" beforeDir="false" afterPath="$PROJECT_DIR$/ODE/US.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL.html" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/All.js" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/All.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/All.png" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/All.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/DE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/DE.png" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/DE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/FR.js" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/FR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/FR.png" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/FR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/GB.js" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/GB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/GB.png" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/GB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/IN.js" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/IN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/IN.png" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/IN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/US.js" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPL/US.png" beforeDir="false" afterPath="$PROJECT_DIR$/PYPL/US.png" afterDir="false" />
-    </list>
+    <list default="true" id="426b7c29-b4d2-4021-a902-dfd37636d891" name="Default" comment="" />
     <ignored path="pypl.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -295,11 +237,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="Push.Settings">
-    <excluded-roots>
-      <path value="$PROJECT_DIR$/../../BitBucket/pypl.py" />
-    </excluded-roots>
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Python\BitBucket\pypl.py" />
@@ -529,13 +466,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1444070557356</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Chabloo on PYPL">
-      <created>1475845517580</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1475845517580</updated>
     </task>
     <task id="LOCAL-00032" summary="Chabloo on PYPL">
       <created>1475852351748</created>
@@ -873,7 +803,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525167029445</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="June">
+      <created>1528439699074</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1528439699075</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -938,7 +875,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feb 2017" />
     <MESSAGE value="April 2017. Close browser at end." />
     <MESSAGE value="May 2017. Close browser at end." />
     <MESSAGE value="June 2017. Kotlin" />
@@ -963,7 +899,8 @@
     <MESSAGE value="March.  Fix month -1 once for all" />
     <MESSAGE value="Fix month -1 again" />
     <MESSAGE value="May" />
-    <option name="LAST_COMMIT_MESSAGE" value="May" />
+    <MESSAGE value="June" />
+    <option name="LAST_COMMIT_MESSAGE" value="June" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
