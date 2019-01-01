@@ -20,7 +20,7 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
-    
+
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/assets/js/ie-emulation-modes-warning.js"></script>-->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,18 +28,18 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <style>
     html, body {
         margin: 0;
         padding: 0;
         height: 100%;
     }
-    
+
     .page {
         height: 100%;
     }
-    
+
     .center {
         text-align: center;
     }
@@ -82,14 +82,14 @@
         color: #454444;
     }
     </style>
-    
+
 <script>
 if (!String.format) {
   String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
-    return format.replace(/{(\d+)}/g, function(match, number) { 
+    return format.replace(/{(\d+)}/g, function(match, number) {
       return typeof args[number] != 'undefined'
-        ? args[number] 
+        ? args[number]
         : match
       ;
     });
@@ -99,10 +99,10 @@ function getUrlParameter(sParam)
 {
     var sPageURL = window.location.search.substring(1);
     var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++) 
+    for (var i = 0; i < sURLVariables.length; i++)
     {
         var sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] == sParam) 
+        if (sParameterName[0] == sParam)
         {
             return sParameterName[1];
         }
@@ -127,11 +127,11 @@ var country = new Array();
 country[""]="Worldwide";
 country["US"]="US"
 country["IN"]="India"
-country["DE"]="Germany" 
-country["GB"]="United Kingdom" 
-country["FR"]="France" 
+country["DE"]="Germany"
+country["GB"]="United Kingdom"
+country["FR"]="France"
 
-function refreshTop() {        
+function refreshTop() {
 cloud = "All.png"
 table = "<!-- begin section All-->\
 <td class=center>1</td><td class=center></td><td>Visual Studio</td><td class=right>23.05 %</td><td class=\"right optCol\">-3.1 %</td></tr>\
@@ -298,8 +298,8 @@ document.getElementById("cloud").src="IDE/"+cloud;
 </script>
 
   </head>
-  
-  
+
+
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -379,7 +379,7 @@ document.getElementById("cloud").src="IDE/"+cloud;
     </div>
     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
         <p class="lead">
-          This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite IDE 
+          This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite IDE
           <select id=selectLang class="selectpicker" multiple title='Choose IDE...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3"></select>
           in a country <select id=selectCountry class="selectpicker" data-style="btn-success" data-width="auto"></select>
         </p>
@@ -505,9 +505,9 @@ document.getElementById("cloud").src="IDE/"+cloud;
             <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
                     <div>We export the data from Google Trends in CSV format,
-                    <sup><a href="http://support.google.com/trends/bin/answer.py?hl=en&amp;answer=87289">[s]</a></sup> 
+                    <sup><a href="http://support.google.com/trends/bin/answer.py?hl=en&amp;answer=87289">[s]</a></sup>
                     and analyze it with python's pandas.
-                    We first calculate the interest of each IDE relative to Visual Studio every month.    
+                    We first calculate the interest of each IDE relative to Visual Studio every month.
                     Normalizing the total to 100% yields the share of interest in each IDE, i.e. their popularity, which we smooth over 6 months.
                     </div>
                 </div>
@@ -539,7 +539,7 @@ document.getElementById("cloud").src="IDE/"+cloud;
               ltr = coded.charAt(i)
               link += (ltr)
             }
-            else {     
+            else {
               ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
               link += (key.charAt(ltr))
             }
@@ -592,11 +592,11 @@ for (var row in graphData) {
 }
 document.getElementById('countryDate').innerHTML =
     '<b>'
-    +(((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])
+    +((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])
     +'</b>, '
     +month[upDate.getMonth()]
     +' '
-    +upDate.getFullYear())
+    +(upDate.getFullYear() + (upDate.getMonth() == 11 ? 1 : 0))
     +' compared to a year ago:'
 
 document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular IDE, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)',
@@ -611,7 +611,7 @@ for (var lang in graphData[0]) {
         opt.innerHTML = graphData[0][lang];
         document.getElementById('selectLang').appendChild(opt);//$('selectLang') not working here
     }
-}; 
+};
 $('#selectLang').selectpicker('render');
 
 for (var c in country) {
@@ -622,21 +622,21 @@ for (var c in country) {
         opt.innerHTML = country[c];
         document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
     }
-}; 
+};
 document.getElementById('selectCountry').onchange = function() {
     window.location = window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val()
     };
 
 google.load("visualization", "1", {packages:["corechart"]});
 function drawChart() {
-  
+
     var options = {
       chartArea: {height: '400px'},
-      vAxis: { 
+      vAxis: {
         logScale: true,
         format:'##%',
         viewWindow:{ // range from 0.5% to 60 %
-            max:0.6, 
+            max:0.6,
             min:0.005
           }
         },
@@ -659,14 +659,14 @@ function drawChart() {
     if (window.innerWidth && window.innerHeight) {
      winW = window.innerWidth;
      winH = window.innerHeight;
-    }       
+    }
     var ori = window.orientation
     if (ori==90 || ori==-90) {
         var a = winW
         winW = winH
         winH = a
     };
-    
+
     // move legend to bottom if narrow screen
     if (winW <= 500) {
         options.legend = { position: 'bottom' };
@@ -738,6 +738,6 @@ $( document ).ready(function() {
   ga('create', 'UA-4773985-3', 'auto');
   ga('send', 'pageview');
 
-</script>    
+</script>
   </body>
 </html>
