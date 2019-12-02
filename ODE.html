@@ -565,7 +565,7 @@ document.getElementById('countryDate').innerHTML =
     +'</b>, '
     +month[upDate.getMonth()]
     +' '
-    +(upDate.getFullYear() + (upDate.getMonth() == 11 ? 1 : 0))
+    +upDate.getFullYear()
     +' compared to a year ago:'
 
 document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular Online IDE, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)',
