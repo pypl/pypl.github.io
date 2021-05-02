@@ -5,7 +5,7 @@ PlusMinus = [-0.06734652737945523,0.16958976132766043]
 // end Top All
 graphData = [
 ['Date', // begin section languages
-'Abap', 'Ada', 'C/C++', 'C#', 'Cobol', 'Dart', Delphi/Pascal, 'Go', 'Groovy', 'Haskell', 'Java', 'JavaScript', 'Julia', 'Kotlin', 'Lua', 'Matlab', 'Objective-C', 'Perl', 'PHP', 'Python', 'R', 'Ruby', 'Rust', 'Scala', 'Swift', 'TypeScript', 'VBA', 'Visual Basic'
+'Abap', 'Ada', 'C/C++', 'C#', 'Cobol', 'Dart', 'Delphi/Pascal', 'Go', 'Groovy', 'Haskell', 'Java', 'JavaScript', 'Julia', 'Kotlin', 'Lua', 'Matlab', 'Objective-C', 'Perl', 'PHP', 'Python', 'R', 'Ruby', 'Rust', 'Scala', 'Swift', 'TypeScript', 'VBA', 'Visual Basic'
 // end section languages
 ],
 // begin section All
