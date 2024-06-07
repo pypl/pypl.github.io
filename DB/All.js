@@ -5,7 +5,7 @@ PlusMinus = [-0.028920810339746673,0.030341796565526866]
 // end Top All
 graphData = [
 ['Date', // begin section languages
-'Apache Hive', 'CouchBase', 'CouchDB', 'DB2', 'dBase', 'DynamoDB', 'Elasticsearch', 'FileMaker', 'Firebase', 'Firebird', 'Hbase', 'Informix', 'Ingres', 'MariaDB', 'Memcached', 'Microsoft Access', 'MongoDB', 'MySQL', 'Neo4j', 'Netezza', 'Oracle', 'PostgreSQL', 'Redis', 'Riak', 'SAP HANA', 'Solr', 'Splunk', 'SQLite', 'SQL Server', 'Sybase', 'Teradata'
+'Apache Hive', 'CouchBase', 'CouchDB', 'DB2', 'dBase', 'DynamoDB', 'Elasticsearch', 'FileMaker', 'Firebase', 'Firebird', 'Hbase', 'Informix', 'Ingres', 'MariaDB', 'Memcached', 'Microsoft Access', 'MongoDB', 'MySQL', 'Neo4j', 'Netezza', 'Oracle', 'PostgreSQL', 'Redis', 'Riak', 'SAP HANA', 'Solr', 'Splunk', 'SQLite', 'SQL Server', 'Supabase', 'Sybase', 'Teradata'
 // end section languages
 ],
 // begin section All
