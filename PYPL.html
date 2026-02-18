@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>PYPL PopularitY of Programming Language index</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,9 +22,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7195251742968320"
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js" defer></script>
+
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7195251742968320"
     crossorigin="anonymous"></script>
-    <meta name="google-adsense-account" content="ca-pub-7195251742968320">
+    <meta name="google-adsense-account" content="ca-pub-7195251742968320"> -->
 
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/assets/js/ie-emulation-modes-warning.js"></script>-->
 
@@ -34,110 +37,124 @@
     <![endif]-->
 
     <style>
-    html, body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-    }
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
 
-    .page {
-        height: 100%;
-    }
+        .page {
+            height: 100%;
+        }
 
-    .center {
-        text-align: center;
-    }
-    .right {
-        text-align: right;
-    }
-    @media(max-width:450px) {
-        .optCol {display: none;}
-    }
-    .vcenter {
-        display: inline-block;
-        vertical-align: middle;
-        float: none;
-    }
-    .top-buffer50 { margin-top:50px; }
-    .top-buffer200 { margin-top:200px; }
-    .blue {background-color: #eee;}
-   .panel-heading [data-toggle="collapse"]:after {
-        font-family: 'Glyphicons Halflings';
-        content: "\e072"; /* "play" icon */
-        float: right;
-        color: #F58723;
-        font-size: 18px;
-        line-height: 22px;
-        /* rotate "play" icon from > (right arrow) to down arrow */
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-        transform: rotate(-90deg);
-    }
+        .center {
+            text-align: center;
+        }
 
-    .panel-heading [data-toggle="collapse"].collapsed:after {
-        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
-        color: #454444;
-    }
+        .right {
+            text-align: right;
+        }
+
+        @media(max-width:450px) {
+            .optCol {
+                display: none;
+            }
+        }
+
+        .vcenter {
+            display: inline-block;
+            vertical-align: middle;
+            float: none;
+        }
+
+        .top-buffer50 {
+            margin-top: 50px;
+        }
+
+        .top-buffer200 {
+            margin-top: 200px;
+        }
+
+        .blue {
+            background-color: #eee;
+        }
+
+        .panel-heading [data-toggle="collapse"]:after {
+            font-family: 'Glyphicons Halflings';
+            content: "\e072";
+            /* "play" icon */
+            float: right;
+            color: #F58723;
+            font-size: 18px;
+            line-height: 22px;
+            /* rotate "play" icon from > (right arrow) to down arrow */
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        .panel-heading [data-toggle="collapse"].collapsed:after {
+            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            color: #454444;
+        }
     </style>
 
-<script>
-if (!String.format) {
-  String.format = function(format) {
-    var args = Array.prototype.slice.call(arguments, 1);
-    return format.replace(/{(\d+)}/g, function(match, number) {
-      return typeof args[number] != 'undefined'
-        ? args[number]
-        : match
-      ;
-    });
-  };
-}
-function getUrlParameter(sParam)
-{
-    var sPageURL = window.location.search.substring(1);
-    var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++)
-    {
-        var sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] == sParam)
-        {
-            return sParameterName[1];
+    <script>
+        if (!String.format) {
+            String.format = function (format) {
+                var args = Array.prototype.slice.call(arguments, 1);
+                return format.replace(/{(\d+)}/g, function (match, number) {
+                    return typeof args[number] != 'undefined'
+                        ? args[number]
+                        : match
+                        ;
+                });
+            };
         }
-    }
-    return ""
-}
-var month = new Array();
-month[0] = "Jan";
-month[1] = "Feb";
-month[2] = "Mar";
-month[3] = "Apr";
-month[4] = "May";
-month[5] = "Jun";
-month[6] = "Jul";
-month[7] = "Aug";
-month[8] = "Sept";
-month[9] = "Oct";
-month[10] = "Nov";
-month[11] = "Dec";
+        function getUrlParameter(sParam) {
+            var sPageURL = window.location.search.substring(1);
+            var sURLVariables = sPageURL.split('&');
+            for (var i = 0; i < sURLVariables.length; i++) {
+                var sParameterName = sURLVariables[i].split('=');
+                if (sParameterName[0] == sParam) {
+                    return sParameterName[1];
+                }
+            }
+            return ""
+        }
+        var month = new Array();
+        month[0] = "Jan";
+        month[1] = "Feb";
+        month[2] = "Mar";
+        month[3] = "Apr";
+        month[4] = "May";
+        month[5] = "Jun";
+        month[6] = "Jul";
+        month[7] = "Aug";
+        month[8] = "Sept";
+        month[9] = "Oct";
+        month[10] = "Nov";
+        month[11] = "Dec";
 
-var country = new Array();
-country[""]="Worldwide";
-country["US"]="US"
-country["IN"]="India"
-country["DE"]="Germany"
-country["GB"]="United Kingdom"
-country["FR"]="France"
+        var country = new Array();
+        country[""] = "Worldwide";
+        country["US"] = "US"
+        country["IN"] = "India"
+        country["DE"] = "Germany"
+        country["GB"] = "United Kingdom"
+        country["FR"] = "France"
 
-function refreshTop() {
-cloud = "All.png"
-table = "<!-- begin section All-->\
+        function refreshTop() {
+            cloud = "All.png"
+            table = "<!-- begin section All-->\
 <td class=center>1</td><td class=center></td><td>Python</td><td class=right>29.97 %</td><td class=\"right optCol\">-0.2 %</td></tr>\
 <tr><td class=center>2</td><td class=center><image src=Up.png><image src=Up.png></td><td>C/C++</td><td class=right>15.45 %</td><td class=\"right optCol\">+8.3 %</td></tr>\
 <tr><td class=center>3</td><td class=center><image src=Down.png></td><td>Java</td><td class=right>10.21 %</td><td class=\"right optCol\">-4.9 %</td></tr>\
@@ -170,9 +187,9 @@ table = "<!-- begin section All-->\
 <tr><td class=center>30</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Groovy</td><td class=right>0.05 %</td><td class=\"right optCol\">-0.2 %</td>\
 <!-- end section All-->\
 ";
-if (getUrlParameter('country') == "US") {
-cloud = "US.png"
-table = "<!-- begin section US-->\
+            if (getUrlParameter('country') == "US") {
+                cloud = "US.png"
+                table = "<!-- begin section US-->\
 <td class=center>1</td><td class=center></td><td>Python</td><td class=right>37.86 %</td><td class=\"right optCol\">+4.1 %</td></tr>\
 <tr><td class=center>2</td><td class=center><image src=Up.png></td><td>C/C++</td><td class=right>12.62 %</td><td class=\"right optCol\">+2.9 %</td></tr>\
 <tr><td class=center>3</td><td class=center><image src=Down.png></td><td>Java</td><td class=right>9.26 %</td><td class=\"right optCol\">-4.3 %</td></tr>\
@@ -204,10 +221,10 @@ table = "<!-- begin section US-->\
 <tr><td class=center>29</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Haskell</td><td class=right>0.01 %</td><td class=\"right optCol\">-0.0 %</td>\
 <!-- end section US-->\
 ";
-}
-if (getUrlParameter('country') == "DE") {
-cloud = "DE.png"
-table = "<!-- begin section DE-->\
+            }
+            if (getUrlParameter('country') == "DE") {
+                cloud = "DE.png"
+                table = "<!-- begin section DE-->\
 <td class=center>1</td><td class=center></td><td>Python</td><td class=right>46.56 %</td><td class=\"right optCol\">-17.6 %</td></tr>\
 <tr><td class=center>2</td><td class=center></td><td>Java</td><td class=right>16.66 %</td><td class=\"right optCol\">-1.5 %</td></tr>\
 <tr><td class=center>3</td><td class=center><image src=Up.png><image src=Up.png><image src=Up.png><image src=Up.png></td><td>C/C++</td><td class=right>13.76 %</td><td class=\"right optCol\">+12.5 %</td></tr>\
@@ -236,10 +253,10 @@ table = "<!-- begin section DE-->\
 <tr><td class=center>26</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Groovy</td><td class=right>0.0 %</td><td class=\"right optCol\">+0.0 %</td>\
 <!-- end section DE-->\
 ";
-}
-if (getUrlParameter('country') == "IN") {
-cloud = "IN.png"
-table = "<!-- begin section IN-->\
+            }
+            if (getUrlParameter('country') == "IN") {
+                cloud = "IN.png"
+                table = "<!-- begin section IN-->\
 <td class=center>1</td><td class=center></td><td>Python</td><td class=right>39.99 %</td><td class=\"right optCol\">+5.7 %</td></tr>\
 <tr><td class=center>2</td><td class=center></td><td>Java</td><td class=right>21.63 %</td><td class=\"right optCol\">-2.7 %</td></tr>\
 <tr><td class=center>3</td><td class=center><image src=Up.png><image src=Up.png></td><td>C/C++</td><td class=right>11.37 %</td><td class=\"right optCol\">+4.4 %</td></tr>\
@@ -270,10 +287,10 @@ table = "<!-- begin section IN-->\
 <tr><td class=center>28</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Julia</td><td class=right>0.01 %</td><td class=\"right optCol\">-0.1 %</td>\
 <!-- end section IN-->\
 ";
-}
-if (getUrlParameter('country') == "GB") {
-cloud = "GB.png"
-table = "<!-- begin section GB-->\
+            }
+            if (getUrlParameter('country') == "GB") {
+                cloud = "GB.png"
+                table = "<!-- begin section GB-->\
 <td class=center>1</td><td class=center></td><td>Python</td><td class=right>57.29 %</td><td class=\"right optCol\">-14.7 %</td></tr>\
 <tr><td class=center>2</td><td class=center><image src=Up.png></td><td>C/C++</td><td class=right>13.41 %</td><td class=\"right optCol\">+8.8 %</td></tr>\
 <tr><td class=center>3</td><td class=center><image src=Up.png></td><td>R</td><td class=right>6.71 %</td><td class=\"right optCol\">+4.2 %</td></tr>\
@@ -302,10 +319,10 @@ table = "<!-- begin section GB-->\
 <tr><td class=center>26</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Visual Basic</td><td class=right>0.0 %</td><td class=\"right optCol\">+0.0 %</td>\
 <!-- end section GB-->\
 ";
-}
-if (getUrlParameter('country') == "FR") {
-cloud = "FR.png"
-table = "<!-- begin section FR-->\
+            }
+            if (getUrlParameter('country') == "FR") {
+                cloud = "FR.png"
+                table = "<!-- begin section FR-->\
 <td class=center>1</td><td class=center></td><td>Python</td><td class=right>48.62 %</td><td class=\"right optCol\">-37.5 %</td></tr>\
 <tr><td class=center>2</td><td class=center></td><td>C/C++</td><td class=right>20.56 %</td><td class=\"right optCol\">+14.1 %</td></tr>\
 <tr><td class=center>3</td><td class=center></td><td>Java</td><td class=right>10.92 %</td><td class=\"right optCol\">+6.8 %</td></tr>\
@@ -327,68 +344,73 @@ table = "<!-- begin section FR-->\
 <tr><td class=center>19</td><td class=center><image src=Down.png><image src=Down.png><image src=Down.png><image src=Down.png></td><td>Ruby</td><td class=right>0.0 %</td><td class=\"right optCol\">+0.0 %</td>\
 <!-- end section FR-->\
 ";
-}
+            }
 
-table = "<table class=table><tr><th class=center>Rank<br></th><th class=center>Change</th><th>Language</th><th class=right>Share</th><th class=\"optCol right\">1-year trend</th></tr><tr>" + table + "</tr><tr><td colspan=5 align=right>&copy; Pierre Carbonnelle, 2023</td></tr></table>"
-document.getElementById("table").innerHTML=table;
-document.getElementById("cloud").src="PYPL/"+cloud;
-} // refreshTop
-</script>
-<script data-goatcounter="https://pypl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-  </head>
+            table = "<table class=table><tr><th class=center>Rank<br></th><th class=center>Change</th><th>Language</th><th class=right>Share</th><th class=\"optCol right\">1-year trend</th></tr><tr>" + table + "</tr><tr><td colspan=5 align=right>&copy; Pierre Carbonnelle, 2023</td></tr></table>"
+            document.getElementById("table").innerHTML = table;
+            document.getElementById("cloud").src = "PYPL/" + cloud;
+        } // refreshTop
+    </script>
+    <script data-goatcounter="https://pypl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
 
 
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand active" href="#">&nbsp;</a>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="#">&nbsp;</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class=active><a href="PYPL.html">PYPL Index</a></li>
+                    <li><a href="IDE.html">10 TOP IDE</a></li>
+                    <li><a href="ODE.html">10 TOP ODE</a></li>
+                    <li><a href="DB.html">10 TOP DB</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                </ul>
+            </div><!--/.nav-collapse -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class=active><a href="PYPL.html">PYPL Index</a></li>
-            <li><a href="IDE.html">10 TOP IDE</a></li>
-            <li><a href="ODE.html">10 TOP ODE</a></li>
-            <li><a href="DB.html">10 TOP DB</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
     </nav>
-<div class="container-fluid page">
-  <div class="row blue">
-  <br><br><br><br>
-        <h1 class="text-center">PYPL PopularitY of Programming Language</h1>
+    <div class="container-fluid page">
+        <div class="row blue">
+            <br><br><br><br>
+            <h1 class="text-center">PYPL PopularitY of Programming Language</h1>
 
-         <!--<p class=text-center><a href="?">Worldwide</a> <a href="?country=US">US</a></p>-->
+            <!--<p class=text-center><a href="?">Worldwide</a> <a href="?country=US">US</a></p>-->
 
-         <!-- <div class="visible-xs">xs</div><div class="visible-sm">sm</div><div class="visible-md">md</div><div class="visible-lg">lg</div>-->
+            <!-- <div class="visible-xs">xs</div><div class="visible-sm">sm</div><div class="visible-md">md</div><div class="visible-lg">lg</div>-->
 
-        <div class="col-sm-5 col-md-5 col-lg-4 col-lg-offset-1 vcenter">
-          <span>
-            <p class=lead>The PYPL PopularitY of Programming Language Index is created by analyzing how often language tutorials are searched on Google.</P>
-            <p>The more a language tutorial is searched, the more popular the language is assumed to be. It is a leading indicator.  The raw data comes from Google Trends.</p>
-            <p>If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help you decide which language to study, or which one to use in a new software project.  </p>
-            <p><br></p>
-            <p class=text-center><img id=cloud></p>
-          </span>
+            <div class="col-sm-5 col-md-5 col-lg-4 col-lg-offset-1 vcenter">
+                <span>
+                    <p class=lead>The PYPL PopularitY of Programming Language Index is created by analyzing how often
+                        language tutorials are searched on Google.</P>
+                    <p>The more a language tutorial is searched, the more popular the language is assumed to be. It is a
+                        leading indicator. The raw data comes from Google Trends.</p>
+                    <p>If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help
+                        you decide which language to study, or which one to use in a new software project. </p>
+                    <p><br></p>
+                    <p class=text-center><img id=cloud></p>
+                </span>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
+                <p id="countryDate">
+                    <script>document.write('<b>' + ((getUrlParameter('country') == "") ? "Worldwide" : country[getUrlParameter('country')]) + '</b>, ' + month[new Date().getMonth()] + ' ' + new Date().getFullYear())</script>
+                    :
+                </p>
+                <div id=table></div>
+                <script>refreshTop()</script>
+            </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-6  col-lg-4 col-lg-offset-1 vcenter top-buffer50">
-    		<p id="countryDate">
-            <script>document.write('<b>'+((getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')])+'</b>, '+month[new Date().getMonth()]+' '+new Date().getFullYear())</script> :
-            </p>
-    		<div id=table></div>
-    		<script>refreshTop()</script>
-    	</div>
-  </div>
-  <!-- div class = "row text-center" style="background: #eee; /* Old browsers */
+        <!-- div class = "row text-center" style="background: #eee; /* Old browsers */
     background: -moz-linear-gradient(top, #eee 0%, #eee 50%, #ffffff 50%, #ffffff 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(50%,#eee), color-stop(50%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #eee 0%,#eee 50%,#ffffff 50%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
@@ -409,39 +431,42 @@ document.getElementById("cloud").src="PYPL/"+cloud;
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </-->
-  <div id=chartPage class="row">
-    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
-        <p id=topBottom class="lead text-center">Loading...</p>
-    </div>
-    <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter"  style="height: 400px;">
-            <img src="482.gif" class="img-responsive center-block">
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
-        <p class="lead">
-          This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>.  It can show your favorite languages
-          <select id=selectLang class="selectpicker" multiple title='Choose languages...' data-style="btn-success" data-width="auto" data-selected-text-format="count>3"></select>
-          in a country <select id=selectCountry class="selectpicker" data-style="btn-success" data-width="auto"></select>
-        </span>
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
-        <p class="lead">
-          Please check our other popularity indices :
-        </p>
-        <div class="col-xs-6 col-sm-3" align="center">
-            <img src="IDE/All.png" width="100%">
-            <a href="IDE.html">Top IDE Integrated Development Environment</a>
+        <div id=chartPage class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+                <p id=topBottom class="lead text-center">Loading...</p>
+            </div>
+            <div id="PYPL" class="col-xs-12 col-sm-8  col-sm-offset-2 vcenter" style="height: 400px;">
+                <img src="482.gif" class="img-responsive center-block">
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+                <p class="lead">
+                    This chart uses a <a href=http://en.wikipedia.org/wiki/Semi-log_plot>logarithmic scale</a>. It can
+                    show your favorite languages
+                    <select id=selectLang class="selectpicker" multiple title='Choose languages...'
+                        data-style="btn-success" data-width="auto" data-selected-text-format="count>3"></select>
+                    in a country <select id=selectCountry class="selectpicker" data-style="btn-success"
+                        data-width="auto"></select>
+                    </span>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+                <p class="lead">
+                    Please check our other popularity indices :
+                </p>
+                <div class="col-xs-6 col-sm-3" align="center">
+                    <img src="IDE/All.png" width="100%">
+                    <a href="IDE.html">Top IDE Integrated Development Environment</a>
+                </div>
+                <div class="col-xs-6 col-sm-3" align="center">
+                    <img src="ODE/All.png" width="100%">
+                    <a href="ODE.html">Top Online Integrated Development Environment</a>
+                </div>
+                <div class="col-xs-6 col-sm-3" align="center">
+                    <img src="DB/All.png" width="100%">
+                    <a href="DB.html">Top Databases</a>
+                </div>
+            </div>
         </div>
-        <div class="col-xs-6 col-sm-3" align="center">
-            <img src="ODE/All.png" width="100%">
-            <a href="ODE.html">Top Online Integrated Development Environment</a>
-        </div>
-        <div class="col-xs-6 col-sm-3" align="center">
-            <img src="DB/All.png" width="100%">
-            <a href="DB.html">Top Databases</a>
-        </div>
-    </div>
-   </div>
- <!-- div class = "row text-center" style="background: #ffffff; /* Old browsers */
+        <!-- div class = "row text-center" style="background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #eee 50%, #eee 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#ffffff), color-stop(50%,#eee), color-stop(100%,#eee)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 50%,#eee 50%,#eee 100%); /* Chrome10+,Safari5.1+ */
@@ -461,158 +486,207 @@ document.getElementById("cloud").src="PYPL/"+cloud;
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </-->
-  <div class="row blue">
-    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
-        <h1>Kudos</h1>
-        <p class=lead>The PYPL index has been cited in the following trade journals : </p>
-        <div>
-        <ul><li><a href="http://www.developer-tech.com/news/2013/jan/03/pypl-crowns-c-2012s-language-year/">Developer Tech</a>,</li>
-        <li><a href="http://devopsangle.com/2013/11/22/apple-ios-7-extends-objective-c-lead-in-november-pypl-programming-language-popularity-index/">DevOps</a>,</li>
-        <li><a href="http://www.infoworld.com/search?query=PYPL&contentType=article%2Cresource" >InfoWorld</a> (several articles), </li>
-        <li><a href="http://www.eweek.com/developer/c-named-top-programming-language-of-2012/" >eWeek</a></li>
-        <li><a href="http://news.techworld.com/applications/3418399/microsoft-c-named-programming-language-of-2012/">Techworld</a></li></ul>
-        </div>
-        <br><br>
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 vcenter">
-        <h1>FAQ</h1>
-        <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseZero">What is the PYPL index ?</a>
-                </h4>
-            </div>
-            <div id="collapseZero" class="panel-collapse collapse in">
-                <div class="panel-body">
-                    <p>The PYPL PopularitY of Programming Language Index  is created by analyzing how often language tutorials are searched on Google : the more a language tutorial is searched, the more popular the language is assumed to be. It is a leading indicator.  The raw data comes from Google Trends.</p>
-                    <p>If you believe in collective wisdom, the PYPL Popularity of Programming Language index can help you decide which language to study, or which one to use in a new software project.  </p>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Why is PYPL so different from TIOBE ?</a>
-                </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse">
-                <div class="panel-body">
-                    The  <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">TIOBE Index</a> is a lagging indicator.
-                    It counts the number of web pages with the language name.
-                    <mark>Objective-c programming</mark> has over 20 million pages on the web,
-                    <sup><a href="https://www.google.be/#hl=fr&amp;tbo=d&amp;output=search&amp;sclient=psy-ab&amp;q=%22objective-c+programming%22&amp;oq=%22objective-c+programming%22&amp;gs_l=hp.3..0l2j0i30l2.3028.3028.0.3908.1.1.0.0.0.0.131.131.0j1.1.0...0.0...1c.1.L2X9Y0uJ0Uk&amp;pbx=1&amp;bav=on.2,or.r_gc.r_pw.r_qf.&amp;bvm=bv.1354675689,d.d2k&amp;fp=c6fa6e161d5c7c9b&amp;bpcl=39650382&amp;biw=1814&amp;bih=1010">[s]</a></sup>
-                      while <mark>C programming</mark> has only 11 million.
-                      <sup><a href="https://www.google.be/#hl=fr&amp;tbo=d&amp;sclient=psy-ab&amp;q=%22c+programming%22&amp;oq=%22c+programming%22&amp;gs_l=hp.3..0l4.105171.105171.1.106210.1.1.0.0.0.0.217.217.2-1.1.0...0.0...1c.1.i0F5z0y2deM&amp;pbx=1&amp;bav=on.2,or.r_gc.r_pw.r_qf.&amp;bvm=bv.1354675689,d.d2k&amp;fp=c6fa6e161d5c7c9b&amp;bpcl=39650382&amp;biw=1814&amp;bih=1010">[s]</a> </sup>
-                      This explains why Objective-C has a high TIOBE ranking.  But who is reading those Objective-C web pages ? Hardly anyone, according to Google Trends data.
-                      <mark>Objective C programming</mark> is searched 30 times less than <mark>C programming</mark>.
-                      <sup><a href="http://www.google.be/trends/explore#q=C%20programming%2C%20objective%20c%20programming&amp;date=today%2012-m&amp;cmpt=q">[s]</a></sup>
-                      In fact, the use of <mark>programming</mark> by the TIOBE index is misleading (see next question).
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Why do you use <mark>tutorial</mark> as Google Trends keyword ?</a>
-                </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <p>The following principles were used:</p>
+        <div class="row blue">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+                <h1>Kudos</h1>
+                <p class=lead>The PYPL index has been cited in the following trade journals : </p>
+                <div>
                     <ul>
-                    <li>just the language name, e.g. <mark>Python</mark>, would lead to inconsistent results, because Python has many other meanings;</li>
-                    <li>the same phrase should be used for all languages, for consistency.</li>
-                    <li><mark>programming</mark> would not do : <mark>C programming</mark> is used much more than <mark>PHP programming</mark>, because PHP does not need the qualifier</li>
-                    <li><mark>tutorial</mark> is a word used frequently by developers learning any new language : it makes a good leading indicator. What is a <mark>python tutorial</mark>, if not a tutorial on the programming language ?</li>
+                        <li><a href="http://www.developer-tech.com/news/2013/jan/03/pypl-crowns-c-2012s-language-year/">Developer
+                                Tech</a>,</li>
+                        <li><a
+                                href="http://devopsangle.com/2013/11/22/apple-ios-7-extends-objective-c-lead-in-november-pypl-programming-language-popularity-index/">DevOps</a>,
+                        </li>
+                        <li><a
+                                href="http://www.infoworld.com/search?query=PYPL&contentType=article%2Cresource">InfoWorld</a>
+                            (several articles), </li>
+                        <li><a href="http://www.eweek.com/developer/c-named-top-programming-language-of-2012/">eWeek</a>
+                        </li>
+                        <li><a
+                                href="http://news.techworld.com/applications/3418399/microsoft-c-named-programming-language-of-2012/">Techworld</a>
+                        </li>
                     </ul>
                 </div>
+                <br><br>
             </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">My favorite language is not in the index ! Why ?</a>
-                </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <p> The index is currently limited to 29 languages.
-                        You can still analyze the popularity of your favorite language and compare it to others, using <a href="http://www.google.com/trends/explore">Google Trends</a>.
-                        C++ has the same popularity as C on Google trends: to avoid duplication, it is not included in the PYPL index.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">How do you compute the share of web searches ?</a>
-                </h4>
-            </div>
-            <div id="collapseFour" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <div>We export the data from Google Trends in CSV format,
-                    <sup><a href="http://support.google.com/trends/bin/answer.py?hl=en&amp;answer=87289">[s]</a></sup>
-                    and analyze it with python's pandas.
-                    We first calculate the interest of each language tutorials relative to java tutorials every month.
-                    Normalizing the total to 100% yields the share of interest in each language, i.e. their popularity, which we smooth over 6 months.
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 vcenter">
+                <h1>FAQ</h1>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseZero">What is the PYPL index ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseZero" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>The PYPL PopularitY of Programming Language Index is created by analyzing how often
+                                    language tutorials are searched on Google : the more a language tutorial is
+                                    searched, the more popular the language is assumed to be. It is a leading indicator.
+                                    The raw data comes from Google Trends.</p>
+                                <p>If you believe in collective wisdom, the PYPL Popularity of Programming Language
+                                    index can help you decide which language to study, or which one to use in a new
+                                    software project. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseOne">Why is PYPL so different from TIOBE ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                The <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">TIOBE
+                                    Index</a> is a lagging indicator.
+                                It counts the number of web pages with the language name.
+                                <mark>Objective-c programming</mark> has over 20 million pages on the web,
+                                <sup><a
+                                        href="https://www.google.be/#hl=fr&amp;tbo=d&amp;output=search&amp;sclient=psy-ab&amp;q=%22objective-c+programming%22&amp;oq=%22objective-c+programming%22&amp;gs_l=hp.3..0l2j0i30l2.3028.3028.0.3908.1.1.0.0.0.0.131.131.0j1.1.0...0.0...1c.1.L2X9Y0uJ0Uk&amp;pbx=1&amp;bav=on.2,or.r_gc.r_pw.r_qf.&amp;bvm=bv.1354675689,d.d2k&amp;fp=c6fa6e161d5c7c9b&amp;bpcl=39650382&amp;biw=1814&amp;bih=1010">[s]</a></sup>
+                                while <mark>C programming</mark> has only 11 million.
+                                <sup><a
+                                        href="https://www.google.be/#hl=fr&amp;tbo=d&amp;sclient=psy-ab&amp;q=%22c+programming%22&amp;oq=%22c+programming%22&amp;gs_l=hp.3..0l4.105171.105171.1.106210.1.1.0.0.0.0.217.217.2-1.1.0...0.0...1c.1.i0F5z0y2deM&amp;pbx=1&amp;bav=on.2,or.r_gc.r_pw.r_qf.&amp;bvm=bv.1354675689,d.d2k&amp;fp=c6fa6e161d5c7c9b&amp;bpcl=39650382&amp;biw=1814&amp;bih=1010">[s]</a>
+                                </sup>
+                                This explains why Objective-C has a high TIOBE ranking. But who is reading those
+                                Objective-C web pages ? Hardly anyone, according to Google Trends data.
+                                <mark>Objective C programming</mark> is searched 30 times less than <mark>C
+                                    programming</mark>.
+                                <sup><a
+                                        href="http://www.google.be/trends/explore#q=C%20programming%2C%20objective%20c%20programming&amp;date=today%2012-m&amp;cmpt=q">[s]</a></sup>
+                                In fact, the use of <mark>programming</mark> by the TIOBE index is misleading (see next
+                                question).
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseTwo">Why do you use <mark>tutorial</mark> as Google Trends keyword
+                                    ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>The following principles were used:</p>
+                                <ul>
+                                    <li>just the language name, e.g. <mark>Python</mark>, would lead to inconsistent
+                                        results, because Python has many other meanings;</li>
+                                    <li>the same phrase should be used for all languages, for consistency.</li>
+                                    <li><mark>programming</mark> would not do : <mark>C programming</mark> is used much
+                                        more than <mark>PHP programming</mark>, because PHP does not need the qualifier
+                                    </li>
+                                    <li><mark>tutorial</mark> is a word used frequently by developers learning any new
+                                        language : it makes a good leading indicator. What is a <mark>python
+                                            tutorial</mark>, if not a tutorial on the programming language ?</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseThree">My favorite language is not in the index ! Why ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p> The index is currently limited to 29 languages.
+                                    You can still analyze the popularity of your favorite language and compare it to
+                                    others, using <a href="http://www.google.com/trends/explore">Google Trends</a>.
+                                    C++ has the same popularity as C on Google trends: to avoid duplication, it is not
+                                    included in the PYPL index.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseFour">How do you compute the share of web searches ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div>We export the data from Google Trends in CSV format,
+                                    <sup><a
+                                            href="http://support.google.com/trends/bin/answer.py?hl=en&amp;answer=87289">[s]</a></sup>
+                                    and analyze it with python's pandas.
+                                    We first calculate the interest of each language tutorials relative to java
+                                    tutorials every month.
+                                    Normalizing the total to 100% yields the share of interest in each language, i.e.
+                                    their popularity, which we smooth over 6 months.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseFive">Why is Java so flat in PYPL's diagram, while it is going down
+                                    in Google Trends over 5 years ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div>That's because Google Trends diagrams show how the <b>total number</b> of Java
+                                    tutorial searches varies over time. That has been going significantly down for most
+                                    programming languages (and most keywords, by the way). Instead, PYPL's diagram shows
+                                    the <b>share </b>of <mark>Java tutorial</mark> searches in all language tutorial
+                                    searches. That share has been fairly stable for Java since 2004.</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseSix">Can I copy material from this page ?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/"
+                                        rel="license">Creative Commons Attribution 3.0 Unported License</a>.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Why is Java so flat in PYPL's diagram, while it is going down in Google Trends over 5 years ?</a>
-                </h4>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 text-right">
+                <script type="text/javascript" language="javascript">
+                        < !-
+                        {
+                            coded = "R6WZZW.J5Z8ckkWeeW@Ap56e.Jcp"
+                      key = "lj3IimEGqygawVYT978ucFLZHnOXeQdM6pKxS2A5sNCBv1UDJ4htbko0WrPzfR"
+                      shift=coded.length
+                      link=""
+                      for(i = 0; i<coded.length; i++) {
+                        if (key.indexOf(coded.charAt(i)) == -1) {
+                            ltr = coded.charAt(i)
+                            link += (ltr)
+                        }
+                        else {
+                            ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                            link += (key.charAt(ltr))
+                        }
+                    }
+                    document.write("<a href='mailto:" + link + "'>Contact</a>")
+                    }
+                    //-->
+                </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+                &copy; Pierre Carbonnelle, 2023, <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">CC
+                    BY 3.0</a>.
             </div>
-            <div id="collapseFive" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <div>That's because Google Trends diagrams show how the <b>total number</b> of Java tutorial  searches varies over time.  That has been going significantly down for most programming languages (and most keywords, by the way).  Instead, PYPL's diagram shows the <b>share </b>of <mark>Java tutorial</mark> searches in all language tutorial searches.  That share has been fairly stable for Java since 2004.</div>
-
-                </div>
-            </div>
         </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Can I copy material from this page ?</a>
-                </h4>
-            </div>
-            <div id="collapseSix" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a>.</p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 text-right">
-        <script type="text/javascript" language="javascript">
-        <!--
-        { coded = "R6WZZW.J5Z8ckkWeeW@Ap56e.Jcp"
-          key = "lj3IimEGqygawVYT978ucFLZHnOXeQdM6pKxS2A5sNCBv1UDJ4htbko0WrPzfR"
-          shift=coded.length
-          link=""
-          for (i=0; i<coded.length; i++) {
-            if (key.indexOf(coded.charAt(i))==-1) {
-              ltr = coded.charAt(i)
-              link += (ltr)
-            }
-            else {
-              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-              link += (key.charAt(ltr))
-            }
-          }
-        document.write("<a href='mailto:"+link+"'>Contact</a>")
-        }
-        //-->
-        </script><noscript>Sorry, you need Javascript on to email me.</noscript>
-        &copy; Pierre Carbonnelle, 2023, <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">CC BY 3.0</a>.
-    </div>
-  </div>
-  <!-- div class = "row text-center" >
+        <!-- div class = "row text-center" >
     <br>
 
     <ins class="adsbygoogle"
@@ -625,7 +699,7 @@ document.getElementById("cloud").src="PYPL/"+cloud;
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </-->
-  <!-- div class = "row text-center" >
+        <!-- div class = "row text-center" >
 
     <ins class="adsbygoogle"
         style="display:block"
@@ -637,189 +711,189 @@ document.getElementById("cloud").src="PYPL/"+cloud;
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </-->
-</div>
+    </div>
 
 
-<!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
 ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 
-<script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
 
-<!-- Google -->
-<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <!-- Google -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
-<script>
-$.ajaxSetup({async:false});
-if (getUrlParameter('country') == "") {$.getScript("PYPL/All.js?t=axbAll5141Allbxa")}
-if (getUrlParameter('country') == "US") {$.getScript("PYPL/US.js?t=axbUS5181USbxa")}
-if (getUrlParameter('country') == "DE") {$.getScript("PYPL/DE.js?t=axbDE2614DEbxa")}
-if (getUrlParameter('country') == "IN") {$.getScript("PYPL/IN.js?t=axbIN3746INbxa")}
-if (getUrlParameter('country') == "GB") {$.getScript("PYPL/GB.js?t=axbGB9314GBbxa")}
-if (getUrlParameter('country') == "FR") {$.getScript("PYPL/FR.js?t=axbFR7985FRbxa")}
-$.ajaxSetup({async:true});
+    <script>
+        $.ajaxSetup({ async: false });
+        if (getUrlParameter('country') == "") { $.getScript("PYPL/All.js?t=axbAll5141Allbxa") }
+        if (getUrlParameter('country') == "US") { $.getScript("PYPL/US.js?t=axbUS5181USbxa") }
+        if (getUrlParameter('country') == "DE") { $.getScript("PYPL/DE.js?t=axbDE2614DEbxa") }
+        if (getUrlParameter('country') == "IN") { $.getScript("PYPL/IN.js?t=axbIN3746INbxa") }
+        if (getUrlParameter('country') == "GB") { $.getScript("PYPL/GB.js?t=axbGB9314GBbxa") }
+        if (getUrlParameter('country') == "FR") { $.getScript("PYPL/FR.js?t=axbFR7985FRbxa") }
+        $.ajaxSetup({ async: true });
 
-upDate = graphData[graphData.length - 1][0]
-// make sure we have enough data
-count = graphData[graphData.length - 1].length;
-for (var row in graphData) {
-  if (0 < row) { // ignore first line
-    if (graphData[row].length < count) {
-        for (i = graphData[row].length; i < count;  i++) {
-          graphData[row][i]= 0.0;
+        upDate = graphData[graphData.length - 1][0]
+        // make sure we have enough data
+        count = graphData[graphData.length - 1].length;
+        for (var row in graphData) {
+            if (0 < row) { // ignore first line
+                if (graphData[row].length < count) {
+                    for (i = graphData[row].length; i < count; i++) {
+                        graphData[row][i] = 0.0;
+                    }
+                }
+            }
         }
-    }
-  }
-}
 
-document.getElementById('countryDate').innerHTML =
-    '<b>'
-    +( (getUrlParameter('country') =="") ? "Worldwide" : country[getUrlParameter('country')] )
-    +'</b>, '
-    +month[upDate.getMonth()]
-    +' '
-    +upDate.getFullYear()
-    +' :'
+        document.getElementById('countryDate').innerHTML =
+            '<b>'
+            + ((getUrlParameter('country') == "") ? "Worldwide" : country[getUrlParameter('country')])
+            + '</b>, '
+            + month[upDate.getMonth()]
+            + ' '
+            + upDate.getFullYear()
+            + ' :'
 
-document.getElementById('topBottom').innerHTML = '<b>'+((getUrlParameter('country') =="") ? "Worldwide" : ("In "+country[getUrlParameter('country')]))+'</b>, '+ String.format('{0} is the most popular language, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)',
-    graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100*PlusMinus[0]).toFixed(1), graphData[0][TopPlusMinus[2]], (100*PlusMinus[1]).toFixed(1));
+        document.getElementById('topBottom').innerHTML = '<b>' + ((getUrlParameter('country') == "") ? "Worldwide" : ("In " + country[getUrlParameter('country')])) + '</b>, ' + String.format('{0} is the most popular language, {3} grew the most in the last 5 years ({4}%) and {1} lost the most ({2}%)',
+            graphData[0][TopPlusMinus[0]], graphData[0][TopPlusMinus[1]], (100 * PlusMinus[0]).toFixed(1), graphData[0][TopPlusMinus[2]], (100 * PlusMinus[1]).toFixed(1));
 
-document.getElementById('PYPL').style.height=""
+        document.getElementById('PYPL').style.height = ""
 
-for (var lang in graphData[0]) {
-    if (0<lang) {
-        var opt = document.createElement('option');
-        opt.value = lang;
-        opt.innerHTML = graphData[0][lang];
-        document.getElementById('selectLang').appendChild(opt);//$('selectLang') not working here
-    }
-};
-$('#selectLang').selectpicker('render');
+        for (var lang in graphData[0]) {
+            if (0 < lang) {
+                var opt = document.createElement('option');
+                opt.value = lang;
+                opt.innerHTML = graphData[0][lang];
+                document.getElementById('selectLang').appendChild(opt);//$('selectLang') not working here
+            }
+        };
+        $('#selectLang').selectpicker('render');
 
-for (var c in country) {
-    if (country.hasOwnProperty(c)) {
-        var opt = document.createElement('option');
-        opt.value = c;
-        opt.selected = (getUrlParameter('country')==country[c])
-        opt.innerHTML = country[c];
-        document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
-    }
-};
-document.getElementById('selectCountry').onchange = function() {
-    window.location = window.location.href.split('?')[0] + "?country=" +$('#selectCountry option:selected').val()
-    };
-
-google.load("visualization", "1", {packages:["corechart"]});
-function drawChart() {
-
-    var options = {
-      chartArea: {height: '400px'},
-      vAxis: {
-        logScale: true,
-        format:'##%',
-        viewWindow:{ // range from 0.5% to 60 %
-            max:0.6,
-            min:0.002
-          }
-        },
-        curveType: 'function'
-    };
-
-    // get window size
-    // http://www.javascripter.net/faq/browserw.htm
-    var winW = 630, winH = 460;
-    if (document.body && document.body.offsetWidth) {
-     winW = document.body.offsetWidth;
-     winH = document.body.offsetHeight;
-    }
-    if (document.compatMode=='CSS1Compat' &&
-        document.documentElement &&
-        document.documentElement.offsetWidth ) {
-     winW = document.documentElement.offsetWidth;
-     winH = document.documentElement.offsetHeight;
-    }
-    if (window.innerWidth && window.innerHeight) {
-     winW = window.innerWidth;
-     winH = window.innerHeight;
-    }
-    var ori = window.orientation
-    if (ori==90 || ori==-90) {
-        var a = winW
-        winW = winH
-        winH = a
-    };
-
-    // move legend to bottom if narrow screen
-    if (winW <= 500) {
-        options.legend = { position: 'bottom' };
+        for (var c in country) {
+            if (country.hasOwnProperty(c)) {
+                var opt = document.createElement('option');
+                opt.value = c;
+                opt.selected = (getUrlParameter('country') == country[c])
+                opt.innerHTML = country[c];
+                document.getElementById('selectCountry').appendChild(opt);//$('selectCountry') not working here
+            }
+        };
+        document.getElementById('selectCountry').onchange = function () {
+            window.location = window.location.href.split('?')[0] + "?country=" + $('#selectCountry option:selected').val()
         };
 
-    options.title = 'PYPL PopularitY of Programming Language';
-    var data1 = google.visualization.arrayToDataTable(graphData);
-    var formatter = new google.visualization.NumberFormat({pattern:'##.#%'});
-  formatter.format(data1, 1);
-  formatter.format(data1, 2);
-  formatter.format(data1, 3);
-  formatter.format(data1, 4);
-  formatter.format(data1, 5);
-  formatter.format(data1, 6);
-  formatter.format(data1, 7);
-  formatter.format(data1, 8);
-  formatter.format(data1, 9);
-  formatter.format(data1, 10);
-  formatter.format(data1, 11);
-  formatter.format(data1, 12);
-  formatter.format(data1, 13);
-  formatter.format(data1, 14);
-  formatter.format(data1, 15);
-  formatter.format(data1, 16);
-  formatter.format(data1, 17);
-  formatter.format(data1, 18);
-  formatter.format(data1, 19);
-  formatter.format(data1, 20);
-  formatter.format(data1, 21);
-  formatter.format(data1, 22);
-    var view = new google.visualization.DataView(data1);
-    var sel = $("#selectLang").val();
-    if (!sel){
-        sel = []
-        for (var key in TopPlusMinus){
-            if ($.inArray(TopPlusMinus[key], sel)==-1) // not in array already
-                sel.push(TopPlusMinus[key])
-        }
-    }
-   var keys = [];
-   keys.push(0);
-   for(var key in sel){
-      keys.push(eval(sel[key]));
-   }
-   view.setColumns(keys);
-   document.getElementById('PYPL').style.height="400px";
-/*   if (winH < 300)      {document.getElementById('PYPL').style.height="50%"}
-   else if (winH < 600) {document.getElementById('PYPL').style.height="60%"}
-   else                 {document.getElementById('PYPL').style.height="70%"};
-*/
-    var chart = new google.visualization.LineChart(document.getElementById('PYPL'));
-    chart.draw(view, options);
-} // end drawChart()
+        google.load("visualization", "1", { packages: ["corechart"] });
+        function drawChart() {
 
-google.setOnLoadCallback(drawChart);
-$( "#selectLang" ).change( function () {
-    drawChart()
-});
-window.onresize = drawChart;
-$(window).on("orientationchange", drawChart);
-$( document ).ready(function() {
-    $('#selectCountry').selectpicker('render');
-    drawChart()
-})
-</script>
+            var options = {
+                chartArea: { height: '400px' },
+                vAxis: {
+                    logScale: true,
+                    format: '##%',
+                    viewWindow: { // range from 0.5% to 60 %
+                        max: 0.6,
+                        min: 0.002
+                    }
+                },
+                curveType: 'function'
+            };
 
-<!--script>
+            // get window size
+            // http://www.javascripter.net/faq/browserw.htm
+            var winW = 630, winH = 460;
+            if (document.body && document.body.offsetWidth) {
+                winW = document.body.offsetWidth;
+                winH = document.body.offsetHeight;
+            }
+            if (document.compatMode == 'CSS1Compat' &&
+                document.documentElement &&
+                document.documentElement.offsetWidth) {
+                winW = document.documentElement.offsetWidth;
+                winH = document.documentElement.offsetHeight;
+            }
+            if (window.innerWidth && window.innerHeight) {
+                winW = window.innerWidth;
+                winH = window.innerHeight;
+            }
+            var ori = window.orientation
+            if (ori == 90 || ori == -90) {
+                var a = winW
+                winW = winH
+                winH = a
+            };
+
+            // move legend to bottom if narrow screen
+            if (winW <= 500) {
+                options.legend = { position: 'bottom' };
+            };
+
+            options.title = 'PYPL PopularitY of Programming Language';
+            var data1 = google.visualization.arrayToDataTable(graphData);
+            var formatter = new google.visualization.NumberFormat({ pattern: '##.#%' });
+            formatter.format(data1, 1);
+            formatter.format(data1, 2);
+            formatter.format(data1, 3);
+            formatter.format(data1, 4);
+            formatter.format(data1, 5);
+            formatter.format(data1, 6);
+            formatter.format(data1, 7);
+            formatter.format(data1, 8);
+            formatter.format(data1, 9);
+            formatter.format(data1, 10);
+            formatter.format(data1, 11);
+            formatter.format(data1, 12);
+            formatter.format(data1, 13);
+            formatter.format(data1, 14);
+            formatter.format(data1, 15);
+            formatter.format(data1, 16);
+            formatter.format(data1, 17);
+            formatter.format(data1, 18);
+            formatter.format(data1, 19);
+            formatter.format(data1, 20);
+            formatter.format(data1, 21);
+            formatter.format(data1, 22);
+            var view = new google.visualization.DataView(data1);
+            var sel = $("#selectLang").val();
+            if (!sel) {
+                sel = []
+                for (var key in TopPlusMinus) {
+                    if ($.inArray(TopPlusMinus[key], sel) == -1) // not in array already
+                        sel.push(TopPlusMinus[key])
+                }
+            }
+            var keys = [];
+            keys.push(0);
+            for (var key in sel) {
+                keys.push(eval(sel[key]));
+            }
+            view.setColumns(keys);
+            document.getElementById('PYPL').style.height = "400px";
+            /*   if (winH < 300)      {document.getElementById('PYPL').style.height="50%"}
+               else if (winH < 600) {document.getElementById('PYPL').style.height="60%"}
+               else                 {document.getElementById('PYPL').style.height="70%"};
+            */
+            var chart = new google.visualization.LineChart(document.getElementById('PYPL'));
+            chart.draw(view, options);
+        } // end drawChart()
+
+        google.setOnLoadCallback(drawChart);
+        $("#selectLang").change(function () {
+            drawChart()
+        });
+        window.onresize = drawChart;
+        $(window).on("orientationchange", drawChart);
+        $(document).ready(function () {
+            $('#selectCountry').selectpicker('render');
+            drawChart()
+        })
+    </script>
+
+    <!--script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -829,5 +903,17 @@ $( document ).ready(function() {
   ga('send', 'pageview');
 
 </script-->
-  </body>
+    <!-- ShareThis BEGINS -->
+    <div class="sharethis-share-buttons" data-type="sticky-share-buttons" data-alignment="left" data-labels="cta"
+        data-show_total="false">
+        <span data-network="linkedin"></span>
+        <span data-network="reddit"></span>
+        <span data-network="whatsapp"></span>
+        <span data-network="twitter"></span>
+        <span data-network="pinterest"></span>
+        <span data-network="email"></span>
+    </div>
+    <!-- ShareThis ENDS -->
+</body>
+
 </html>
