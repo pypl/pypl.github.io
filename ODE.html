@@ -155,6 +155,10 @@
     var bannerLang = getUrlParameter('country').toLowerCase();
     if (bannerLang !== "de" && bannerLang !== "fr") bannerLang = "en";
 
+    var bannerUrl = "https://100-year-agenda.com/";
+    if (bannerLang === "de") bannerUrl += "de";
+    if (bannerLang === "fr") bannerUrl += "fr";
+
     function refreshTop() {
       cloud = "All.png"
       table = "<!-- begin section All-->\
@@ -310,7 +314,7 @@
     <div class="row text-center"
       style="background: linear-gradient(to bottom, #eee 0%, #eee 50%, #ffffff 50%, #ffffff 100%);">
       <br><br>
-      <script>document.write('<img src="PYPL-' + bannerLang + '.png" alt="PYPL Index" style="max-width: 1200px; width: 100%; height: auto;">');</script>
+      <script>document.write('<a href="' + bannerUrl + '"><img src="PYPL-' + bannerLang + '.png" alt="PYPL Index" style="max-width: 1200px; width: 100%; height: auto;"></a>');</script>
       <br><br>
     </div>
     <div id=chartPage class="row">
@@ -334,7 +338,7 @@
     <div class="row text-center"
       style="background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #eee 50%, #eee 100%);">
       <br><br>
-      <script>document.write('<img src="PYPL-2-' + bannerLang + '.png" alt="PYPL Index" style="max-width: 1200px; width: 100%; height: auto;">');</script>
+      <script>document.write('<a href="' + bannerUrl + '"><img src="PYPL-2-' + bannerLang + '.png" alt="PYPL Index" style="max-width: 1200px; width: 100%; height: auto;"></a>');</script>
       <br><br>
     </div>
     <div id=OtherPage class="row blue">
