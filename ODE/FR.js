@@ -1,7 +1,7 @@
     // data
 // begin Top FR
-TopPlusMinus = [14,14,20]
-PlusMinus = [-0.5,0.0]
+TopPlusMinus = [14,14,14]
+PlusMinus = [-0.5,-0.5]
 // end Top FR
 graphData = [
 ['Date', // begin section languages

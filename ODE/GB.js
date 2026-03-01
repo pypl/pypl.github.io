@@ -1,7 +1,7 @@
     // data
 // begin Top GB
-TopPlusMinus = [14,20,14]
-PlusMinus = [-0.7264246239251893,0.11330561330561331]
+TopPlusMinus = [14,14,14]
+PlusMinus = [0.11329999999999998,0.11329999999999998]
 // end Top GB
 graphData = [
 ['Date', // begin section languages
